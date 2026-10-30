@@ -1,0 +1,49 @@
+{
+  "archive": "checkpoint_release_20261030.zip",
+  "sha256": "e484eec0a97cfb7299e0f88cb90f3233db45f73daed8089e121d1572bf9d1043",
+  "bytes": 307262396,
+  "parts": [
+    {
+      "name": "checkpoint_release_20261030.zip.001",
+      "bytes": 50331648,
+      "sha256": "09080e2316713f6dbb0d8b1531abb8a79db3575921cdad2cf5eb1466b26b5839",
+      "url": "https://github.com/LLUCCIFFER/cystoscopy-evaluation/releases/download/revision-2026-10-30/checkpoint_release_20261030.zip.001"
+    },
+    {
+      "name": "checkpoint_release_20261030.zip.002",
+      "bytes": 50331648,
+      "sha256": "3f2f01c4f18eb5e683bfc9af7e592bb4678d59ce11ef97f671034196f0a54634",
+      "url": "https://github.com/LLUCCIFFER/cystoscopy-evaluation/releases/download/revision-2026-10-30/checkpoint_release_20261030.zip.002"
+    },
+    {
+      "name": "checkpoint_release_20261030.zip.003",
+      "bytes": 50331648,
+      "sha256": "12dab1093acf8214ac154ca21f53e817ab3000f831c4c5023026b69f4031b260",
+      "url": "https://github.com/LLUCCIFFER/cystoscopy-evaluation/releases/download/revision-2026-10-30/checkpoint_release_20261030.zip.003"
+    },
+    {
+      "name": "checkpoint_release_20261030.zip.004",
+      "bytes": 50331648,
+      "sha256": "320a6d8840ee47f7fa22c2225b1a8209362f61ec83c42a311675e8d884010179",
+      "url": "https://github.com/LLUCCIFFER/cystoscopy-evaluation/releases/download/revision-2026-10-30/checkpoint_release_20261030.zip.004"
+    },
+    {
+      "name": "checkpoint_release_20261030.zip.005",
+      "bytes": 50331648,
+      "sha256": "6749c67380fac00b6232a77389743b0bf1d0a525606db3743511368db948007d",
+      "url": "https://github.com/LLUCCIFFER/cystoscopy-evaluation/releases/download/revision-2026-10-30/checkpoint_release_20261030.zip.005"
+    },
+    {
+      "name": "checkpoint_release_20261030.zip.006",
+      "bytes": 50331648,
+      "sha256": "35189b974878d3b6b5750c3408ad4fc2930917fc51515fc5e8f5b9fe24849797",
+      "url": "https://github.com/LLUCCIFFER/cystoscopy-evaluation/releases/download/revision-2026-10-30/checkpoint_release_20261030.zip.006"
+    },
+    {
+      "name": "checkpoint_release_20261030.zip.007",
+      "bytes": 5272508,
+      "sha256": "fe8d9db7e61b6348207ec8e9a97ac4d23913401cd04d17102399f25464ebce31",
+      "url": "https://github.com/LLUCCIFFER/cystoscopy-evaluation/releases/download/revision-2026-10-30/checkpoint_release_20261030.zip.007"
+    }
+  ]
+}

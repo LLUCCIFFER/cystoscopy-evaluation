@@ -30,9 +30,17 @@ primary temperatures and reports the converged transformations separately.
 - `analysis_tools`: numerical reanalysis and independent checks.
 - `revision_analysis`: reference tables and statistical definitions.
 
-Three primary Swin-Tiny checkpoints are distributed in the accompanying release
-asset `checkpoint_release_20261030.zip`, with original paths retained in the archive.
-Extract it into the repository root to restore the recorded checkpoint locations.
+Three primary Swin-Tiny checkpoints are distributed as seven bounded-size parts
+in the accompanying release. Restore and verify the full checkpoint archive with:
+
+```sh
+python analysis_tools/assemble_checkpoints.py --download
+```
+
+The command checks every part and the assembled ZIP against `CHECKPOINT_PARTS.json`.
+Extract `checkpoint_release_20261030.zip` into the repository root to restore the
+recorded checkpoint locations. The complete archive is also supplied directly as
+Supplementary Code 2 with the manuscript revision.
 The release provides no raw cystoscopy images; obtain CystoDS and EBTC from their
 original repositories (https://doi.org/10.17605/osf.io/xvdhy and
 https://doi.org/10.5281/zenodo.7741476).
@@ -50,3 +58,9 @@ are pinned separately and do not identify original training versions. The presen
 release verifies fixed-prediction analyses; it does not claim an identical retraining
 environment. Exact configurations and provenance fields are retained for inspection.
 Existing third-party components remain subject to their original terms.
+
+`ARCHIVED_SOURCE_SHA256.csv` records the earlier review archive source hashes.
+`MANIFEST_SHA256.csv` records the current published file bytes. The independent QA
+script uses repository-relative paths; numerical procedures are unchanged. The
+`date` field in reference analysis manifests is the original protocol date,
+2026-10-18; reproduction runs do not represent new model training.
