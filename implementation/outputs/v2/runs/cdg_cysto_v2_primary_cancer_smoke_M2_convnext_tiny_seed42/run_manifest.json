@@ -1,0 +1,10 @@
+{
+  "schema_version": "v2.0",
+  "run_id": "cdg_cysto_v2_primary_cancer_smoke_seed42_cdb80b90de",
+  "created_at_utc": "2026-06-03T13:27:06.051421+00:00",
+  "config_hash": "09b3c273562fa1385a84f2ad807d66057e52407521ccf75448e07b2a1fb75272",
+  "split_hash": "bad0e8ee80fac1a9280c26beae1068340e92275e23037e88c782f5cda6f9c451",
+  "git_commit": "unknown",
+  "seed": 42,
+  "command": "scripts\\v2_run_grid.py --config configs\\v2\\primary_cancer_grid_smoke.yaml"
+}

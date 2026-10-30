@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+smoke_results/
+reproduced_results/
+*.pt
+*.zip

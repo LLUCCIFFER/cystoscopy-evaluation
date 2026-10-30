@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-18",
+  "bootstrap_replicates": 2000,
+  "bootstrap_rng_seed": 20261018,
+  "trained_seeds": [
+    42,
+    2025,
+    3407
+  ],
+  "elapsed_seconds": 9.25375747680664,
+  "estimand": "Arithmetic mean of image-level metrics across three fixed trained models; conditional sampling uncertainty. Same cluster draws shared by seeds and paired comparators. Not ensemble probabilities; not uncertainty over future training.",
+  "missing_outcomes": "AUROC/AUPRC and two-class macro-F1 undefined when a bootstrap sample contains one outcome class; discarded for that metric and reported with valid/invalid counts. Sensitivity/specificity/PPV/NPV require their own nonzero denominators. Brier/NLL/ECE remain defined in one-class samples.",
+  "grouping": "Case and case-plus-part are filename-derived proxies. Legacy pid is an intentionally coarse stress test, not verified patient identities. Alternative smaller clusters are not proof of independence.",
+  "calibration": "Joint logistic intercept and slope fit by unpenalized Newton MLE; probabilities clipped to [1e-6,1-1e-6] for logits. Calibration-in-the-large fits an intercept with logit(p) offset. Evaluative fits are diagnostics, not applied recalibration. Changes use common before/after cluster draws.",
+  "comparisons": "Pointwise exploratory percentile intervals, no multiplicity-adjusted or p-value claims. Component comparisons are on the validation selection set; sampling only seed42. Do not infer confirmatory causal component benefit.",
+  "source_script_sha256": "f724b76afa3c4e49107800bd0c18dd0fc924ef737982cca8dfaa4bd017c9ae13",
+  "outputs_ready": true
+}

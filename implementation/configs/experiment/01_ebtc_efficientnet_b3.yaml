@@ -1,0 +1,23 @@
+experiment_name: 01_ebtc_efficientnet_b3
+seed: 42
+dataset_config: configs/dataset/ebtc.yaml
+model_config: configs/model/efficientnet_b3.yaml
+task:
+  name: ebtc_four_class
+  num_classes: 4
+  classes: [HGC, LGC, NTL, NST]
+data:
+  train_split: train
+  val_split: val
+  test_split: test
+training:
+  epochs_stage1: 50
+  epochs_stage2: 0
+  batch_size: 16
+  learning_rate_head: 0.0003
+  learning_rate_backbone: 0.00003
+metrics:
+  primary: macro_f1
+  secondary: [accuracy, balanced_accuracy, sensitivity, specificity, auroc, auprc, ece, brier, nll]
+outputs:
+  run_dir: outputs/runs/01_ebtc_efficientnet_b3

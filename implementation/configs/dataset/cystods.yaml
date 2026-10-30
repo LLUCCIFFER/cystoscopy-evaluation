@@ -1,0 +1,49 @@
+name: CystoDS
+root: data/raw/CystoDS
+processed_dir: data/processed/CystoDS
+metadata_csv: data/processed/CystoDS/metadata.csv
+master_metadata_csv: data/processed/master_metadata.csv
+split_dir: data/splits/CystoDS
+osf:
+  project: xvdhy
+num_images: 8067
+num_patients: 160
+num_major_classes: 5
+num_subclasses: 22
+segmentation_images: 768
+segmentation_dir: data/raw/CystoDS/osf_project/segmentations
+target_task: cancer_binary
+classes: [non_cancer, cancer]
+num_classes: 2
+image_column: image_path
+label_column: label_cancer_binary
+patient_column: pid
+split_column: split
+major_label_column: label_original
+sub_label_column: subclass
+raw_columns: [filename, pid, visit, lesion, multifocal, bca, class, subclass, subclass2, stage, morphology, modality, json]
+five_classes:
+  - malignant
+  - non-malignant
+  - anatomical landmarks
+  - foreign bodies
+  - normal mucosa
+master_columns:
+  - sample_id
+  - dataset
+  - image_path
+  - mask_path
+  - has_mask
+  - label_original
+  - label_ebtc4
+  - label_cancer_binary
+  - label_roi_binary
+  - modality
+  - split
+  - pid
+  - visit
+  - roi_id
+  - width
+  - height
+  - is_valid
+  - error_reason

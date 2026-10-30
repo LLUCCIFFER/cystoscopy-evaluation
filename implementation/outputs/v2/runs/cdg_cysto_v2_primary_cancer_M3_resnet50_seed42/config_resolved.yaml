@@ -1,0 +1,49 @@
+experiment_name: cdg_cysto_v2_primary_cancer
+seed: 42
+task:
+  name: cystods_cancer_binary
+  label_column: label_cancer_binary
+  num_classes: 2
+  classes:
+  - non_cancer
+  - cancer
+data:
+  train_csv: outputs/v2/splits/cystods_train.csv
+  val_csv: outputs/v2/splits/cystods_val.csv
+  calib_csv: outputs/v2/splits/cystods_calib.csv
+  test_internal_csv: outputs/v2/splits/cystods_test_internal.csv
+  external_csv: outputs/v2/splits/ebtc_external_all.csv
+training:
+  epochs: 20
+  patience: 5
+  batch_size: 16
+  learning_rate: 0.0001
+  weight_decay: 0.05
+  monitor: val_selection_score
+  num_workers: 0
+imbalance:
+  sampler:
+    enabled: true
+    mode: effective_number
+  loss:
+    name: balanced_softmax
+augmentation:
+  policy: modality_aware_v1
+calibration:
+  method: temperature_scaling
+thresholding:
+  metrics:
+  - default_0.5
+  - youden
+  - sensitivity_90
+  - high_npv_95
+outputs:
+  root_dir: outputs/v2/runs
+  run_dir: outputs\v2\runs\cdg_cysto_v2_primary_cancer_M3_resnet50_seed42
+model:
+  model_id: M3
+  name: resnet50
+  source: timm
+  backbone: resnet50
+  pretrained: true
+  input_size: 224

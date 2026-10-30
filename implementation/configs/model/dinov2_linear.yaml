@@ -1,0 +1,20 @@
+model_id: M2
+name: dinov2_linear
+source: torch_hub
+backbone: dinov2_vits14
+pretrained: true
+input_size: 224
+feature_dim: 384
+num_classes: 4
+classifier:
+  name: cdg_head
+  hidden_dim: 256
+  dropout: 0.2
+training:
+  stage1_freeze_backbone: true
+  stage2_unfreeze_last_blocks: 0
+loss:
+  name: cross_entropy
+augmentation: baseline
+calibration:
+  enabled: false

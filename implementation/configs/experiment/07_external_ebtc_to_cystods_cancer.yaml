@@ -1,0 +1,26 @@
+experiment_name: 07_external_ebtc_to_cystods_cancer
+seed: 42
+dataset_config: configs/dataset/ebtc.yaml
+external_dataset_config: configs/dataset/cystods.yaml
+model_config: configs/model/cdg_cysto.yaml
+task:
+  name: external_validation_binary_cancer
+  train_dataset: EBTC
+  test_dataset: CystoDS
+  num_classes: 2
+  classes: [non_cancer, cancer]
+data:
+  train_split: train
+  val_split: val
+  test_split: all
+training:
+  epochs_stage1: 30
+  epochs_stage2: 20
+  batch_size: 16
+  learning_rate_head: 0.0003
+  learning_rate_backbone: 0.00001
+metrics:
+  primary: macro_f1
+  secondary: [accuracy, balanced_accuracy, sensitivity, specificity, auroc, auprc, ece, brier, nll]
+outputs:
+  run_dir: outputs/runs/07_external_ebtc_to_cystods_cancer

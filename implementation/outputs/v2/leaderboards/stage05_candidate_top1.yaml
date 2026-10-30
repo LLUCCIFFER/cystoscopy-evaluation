@@ -1,0 +1,18 @@
+selected_candidate:
+  rank: 1
+  run_dir: outputs\v2\runs\cdg_cysto_v2_stage04_imbalance_M1_swin_tiny_balanced_softmax_none_seed42
+  model_id: M1
+  model_name: swin_tiny
+  variant_id: balanced_softmax_none
+  loss_name: balanced_softmax
+  loss_tau: .nan
+  sampler_name: none
+  run_type: formal
+  filter_status: passed
+  selection_score: 0.903269041524415
+  val_auroc: 0.9755097586830456
+  val_auprc: 0.8377038889350699
+  val_macro_f1: 0.855459060172359
+  val_sensitivity_cancer: 0.8879310344827587
+  val_specificity_cancer: 0.9475587703435804
+  val_ece: 0.0316614379748381

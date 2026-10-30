@@ -1,0 +1,41 @@
+name: EBTC
+root: data/raw/EBTC
+processed_dir: data/processed/EBTC
+metadata_csv: data/processed/EBTC/metadata.csv
+master_metadata_csv: data/processed/master_metadata.csv
+split_dir: data/splits/EBTC
+official_split: true
+zenodo:
+  record: 7741476
+  file: baldder_tissue_classification.zip
+  md5: f507e28908fa73cb01fcfd48e1951675
+num_images: 1754
+num_patients: 23
+image_modes: [WLI, NBI]
+classes: [HGC, LGC, NTL, NST]
+num_classes: 4
+image_column: image_path
+label_column: label_ebtc4
+patient_column: pid
+split_column: split
+domain_column: modality
+splits: [train, val, test]
+master_columns:
+  - sample_id
+  - dataset
+  - image_path
+  - mask_path
+  - has_mask
+  - label_original
+  - label_ebtc4
+  - label_cancer_binary
+  - label_roi_binary
+  - modality
+  - split
+  - pid
+  - visit
+  - roi_id
+  - width
+  - height
+  - is_valid
+  - error_reason

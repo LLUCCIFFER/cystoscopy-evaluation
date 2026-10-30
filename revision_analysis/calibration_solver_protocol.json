@@ -1,0 +1,6 @@
+{
+  "objective": "Unweighted CystoDS calibration mean NLL, convex in inverse positive temperature.",
+  "solver": "Monotone derivative bracketing and 100 bisection iterations; seed-specific; no internal-test or EBTC label used in fitting.",
+  "primary_policy": "Archived temperatures retained in the main reanalysis to reproduce the submitted fixed models; converged values reported only as solver sensitivity.",
+  "default_decisions_preserved": true
+}

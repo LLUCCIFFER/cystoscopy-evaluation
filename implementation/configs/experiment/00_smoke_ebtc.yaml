@@ -1,0 +1,25 @@
+experiment_name: 00_smoke_ebtc
+seed: 42
+dataset_config: configs/dataset/ebtc.yaml
+model_config: configs/model/cdg_cysto.yaml
+task:
+  name: ebtc_four_class_smoke
+  num_classes: 4
+  classes: [HGC, LGC, NTL, NST]
+  max_train_batches: 2
+  max_val_batches: 2
+data:
+  train_split: train
+  val_split: val
+  test_split: test
+training:
+  epochs_stage1: 1
+  epochs_stage2: 0
+  batch_size: 8
+  learning_rate_head: 0.0003
+  learning_rate_backbone: 0.00001
+metrics:
+  primary: macro_f1
+  secondary: [accuracy, balanced_accuracy, sensitivity, specificity, auroc, auprc, ece, brier, nll]
+outputs:
+  run_dir: outputs/runs/00_smoke_ebtc

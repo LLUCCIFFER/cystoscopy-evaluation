@@ -1,0 +1,19 @@
+{
+  "accuracy": 0.9623567921440261,
+  "balanced_accuracy": 0.8634563821163559,
+  "macro_f1": 0.8841629779833,
+  "weighted_f1": 0.9612664401537372,
+  "sensitivity_non_cancer": 0.9855334538878843,
+  "specificity_non_cancer": 0.7413793103448276,
+  "sensitivity_cancer": 0.7413793103448276,
+  "specificity_cancer": 0.9855334538878843,
+  "sensitivity_macro": 0.8634563821163559,
+  "specificity_macro": 0.8634563821163559,
+  "auroc": 0.954410114111118,
+  "auprc": 0.8451756157981959,
+  "ece": 0.01495692226981031,
+  "brier": 0.06016065708253029,
+  "nll": 0.11555027194946528,
+  "selection_score": 0.8805516086283423,
+  "loss": 0.13242241740226746
+}

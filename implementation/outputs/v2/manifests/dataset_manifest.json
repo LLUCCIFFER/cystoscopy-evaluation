@@ -1,0 +1,17 @@
+{
+  "schema_version": "v2.0",
+  "created_at_utc": "2026-06-03T13:18:42.993227+00:00",
+  "datasets": [
+    {
+      "dataset": "CystoDS",
+      "metadata_path": "outputs\\v2\\manifests\\cystods_metadata.csv",
+      "metadata_sha256": "0e875a2529ece4562359189b77c3b3384fb24376cf403f4ae88ff0065e1b2aab"
+    },
+    {
+      "dataset": "EBTC",
+      "metadata_path": "outputs\\v2\\manifests\\ebtc_metadata.csv",
+      "metadata_sha256": "5f3b9bfb1e23e6bd2f0e9b1ef0ede794136cdaaa05a27baad7bcbfad388687be"
+    }
+  ],
+  "manifest_hash": "047e169cd526c1be70e39c5fa4ac0a40ac718b67d191e827b378e222faae1453"
+}

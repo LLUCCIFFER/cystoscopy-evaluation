@@ -1,0 +1,47 @@
+﻿dataset,group_id,images,positive_images,negative_images,original_labels,modalities,stored_pid_values
+cystods_internal,1026,330,22,308,anatomical landmarks;foreign bodies;malignant;non-malignant;normal mucosa,BLC;WLC,1026
+cystods_internal,1036,5,3,2,foreign bodies;malignant;normal mucosa,BLC;WLC,1036
+cystods_internal,1041,8,6,2,anatomical landmarks;malignant,BLC;WLC,1041
+cystods_internal,1112,6,6,0,malignant,BLC;WLC,1112
+cystods_internal,1116,2,0,2,non-malignant,BLC;WLC,1116
+cystods_internal,1190,4,4,0,malignant,BLC;WLC,1190
+cystods_internal,1193,3,2,1,foreign bodies;malignant,BLC;WLC,1193
+cystods_internal,1351,3,2,1,malignant;non-malignant,WLC,1351
+cystods_internal,1376,6,6,0,malignant,BLC;WLC,1376
+cystods_internal,1379,6,6,0,malignant,BLC;WLC,1379
+cystods_internal,1390,1,1,0,malignant,WLC,1390
+cystods_internal,1425,2,2,0,malignant,BLC;WLC,1425
+cystods_internal,1427,2,0,2,non-malignant,BLC;WLC,1427
+cystods_internal,1522,7,0,7,anatomical landmarks;foreign bodies;non-malignant;normal mucosa,BLC;WLC,1522
+cystods_internal,1542,4,0,4,foreign bodies;non-malignant,BLC;WLC,1542
+cystods_internal,330,50,1,49,malignant;non-malignant;normal mucosa,BLC;WLC,330
+cystods_internal,386,140,11,129,anatomical landmarks;foreign bodies;malignant;normal mucosa,BLC;WLC,386
+cystods_internal,410,8,2,6,foreign bodies;malignant;non-malignant,BLC;WLC,410
+cystods_internal,448,3,2,1,malignant;normal mucosa,BLC;WLC,448
+cystods_internal,825,241,9,232,anatomical landmarks;malignant;normal mucosa,BLC;WLC,825
+cystods_internal,832,2,0,2,non-malignant,BLC;WLC,832
+cystods_internal,878,275,20,255,malignant;normal mucosa,BLC;WLC,878
+cystods_internal,979,62,12,50,malignant;normal mucosa,BLC;WLC,979
+cystods_internal,988,255,24,231,anatomical landmarks;foreign bodies;malignant;non-malignant;normal mucosa,BLC;WLC,988
+ebtc_external,case_000,3,0,3,NTL,WLI,unknown
+ebtc_external,case_001,28,0,28,NST;NTL,NBI;WLI,unknown
+ebtc_external,case_002,50,26,24,HGC;NST;NTL,NBI;WLI,pt_001;pt_003;pt_004;unknown
+ebtc_external,case_004,74,62,12,HGC;NST,WLI,pt_001;pt_002;pt_003;pt_004;pt_005;unknown
+ebtc_external,case_005,278,199,79,LGC;NST,NBI;WLI,pt_001;pt_002;pt_003;pt_004;pt_005;pt_006;pt_007;pt_008;pt_009;pt_010;pt_011;pt_012;pt_013;pt_014;unknown
+ebtc_external,case_006,139,23,116,HGC;NST,WLI,pt_001;pt_003;pt_004;pt_005;unknown
+ebtc_external,case_007,34,0,34,NST;NTL,NBI;WLI,pt_001;pt_002;unknown
+ebtc_external,case_008,116,97,19,HGC;NST,NBI;WLI,pt_001;pt_002;pt_003;pt_004;pt_005;unknown
+ebtc_external,case_009,41,35,6,LGC;NST,NBI;WLI,pt_001;pt_002;pt_003;pt_004
+ebtc_external,case_010,118,57,61,HGC;NST;NTL,NBI;WLI,pt_001;pt_002;pt_003;pt_004;pt_005;pt_006;pt_007;unknown
+ebtc_external,case_011,79,53,26,LGC;NST,NBI;WLI,pt_002;pt_003;pt_004;unknown
+ebtc_external,case_012,120,50,70,LGC;NST,NBI;WLI,pt_001;pt_003;pt_004;pt_006;unknown
+ebtc_external,case_013,146,144,2,LGC;NST,WLI,pt_001;pt_002;pt_004;pt_005;pt_006;pt_007
+ebtc_external,case_014,34,0,34,NTL,WLI,pt_001;pt_002;pt_003;pt_004
+ebtc_external,case_016,58,58,0,HGC,WLI,pt_001;pt_002;pt_003
+ebtc_external,case_017,54,51,3,HGC;NST,NBI;WLI,pt_001;pt_002;pt_003;pt_004;pt_005;pt_006;pt_007
+ebtc_external,case_018,29,29,0,LGC,NBI;WLI,pt_01
+ebtc_external,case_021,62,0,62,NST;NTL,WLI,pt_001;pt_002;pt_003;pt_004;pt_005;pt_006;pt_007;pt_008
+ebtc_external,case_022,29,0,29,NTL,NBI;WLI,pt_001;pt_002;pt_003;pt_005;pt_006
+ebtc_external,case_023,93,93,0,LGC,WLI,pt_001;pt_002;pt_003;pt_004;pt_005;pt_006;pt_007
+ebtc_external,case_024,95,95,0,HGC,NBI;WLI,pt_001;pt_002;pt_003;pt_005;pt_006
+ebtc_external,case_025,74,44,30,LGC;NST,NBI;WLI,pt_001;pt_002;pt_003;pt_004;pt_005;pt_006

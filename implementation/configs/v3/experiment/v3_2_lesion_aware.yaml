@@ -1,0 +1,64 @@
+experiment_name: cdg_cysto_v3_exp2_lesion_aware
+run_type: formal
+stage: v3_2_lesion_aware
+seed: 42
+
+data:
+  train_csv: outputs/v3/splits/cystods_train.csv
+  val_csv: outputs/v3/splits/cystods_val.csv
+
+task:
+  name: lesion_aware_three_class_cystods
+  label_column: label_v3_three_class
+  num_classes: 3
+  classes:
+    - malignant
+    - benign_abnormal
+    - normal
+
+models:
+  - swin_tiny
+  - convnext_tiny
+
+variants:
+  - variant_id: ce_class_balanced_sampler
+    loss:
+      name: cross_entropy
+    sampler:
+      name: class_balanced
+      enabled: true
+      mode: inverse_frequency
+      beta: 0.999
+
+lesion_strategies:
+  - enabled: true
+    strategy: classification_only
+    attention_weight: 0.0
+
+  - enabled: true
+    strategy: mask_guided_crop
+    attention_weight: 0.0
+
+  - enabled: true
+    strategy: attention_regularization
+    attention_weight: 0.2
+
+training:
+  seeds: [42]
+  epochs: 30
+  patience: 8
+  batch_size: 32
+  num_workers: 4
+  pin_memory: true
+  persistent_workers: true
+  prefetch_factor: 2
+  amp: true
+  cudnn_benchmark: true
+  matmul_precision: high
+  learning_rate: 0.0001
+  weight_decay: 0.0001
+  monitor: val_selection_score
+  prefer_cuda: true
+
+outputs:
+  root_dir: outputs/v3/runs

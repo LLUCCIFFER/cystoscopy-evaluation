@@ -1,0 +1,50 @@
+experiment_name: cdg_cysto_v3_smoke
+run_type: smoke
+stage: v3_smoke
+seed: 42
+
+data:
+  train_csv: outputs/v3/splits/cystods_train.csv
+  val_csv: outputs/v3/splits/cystods_val.csv
+  max_train_samples: 96
+  max_val_samples: 60
+
+task:
+  name: smoke_three_class_cystods
+  label_column: label_v3_three_class
+  num_classes: 3
+  classes:
+    - malignant
+    - benign_abnormal
+    - normal
+
+models:
+  - tiny_cnn
+
+variants:
+  - variant_id: ce_class_balanced_sampler
+    loss:
+      name: cross_entropy
+    sampler:
+      name: class_balanced
+      enabled: true
+      mode: inverse_frequency
+
+lesion_strategies:
+  - enabled: true
+    strategy: attention_regularization
+    attention_weight: 0.1
+
+training:
+  seeds: [42]
+  epochs: 1
+  patience: 1
+  batch_size: 8
+  num_workers: 0
+  learning_rate: 0.001
+  weight_decay: 0.0
+  monitor: val_macro_f1
+  prefer_cuda: false
+
+outputs:
+  root_dir: outputs/v3/runs

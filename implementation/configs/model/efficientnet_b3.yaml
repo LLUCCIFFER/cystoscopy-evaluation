@@ -1,0 +1,13 @@
+model_id: M0
+name: efficientnet_b3
+source: timm
+backbone: efficientnet_b3
+pretrained: true
+input_size: 224
+num_classes: 4
+classifier: linear
+loss:
+  name: cross_entropy
+augmentation: baseline
+calibration:
+  enabled: false

@@ -1,0 +1,10 @@
+{
+  "schema_version": "v2.0",
+  "run_id": "cdg_cysto_v2_stage05_multiseed_seed2025_c23dee4b1f",
+  "created_at_utc": "2026-06-04T17:22:53.598618+00:00",
+  "config_hash": "8766f1fd69a16f01b30e7f1e9177f915e960977f2c47b0cd56fdf5018f4d2f3a",
+  "split_hash": "bad0e8ee80fac1a9280c26beae1068340e92275e23037e88c782f5cda6f9c451",
+  "git_commit": "unknown",
+  "seed": 2025,
+  "command": "scripts\\v2_run_grid.py --config configs\\v2\\experiment\\stage05_multiseed_candidates.yaml"
+}

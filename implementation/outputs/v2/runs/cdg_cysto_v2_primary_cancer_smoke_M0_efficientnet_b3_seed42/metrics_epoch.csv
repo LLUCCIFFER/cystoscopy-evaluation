@@ -1,0 +1,2 @@
+epoch,train_loss,val_accuracy,val_balanced_accuracy,val_macro_f1,val_weighted_f1,val_sensitivity_non_cancer,val_specificity_non_cancer,val_sensitivity_cancer,val_specificity_cancer,val_sensitivity_macro,val_specificity_macro,val_auroc,val_auprc,val_ece,val_brier,val_nll,val_selection_score
+1,1.0695169387230028,0.7890625,0.6594827586206897,0.5916341722793336,0.8223369372562921,0.8189655172413793,0.5,0.5,0.8189655172413793,0.6594827586206897,0.6594827586206897,0.7033045977011494,0.28700633313270896,0.16536081914014458,0.37571792124908476,0.8119774060902433,0.659425622075359

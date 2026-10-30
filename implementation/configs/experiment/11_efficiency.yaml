@@ -1,0 +1,19 @@
+experiment_name: 11_efficiency
+seed: 42
+dataset_config: configs/dataset/ebtc.yaml
+models:
+  - configs/model/efficientnet_b3.yaml
+  - configs/model/swin_tiny.yaml
+  - configs/model/dinov2_linear.yaml
+  - configs/model/cdg_cysto.yaml
+task:
+  name: efficiency_benchmark
+  input_size: 224
+  batch_sizes: [1, 8, 16]
+  warmup_steps: 20
+  measure_steps: 100
+metrics:
+  primary: throughput_images_per_second
+  secondary: [latency_ms, params_million, flops_gmac, peak_memory_mb]
+outputs:
+  run_dir: outputs/runs/11_efficiency

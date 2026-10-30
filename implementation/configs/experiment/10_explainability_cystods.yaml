@@ -1,0 +1,17 @@
+experiment_name: 10_explainability_cystods
+seed: 42
+dataset_config: configs/dataset/cystods.yaml
+model_config: configs/model/cdg_cysto.yaml
+task:
+  name: cystods_explainability
+  source_run: outputs/runs/07_external_ebtc_to_cystods_cancer
+  segmentation_required: true
+  explainers: [attention_rollout, gradcam_vit]
+  metrics: [pointing_game, cam_iou, deletion_auc, insertion_auc]
+data:
+  split: test
+metrics:
+  primary: cam_iou
+  secondary: [pointing_game, deletion_auc, insertion_auc]
+outputs:
+  run_dir: outputs/runs/10_explainability_cystods

@@ -1,0 +1,10 @@
+{
+  "schema_version": "v2.0",
+  "run_id": "cdg_cysto_v2_stage04_imbalance_seed42_13213ac5b1",
+  "created_at_utc": "2026-06-04T11:40:58.342716+00:00",
+  "config_hash": "4dbbeaf259ff2142858318c6190e02a1c868e23c6f99fc7eef1090edd4cd0c02",
+  "split_hash": "bad0e8ee80fac1a9280c26beae1068340e92275e23037e88c782f5cda6f9c451",
+  "git_commit": "unknown",
+  "seed": 42,
+  "command": "scripts\\v2_run_grid.py --config configs\\v2\\experiment\\stage04_imbalance_grid_formal.yaml"
+}

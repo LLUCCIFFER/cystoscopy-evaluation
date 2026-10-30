@@ -1,0 +1,17 @@
+experiment_name: 09_calibration
+seed: 42
+dataset_config: configs/dataset/ebtc.yaml
+model_config: configs/model/cdg_cysto.yaml
+task:
+  name: temperature_scaling
+  source_run: outputs/runs/04_ebtc_cdg_cysto
+  num_classes: 4
+  classes: [HGC, LGC, NTL, NST]
+calibration:
+  method: temperature_scaling
+  optimize_on_split: val
+metrics:
+  primary: ece
+  secondary: [brier, nll, macro_f1, accuracy]
+outputs:
+  run_dir: outputs/runs/09_calibration

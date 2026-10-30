@@ -1,0 +1,28 @@
+experiment_name: 06_domain_nbi_to_wli
+seed: 42
+dataset_config: configs/dataset/ebtc.yaml
+model_config: configs/model/cdg_cysto.yaml
+task:
+  name: ebtc_domain_generalization
+  train_domain: NBI
+  test_domain: WLI
+  num_classes: 4
+  classes: [HGC, LGC, NTL, NST]
+data:
+  train_split: train
+  val_split: val
+  test_split: test
+  train_domain: NBI
+  val_domain: NBI
+  test_domain: WLI
+training:
+  epochs_stage1: 30
+  epochs_stage2: 20
+  batch_size: 16
+  learning_rate_head: 0.0003
+  learning_rate_backbone: 0.00001
+metrics:
+  primary: macro_f1
+  secondary: [accuracy, balanced_accuracy, sensitivity, specificity, auroc, auprc, ece, brier, nll]
+outputs:
+  run_dir: outputs/runs/06_domain_nbi_to_wli

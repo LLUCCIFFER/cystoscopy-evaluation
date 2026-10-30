@@ -1,0 +1,37 @@
+{
+  "schema_version": "v2.0",
+  "created_at_utc": "2026-06-03T13:19:03.545493+00:00",
+  "split_hash": "56232bf6cca2eae740bfc4e2254b20f4190ffb2a9aaaf92ec8dee21af9cc967d",
+  "splits": [
+    {
+      "split": "cystods_calib",
+      "path": "outputs\\v2\\splits\\cystods_calib.csv",
+      "sha256": "46422bc9901650057b0304938d164cc3d2c0809f61c0cc0b36a6f430ab377f9c"
+    },
+    {
+      "split": "cystods_test_internal",
+      "path": "outputs\\v2\\splits\\cystods_test_internal.csv",
+      "sha256": "b58af0a66c7a182f05681ace97cdc13b515e1d5c001595ede7af38e403d8b27a"
+    },
+    {
+      "split": "cystods_train",
+      "path": "outputs\\v2\\splits\\cystods_train.csv",
+      "sha256": "6400332eb56d740ca31520d2df919ce6457acd97e1701cc124058e6bbdfc9fe4"
+    },
+    {
+      "split": "cystods_val",
+      "path": "outputs\\v2\\splits\\cystods_val.csv",
+      "sha256": "fdc80f70f82f3d9a67d9a2b130c1b8ce6740e6adb28656eb6de73bb8924b0bf3"
+    },
+    {
+      "split": "ebtc_external_all",
+      "path": "outputs\\v2\\splits\\ebtc_external_all.csv",
+      "sha256": "5f3b9bfb1e23e6bd2f0e9b1ef0ede794136cdaaa05a27baad7bcbfad388687be"
+    },
+    {
+      "split": "ebtc_external_official_test",
+      "path": "outputs\\v2\\splits\\ebtc_external_official_test.csv",
+      "sha256": "03726faecd6ec4151d8bfda410fad73a7cf6633756a593439693519a1a8e13e4"
+    }
+  ]
+}

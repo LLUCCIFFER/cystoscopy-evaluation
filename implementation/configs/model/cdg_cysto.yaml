@@ -1,0 +1,23 @@
+model_id: M3
+name: cdg_cysto_dinov2
+source: torch_hub
+backbone: dinov2_vits14
+pretrained: true
+input_size: 224
+feature_dim: 384
+num_classes: 4
+classifier:
+  name: cdg_head
+  hidden_dim: 256
+  dropout: 0.2
+training:
+  stage1_freeze_backbone: true
+  stage2_unfreeze_last_blocks: 2
+loss:
+  name: class_balanced_focal
+  beta: 0.999
+  gamma: 2.0
+augmentation: final
+calibration:
+  enabled: true
+  method: temperature_scaling

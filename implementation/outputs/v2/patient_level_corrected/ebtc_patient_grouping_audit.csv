@@ -1,0 +1,4 @@
+grouping_policy,n_groups,n_positive_groups,n_negative_groups,n_images,note
+current_pid,16,15,1,1754,
+case_level,22,16,6,1754,case_level is the preferred corrected EBTC patient proxy
+case_pt_level,115,79,36,1754,

@@ -1,0 +1,738 @@
+sample_id,dataset,image_path,mask_path,has_mask,pid,visit,roi_id,modality,label_original,label_cancer_binary,label_roi_binary,label_five_class,split_source,width,height,is_valid,error_reason,image_md5,split_v2
+CystoDS_687b62b1,CystoDS,data\raw\CystoDS\osf_project\images\687b62b1.png,,False,808,,,WLC,normal mucosa,0,0,4,external,352,240,True,,db2fa7cb04cf4f1333d0640500954bdb,calib
+CystoDS_c44d702c,CystoDS,data\raw\CystoDS\osf_project\images\c44d702c.png,,False,808,,,WLC,normal mucosa,0,0,4,external,352,240,True,,8e0d36fcc865c8ef13673fbe4cbfe930,calib
+CystoDS_ec3cfe7e,CystoDS,data\raw\CystoDS\osf_project\images\ec3cfe7e.png,,False,808,,,WLC,normal mucosa,0,0,4,external,352,240,True,,b9f71d10da8dcc5ee85c933f1e04768a,calib
+CystoDS_62ff0a39,CystoDS,data\raw\CystoDS\osf_project\images\62ff0a39.png,,False,808,,,WLC,normal mucosa,0,0,4,external,352,240,True,,61704249c3dcc165d9e30825dcaf6600,calib
+CystoDS_7b673fa1,CystoDS,data\raw\CystoDS\osf_project\images\7b673fa1.png,,False,808,,,WLC,normal mucosa,0,0,4,external,352,240,True,,c11464fa7cf0f9194b8c0fb9e2ebbd30,calib
+CystoDS_405259fd,CystoDS,data\raw\CystoDS\osf_project\images\405259fd.png,,False,808,,,WLC,normal mucosa,0,0,4,external,352,240,True,,8277448ddb56a4768b47d8fdee7d25a8,calib
+CystoDS_e647eb61,CystoDS,data\raw\CystoDS\osf_project\images\e647eb61.png,,False,808,,,WLC,normal mucosa,0,0,4,external,352,240,True,,0affde4bcedb125b09884dcf7d1601d8,calib
+CystoDS_686c620f,CystoDS,data\raw\CystoDS\osf_project\images\686c620f.png,data\raw\CystoDS\osf_project\segmentations\686c620f.json,True,808,,,WLC,foreign bodies,0,0,3,external,352,240,True,,cb1b0cd1636da7c8cd27f56dff327f62,calib
+CystoDS_b9036338,CystoDS,data\raw\CystoDS\osf_project\images\b9036338.png,data\raw\CystoDS\osf_project\segmentations\b9036338.json,True,808,,,WLC,foreign bodies,0,0,3,external,352,240,True,,c015ee9c2e0e99410a248fabc0f75e88,calib
+CystoDS_980ee43f,CystoDS,data\raw\CystoDS\osf_project\images\980ee43f.png,,False,1022,,,WLC,normal mucosa,0,0,4,external,352,240,True,,521f2d5e7cfdefb8b849ac7f6a9d6e08,calib
+CystoDS_65224274,CystoDS,data\raw\CystoDS\osf_project\images\65224274.png,,False,1022,,,WLC,normal mucosa,0,0,4,external,352,240,True,,256f723c761ba33b1920e9506019240a,calib
+CystoDS_205701bd,CystoDS,data\raw\CystoDS\osf_project\images\205701bd.png,,False,1022,,,WLC,normal mucosa,0,0,4,external,352,240,True,,5d63e7e78402aa173bd87350cea4e3c7,calib
+CystoDS_4bc39994,CystoDS,data\raw\CystoDS\osf_project\images\4bc39994.png,,False,1022,,,WLC,normal mucosa,0,0,4,external,352,240,True,,64441544b96bcefc066be63bd0c930de,calib
+CystoDS_fbaf6a85,CystoDS,data\raw\CystoDS\osf_project\images\fbaf6a85.png,,False,1022,,,WLC,normal mucosa,0,0,4,external,352,240,True,,d6c5394192f236b2908eb6c9d664253d,calib
+CystoDS_cb54ecd5,CystoDS,data\raw\CystoDS\osf_project\images\cb54ecd5.png,,False,1022,,,WLC,normal mucosa,0,0,4,external,352,240,True,,dd3382620d12f2b15686a84bdcf8e614,calib
+CystoDS_051e31ff,CystoDS,data\raw\CystoDS\osf_project\images\051e31ff.png,,False,1022,,,WLC,normal mucosa,0,0,4,external,352,240,True,,3aa5d74e3bf62052077d01068fae7a95,calib
+CystoDS_afb862fc,CystoDS,data\raw\CystoDS\osf_project\images\afb862fc.png,,False,1022,,,WLC,normal mucosa,0,0,4,external,352,240,True,,b52d0cdcf1786a8a58ffd50b61ce7df0,calib
+CystoDS_51c84441,CystoDS,data\raw\CystoDS\osf_project\images\51c84441.png,,False,1022,,,WLC,normal mucosa,0,0,4,external,352,240,True,,c923f0658f78ea083847bb5d92f44000,calib
+CystoDS_98516848,CystoDS,data\raw\CystoDS\osf_project\images\98516848.png,,False,1022,,,WLC,normal mucosa,0,0,4,external,352,240,True,,e492a67af8845b57a730f9c1892ff60a,calib
+CystoDS_21eccaf8,CystoDS,data\raw\CystoDS\osf_project\images\21eccaf8.png,,False,1022,,,WLC,normal mucosa,0,0,4,external,352,240,True,,201293e393c9ecd29c992bfe2b309748,calib
+CystoDS_c9b286f4,CystoDS,data\raw\CystoDS\osf_project\images\c9b286f4.png,,False,1022,,,WLC,normal mucosa,0,0,4,external,352,240,True,,af211b859bc40facd5b66a4f0b46b086,calib
+CystoDS_b7073039,CystoDS,data\raw\CystoDS\osf_project\images\b7073039.png,,False,1022,,,WLC,normal mucosa,0,0,4,external,352,240,True,,6a699707e738fa8be5ca66df1f9789fa,calib
+CystoDS_2105b77e,CystoDS,data\raw\CystoDS\osf_project\images\2105b77e.png,,False,1022,,,WLC,normal mucosa,0,0,4,external,352,240,True,,60f2606fbd1f50be43306f4f3358bf9a,calib
+CystoDS_43be16af,CystoDS,data\raw\CystoDS\osf_project\images\43be16af.png,,False,1022,,,WLC,normal mucosa,0,0,4,external,352,240,True,,2847db94e130deecf46e39b5d6ab6a75,calib
+CystoDS_d2d1806a,CystoDS,data\raw\CystoDS\osf_project\images\d2d1806a.png,,False,1022,,,WLC,normal mucosa,0,0,4,external,352,240,True,,af8af99227d51f8a6cfa9988bd806041,calib
+CystoDS_e1ff8c63,CystoDS,data\raw\CystoDS\osf_project\images\e1ff8c63.png,,False,1022,,,WLC,normal mucosa,0,0,4,external,352,240,True,,2be01f6be6d0b06ed8c974eb1fd66a30,calib
+CystoDS_6046317b,CystoDS,data\raw\CystoDS\osf_project\images\6046317b.png,,False,1022,,,WLC,normal mucosa,0,0,4,external,352,240,True,,799cc2fffd8e0237088e5802e2765eaa,calib
+CystoDS_b94105ac,CystoDS,data\raw\CystoDS\osf_project\images\b94105ac.png,,False,1022,,,WLC,normal mucosa,0,0,4,external,352,240,True,,fb93bdd9bd38a2fe5a8c93f9acd28710,calib
+CystoDS_447d24cb,CystoDS,data\raw\CystoDS\osf_project\images\447d24cb.png,,False,1022,,,WLC,normal mucosa,0,0,4,external,352,240,True,,ccc2dd104744e1c5d312c26825a53525,calib
+CystoDS_df958701,CystoDS,data\raw\CystoDS\osf_project\images\df958701.png,,False,1022,,,WLC,normal mucosa,0,0,4,external,352,240,True,,a682f46d537800d39c4682c77074ac83,calib
+CystoDS_e085460c,CystoDS,data\raw\CystoDS\osf_project\images\e085460c.png,,False,1022,,,WLC,normal mucosa,0,0,4,external,352,240,True,,47cbf9acc1627b7de63516ec380cd7bf,calib
+CystoDS_e8deb855,CystoDS,data\raw\CystoDS\osf_project\images\e8deb855.png,,False,1022,,,WLC,normal mucosa,0,0,4,external,352,240,True,,e0f97410e0ae447358f3df6dab8cea05,calib
+CystoDS_eef01343,CystoDS,data\raw\CystoDS\osf_project\images\eef01343.png,,False,1022,,,WLC,normal mucosa,0,0,4,external,352,240,True,,079de0e348d552f676bdc970d2de70b2,calib
+CystoDS_b80dddc2,CystoDS,data\raw\CystoDS\osf_project\images\b80dddc2.png,,False,1022,,,WLC,normal mucosa,0,0,4,external,352,240,True,,9dd4895fe400906d674b2cf8d8624e5f,calib
+CystoDS_90dd8cdc,CystoDS,data\raw\CystoDS\osf_project\images\90dd8cdc.png,,False,1022,,,WLC,normal mucosa,0,0,4,external,352,240,True,,62b749f55da414896574959f28bef4a7,calib
+CystoDS_a287bff1,CystoDS,data\raw\CystoDS\osf_project\images\a287bff1.png,,False,1022,,,WLC,normal mucosa,0,0,4,external,352,240,True,,2fba9bc3d92f842f4a365e979bcd5e10,calib
+CystoDS_76c13f2d,CystoDS,data\raw\CystoDS\osf_project\images\76c13f2d.png,,False,1022,,,WLC,normal mucosa,0,0,4,external,352,240,True,,194d2116ee8ba014f28b4848d5b44ff6,calib
+CystoDS_5817c629,CystoDS,data\raw\CystoDS\osf_project\images\5817c629.png,data\raw\CystoDS\osf_project\segmentations\5817c629.json,True,1022,,,WLC,foreign bodies,0,0,3,external,352,240,True,,1e140723eed61fcaca26e6f8eaabed68,calib
+CystoDS_aae07443,CystoDS,data\raw\CystoDS\osf_project\images\aae07443.png,data\raw\CystoDS\osf_project\segmentations\aae07443.json,True,1022,,,WLC,foreign bodies,0,0,3,external,352,240,True,,7e33223858366e2cfb5dacccefda8d11,calib
+CystoDS_7b433139,CystoDS,data\raw\CystoDS\osf_project\images\7b433139.png,data\raw\CystoDS\osf_project\segmentations\7b433139.json,True,1022,,,WLC,foreign bodies,0,0,3,external,352,240,True,,b422e172f992050b576a1caa6331e4bb,calib
+CystoDS_8ec23e8f,CystoDS,data\raw\CystoDS\osf_project\images\8ec23e8f.png,data\raw\CystoDS\osf_project\segmentations\8ec23e8f.json,True,1022,,,WLC,foreign bodies,0,0,3,external,352,240,True,,603bb0e79e6b8b7445efac10893c9210,calib
+CystoDS_70f9003c,CystoDS,data\raw\CystoDS\osf_project\images\70f9003c.png,data\raw\CystoDS\osf_project\segmentations\70f9003c.json,True,1022,,,WLC,foreign bodies,0,0,3,external,352,240,True,,31e70d02b38a6501d2bfb46914035677,calib
+CystoDS_d68f419c,CystoDS,data\raw\CystoDS\osf_project\images\d68f419c.png,data\raw\CystoDS\osf_project\segmentations\d68f419c.json,True,1022,,,WLC,foreign bodies,0,0,3,external,352,240,True,,07bf190fe752dc4986db9e6661af7fd2,calib
+CystoDS_ce9132d4,CystoDS,data\raw\CystoDS\osf_project\images\ce9132d4.png,data\raw\CystoDS\osf_project\segmentations\ce9132d4.json,True,1022,,,WLC,foreign bodies,0,0,3,external,352,240,True,,1f2e6de3bb0eb2e20bc854fd166219d9,calib
+CystoDS_fafa370e,CystoDS,data\raw\CystoDS\osf_project\images\fafa370e.png,data\raw\CystoDS\osf_project\segmentations\fafa370e.json,True,1022,,,WLC,foreign bodies,0,0,3,external,352,240,True,,4631684531c1949261f2c23c930bb3c7,calib
+CystoDS_777b8bf3,CystoDS,data\raw\CystoDS\osf_project\images\777b8bf3.png,data\raw\CystoDS\osf_project\segmentations\777b8bf3.json,True,1022,,,WLC,foreign bodies,0,0,3,external,352,240,True,,57240e18e923216232073dec0c97b728,calib
+CystoDS_beed7045,CystoDS,data\raw\CystoDS\osf_project\images\beed7045.png,data\raw\CystoDS\osf_project\segmentations\beed7045.json,True,1022,,,WLC,foreign bodies,0,0,3,external,352,240,True,,8f334bbd8cae10bdc955158b11b1ec87,calib
+CystoDS_e6e05f93,CystoDS,data\raw\CystoDS\osf_project\images\e6e05f93.png,data\raw\CystoDS\osf_project\segmentations\e6e05f93.json,True,1022,,,WLC,foreign bodies,0,0,3,external,352,240,True,,c78876497a82a6dea49f27fedfae05f1,calib
+CystoDS_41f81370,CystoDS,data\raw\CystoDS\osf_project\images\41f81370.png,data\raw\CystoDS\osf_project\segmentations\41f81370.json,True,1022,,,WLC,foreign bodies,0,0,3,external,352,240,True,,99a08e506de37458665ee4010ded8d54,calib
+CystoDS_161cfc16,CystoDS,data\raw\CystoDS\osf_project\images\161cfc16.png,data\raw\CystoDS\osf_project\segmentations\161cfc16.json,True,1022,,,WLC,foreign bodies,0,0,3,external,352,240,True,,d09796190797bb8ca75e5c654bce263c,calib
+CystoDS_a4de25b7,CystoDS,data\raw\CystoDS\osf_project\images\a4de25b7.png,data\raw\CystoDS\osf_project\segmentations\a4de25b7.json,True,1022,,,WLC,foreign bodies,0,0,3,external,352,240,True,,994cedbdd38aee0eff9ab829a497e3fd,calib
+CystoDS_3181feec,CystoDS,data\raw\CystoDS\osf_project\images\3181feec.png,data\raw\CystoDS\osf_project\segmentations\3181feec.json,True,1022,,,WLC,foreign bodies,0,0,3,external,352,240,True,,7cf5a68fa8eaad44208d4cf3310d25f8,calib
+CystoDS_8c38e774,CystoDS,data\raw\CystoDS\osf_project\images\8c38e774.png,data\raw\CystoDS\osf_project\segmentations\8c38e774.json,True,1022,,,WLC,foreign bodies,0,0,3,external,352,240,True,,ca15eaeaa8e201d5c69584ded093e6ee,calib
+CystoDS_ec676ae9,CystoDS,data\raw\CystoDS\osf_project\images\ec676ae9.png,data\raw\CystoDS\osf_project\segmentations\ec676ae9.json,True,1022,,,WLC,foreign bodies,0,0,3,external,352,240,True,,714cc18ab9f05643d070fc885a9a65fb,calib
+CystoDS_8241b7ff,CystoDS,data\raw\CystoDS\osf_project\images\8241b7ff.png,data\raw\CystoDS\osf_project\segmentations\8241b7ff.json,True,1022,,,WLC,foreign bodies,0,0,3,external,352,240,True,,71af0fbac75620306e20c9373eeeb4bf,calib
+CystoDS_e12d042b,CystoDS,data\raw\CystoDS\osf_project\images\e12d042b.png,,False,1022,,,WLC,normal mucosa,0,0,4,external,352,240,True,,a22b0e1c9550797b88518eb340fc8661,calib
+CystoDS_09fc09a4,CystoDS,data\raw\CystoDS\osf_project\images\09fc09a4.png,,False,1022,,,WLC,normal mucosa,0,0,4,external,352,240,True,,94fb834a97d6dd2379c71ca9a8b1a0d1,calib
+CystoDS_604e0bc4,CystoDS,data\raw\CystoDS\osf_project\images\604e0bc4.png,,False,1022,,,WLC,normal mucosa,0,0,4,external,352,240,True,,81914dfcc16844482892c2102b3381a4,calib
+CystoDS_ffd009ca,CystoDS,data\raw\CystoDS\osf_project\images\ffd009ca.png,,False,1022,1.0,L1,WLC,malignant,1,1,0,external,352,240,True,,1d6210b546961c7d19bf2cdff7691c18,calib
+CystoDS_414d4ae4,CystoDS,data\raw\CystoDS\osf_project\images\414d4ae4.png,data\raw\CystoDS\osf_project\segmentations\414d4ae4.json,True,711,1.0,L1,WLC,malignant,1,1,0,external,352,240,True,,8c8affd3fccd83ab4ad968efeace1962,calib
+CystoDS_3de13c98,CystoDS,data\raw\CystoDS\osf_project\images\3de13c98.png,data\raw\CystoDS\osf_project\segmentations\3de13c98.json,True,711,1.0,L1,WLC,malignant,1,1,0,external,352,240,True,,b3b5cf2798c650a2384ce92d6e274fa9,calib
+CystoDS_0fd60b24,CystoDS,data\raw\CystoDS\osf_project\images\0fd60b24.png,,False,711,,,WLC,normal mucosa,0,0,4,external,352,240,True,,2cceb3db03e6f06009c65daa4cbeaa85,calib
+CystoDS_e053931f,CystoDS,data\raw\CystoDS\osf_project\images\e053931f.png,,False,711,,,WLC,normal mucosa,0,0,4,external,352,240,True,,998348031ea2b3170e7f0bb71889d2d9,calib
+CystoDS_2d593793,CystoDS,data\raw\CystoDS\osf_project\images\2d593793.png,,False,711,,,WLC,normal mucosa,0,0,4,external,352,240,True,,766e1a83b71206aa77ddbf64a072bd76,calib
+CystoDS_34263ccd,CystoDS,data\raw\CystoDS\osf_project\images\34263ccd.png,,False,711,,,WLC,normal mucosa,0,0,4,external,352,240,True,,3149ec672a98216751beb4cdab5d066e,calib
+CystoDS_26f7bc04,CystoDS,data\raw\CystoDS\osf_project\images\26f7bc04.png,,False,711,,,WLC,normal mucosa,0,0,4,external,352,240,True,,2fb530f4782ef773ebf714d8d99dd652,calib
+CystoDS_92207bb6,CystoDS,data\raw\CystoDS\osf_project\images\92207bb6.png,,False,711,,,WLC,normal mucosa,0,0,4,external,352,240,True,,c77e880e8c2807401a3e996c35e355d0,calib
+CystoDS_cc70cfd2,CystoDS,data\raw\CystoDS\osf_project\images\cc70cfd2.png,,False,711,,,WLC,normal mucosa,0,0,4,external,352,240,True,,829e287d4ea160833a86f4334fd99809,calib
+CystoDS_3165bc3e,CystoDS,data\raw\CystoDS\osf_project\images\3165bc3e.png,,False,711,,,WLC,normal mucosa,0,0,4,external,352,240,True,,a4cf5fde8cffc025a881164159b60f15,calib
+CystoDS_9d20bbfd,CystoDS,data\raw\CystoDS\osf_project\images\9d20bbfd.png,,False,711,,,WLC,normal mucosa,0,0,4,external,352,240,True,,884d8b8b3d03aa759707e5dc4aa31deb,calib
+CystoDS_057943d9,CystoDS,data\raw\CystoDS\osf_project\images\057943d9.png,,False,711,,,WLC,normal mucosa,0,0,4,external,352,240,True,,721b5ff143ccdbe51cc4500c20faa101,calib
+CystoDS_397a30a7,CystoDS,data\raw\CystoDS\osf_project\images\397a30a7.png,,False,711,,,WLC,normal mucosa,0,0,4,external,352,240,True,,291abd1a5d31340dff9249eeb1672097,calib
+CystoDS_758fdfcf,CystoDS,data\raw\CystoDS\osf_project\images\758fdfcf.png,,False,711,,,WLC,normal mucosa,0,0,4,external,352,240,True,,be6db42d71c220f9598b7277c5f7b652,calib
+CystoDS_c8e2dd85,CystoDS,data\raw\CystoDS\osf_project\images\c8e2dd85.png,,False,711,,,WLC,normal mucosa,0,0,4,external,352,240,True,,26439c3b97b29d820d3d80e7b3ec734c,calib
+CystoDS_db98b4e6,CystoDS,data\raw\CystoDS\osf_project\images\db98b4e6.png,,False,711,,,WLC,normal mucosa,0,0,4,external,352,240,True,,5fa2d807a8df0b4045a9f1e17a6000f5,calib
+CystoDS_b360b83f,CystoDS,data\raw\CystoDS\osf_project\images\b360b83f.png,,False,711,,,WLC,normal mucosa,0,0,4,external,352,240,True,,49b8800c8f464d509d2161cc5a2a1183,calib
+CystoDS_ff856a60,CystoDS,data\raw\CystoDS\osf_project\images\ff856a60.png,,False,711,,,WLC,normal mucosa,0,0,4,external,352,240,True,,d422fc3e0f3eb4d0e795a58a94411f53,calib
+CystoDS_9f3341ed,CystoDS,data\raw\CystoDS\osf_project\images\9f3341ed.png,,False,711,,,WLC,normal mucosa,0,0,4,external,352,240,True,,0a21e1e7f23d48e9c5face29cf65c816,calib
+CystoDS_2a7ee475,CystoDS,data\raw\CystoDS\osf_project\images\2a7ee475.png,,False,711,,,WLC,normal mucosa,0,0,4,external,352,240,True,,4ee5c002f013bc8ce2a7aefa2fb171a6,calib
+CystoDS_37d2e878,CystoDS,data\raw\CystoDS\osf_project\images\37d2e878.png,,False,711,,,WLC,normal mucosa,0,0,4,external,352,240,True,,7526bbea1acdcb3d8854b682c8c74cee,calib
+CystoDS_ae1681b0,CystoDS,data\raw\CystoDS\osf_project\images\ae1681b0.png,,False,711,,,WLC,normal mucosa,0,0,4,external,352,240,True,,86cddd774daaf51392b18835d16cc660,calib
+CystoDS_88bbf179,CystoDS,data\raw\CystoDS\osf_project\images\88bbf179.png,,False,711,,,WLC,normal mucosa,0,0,4,external,352,240,True,,40e75ed93a0686589833825cd719d58b,calib
+CystoDS_b1aa68a6,CystoDS,data\raw\CystoDS\osf_project\images\b1aa68a6.png,,False,711,,,WLC,normal mucosa,0,0,4,external,352,240,True,,d3296723fa866c5fbf0575711f6b36a6,calib
+CystoDS_0365e66e,CystoDS,data\raw\CystoDS\osf_project\images\0365e66e.png,,False,711,,,WLC,normal mucosa,0,0,4,external,352,240,True,,99988a9842370e56c3646cef20e71c3d,calib
+CystoDS_9f578d85,CystoDS,data\raw\CystoDS\osf_project\images\9f578d85.png,,False,711,,,WLC,normal mucosa,0,0,4,external,352,240,True,,b971193435061d1f2c29319008bd8d7d,calib
+CystoDS_23a333c9,CystoDS,data\raw\CystoDS\osf_project\images\23a333c9.png,,False,711,,,WLC,normal mucosa,0,0,4,external,352,240,True,,cbfb5fe563a6acfa064b1bafe63d45f1,calib
+CystoDS_bfefae6c,CystoDS,data\raw\CystoDS\osf_project\images\bfefae6c.png,,False,711,,,WLC,normal mucosa,0,0,4,external,352,240,True,,453148aaa63d3c3210653e3d08b67eff,calib
+CystoDS_4c59058b,CystoDS,data\raw\CystoDS\osf_project\images\4c59058b.png,,False,711,,,WLC,normal mucosa,0,0,4,external,352,240,True,,93840a47eff336be51c20a1b85df32c0,calib
+CystoDS_5c99ebf7,CystoDS,data\raw\CystoDS\osf_project\images\5c99ebf7.png,,False,711,,,WLC,normal mucosa,0,0,4,external,352,240,True,,4cc9572f6d4e124cb0bfc2fd86d19484,calib
+CystoDS_51b210c4,CystoDS,data\raw\CystoDS\osf_project\images\51b210c4.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,7f33900379a38202b66ceccb52777035,calib
+CystoDS_65d9dad6,CystoDS,data\raw\CystoDS\osf_project\images\65d9dad6.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,bf8e877a5247eca4926ef94dfc335d46,calib
+CystoDS_db1c09d8,CystoDS,data\raw\CystoDS\osf_project\images\db1c09d8.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,55500b285aa8da037d7eaf82a9cf2a9e,calib
+CystoDS_a292441b,CystoDS,data\raw\CystoDS\osf_project\images\a292441b.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,a4ca281aeb43f8afaaeeb76d9ca94118,calib
+CystoDS_17c8ca47,CystoDS,data\raw\CystoDS\osf_project\images\17c8ca47.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,2ee0252b230bdc1a406ca1823076c284,calib
+CystoDS_dd83d4be,CystoDS,data\raw\CystoDS\osf_project\images\dd83d4be.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,7988d87ac6cfc72e829c1b3791ab1b60,calib
+CystoDS_1c5a0428,CystoDS,data\raw\CystoDS\osf_project\images\1c5a0428.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,2bbdb089cb1565d0add2df750f73d848,calib
+CystoDS_964d279d,CystoDS,data\raw\CystoDS\osf_project\images\964d279d.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,85884dafcaa8c4a407a78c801b202cc0,calib
+CystoDS_501b51c8,CystoDS,data\raw\CystoDS\osf_project\images\501b51c8.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,a1c2bbc628fccd1ea9d55cc8b335a4be,calib
+CystoDS_ccc9c578,CystoDS,data\raw\CystoDS\osf_project\images\ccc9c578.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,d4af0a96f5ca32d18f1411741495be91,calib
+CystoDS_941cb0a4,CystoDS,data\raw\CystoDS\osf_project\images\941cb0a4.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,6c46581817852af09da4b34fb6bbfe96,calib
+CystoDS_e1df5c73,CystoDS,data\raw\CystoDS\osf_project\images\e1df5c73.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,2638d2a767f66ca530668e2da060a1a7,calib
+CystoDS_e488d239,CystoDS,data\raw\CystoDS\osf_project\images\e488d239.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,4e599bbe2397dab470d69d713674f178,calib
+CystoDS_277972d2,CystoDS,data\raw\CystoDS\osf_project\images\277972d2.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,983505f02226f270b2bc0def4aa90b61,calib
+CystoDS_e55b87f4,CystoDS,data\raw\CystoDS\osf_project\images\e55b87f4.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,f13114755fd48333d20dbed6e31ee00a,calib
+CystoDS_1ca43d22,CystoDS,data\raw\CystoDS\osf_project\images\1ca43d22.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,0a986889847f216db32f84419d7c9fc6,calib
+CystoDS_d9da6e74,CystoDS,data\raw\CystoDS\osf_project\images\d9da6e74.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,9dd89fb953b5a2abc53e3bded25222b4,calib
+CystoDS_30f3f674,CystoDS,data\raw\CystoDS\osf_project\images\30f3f674.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,846f8c647c4c6facc5811aaae85b61f5,calib
+CystoDS_73e7559b,CystoDS,data\raw\CystoDS\osf_project\images\73e7559b.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,86162ffa70564aef336bf30430a9f35b,calib
+CystoDS_a843acdd,CystoDS,data\raw\CystoDS\osf_project\images\a843acdd.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,35c5cf66c76cb464c2e24d07c3ead8e2,calib
+CystoDS_f76ffc49,CystoDS,data\raw\CystoDS\osf_project\images\f76ffc49.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,a27f162234a1041fb8603f0a3f1d9110,calib
+CystoDS_ac9609e4,CystoDS,data\raw\CystoDS\osf_project\images\ac9609e4.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,c348524f959a27c9db3906b1b24f54db,calib
+CystoDS_278ad40a,CystoDS,data\raw\CystoDS\osf_project\images\278ad40a.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,6458e0e12c2f13f9239b38649f262b57,calib
+CystoDS_2478f0ea,CystoDS,data\raw\CystoDS\osf_project\images\2478f0ea.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,03223a46db75b37473dd70de1562478f,calib
+CystoDS_1aa4e896,CystoDS,data\raw\CystoDS\osf_project\images\1aa4e896.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,7b987e2926393b7ed5f2fc6a181864b7,calib
+CystoDS_d4f59480,CystoDS,data\raw\CystoDS\osf_project\images\d4f59480.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,69470c9790b26647b4b23b97c45a3590,calib
+CystoDS_add1d860,CystoDS,data\raw\CystoDS\osf_project\images\add1d860.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,183fc60cc9df96a8fb75406c1217dfbd,calib
+CystoDS_ba3c46b6,CystoDS,data\raw\CystoDS\osf_project\images\ba3c46b6.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,81d7c18d5345472103c12d58955872c6,calib
+CystoDS_afaa5998,CystoDS,data\raw\CystoDS\osf_project\images\afaa5998.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,19a53e1c4baff81bff7f5ec68e2c43d5,calib
+CystoDS_d96ea36e,CystoDS,data\raw\CystoDS\osf_project\images\d96ea36e.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,bdd2daef6666f3aca3a331aa68203be5,calib
+CystoDS_01f03f72,CystoDS,data\raw\CystoDS\osf_project\images\01f03f72.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,ccd92ef35048dcdfb1c5aad20a3c34a8,calib
+CystoDS_13b28098,CystoDS,data\raw\CystoDS\osf_project\images\13b28098.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,5ac3a02ba0fb419850dd5439c8d888f3,calib
+CystoDS_2ce0c8af,CystoDS,data\raw\CystoDS\osf_project\images\2ce0c8af.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,496207301092e711c9e4063c41102ddc,calib
+CystoDS_fb784ae6,CystoDS,data\raw\CystoDS\osf_project\images\fb784ae6.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,75b03353a4e1e2c89e9faadc1449e512,calib
+CystoDS_455dae6b,CystoDS,data\raw\CystoDS\osf_project\images\455dae6b.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,697446f709a18de826e57637db836f3b,calib
+CystoDS_61a1cbce,CystoDS,data\raw\CystoDS\osf_project\images\61a1cbce.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,bc40c3aa1421ea515aa9f5bd83ebd591,calib
+CystoDS_0148622f,CystoDS,data\raw\CystoDS\osf_project\images\0148622f.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,cdcbadd56c6b4b96c90f62981897447f,calib
+CystoDS_eaa8d1c3,CystoDS,data\raw\CystoDS\osf_project\images\eaa8d1c3.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,0e6a7638ec8ac31f312aa8583eac7c8c,calib
+CystoDS_05fda9b5,CystoDS,data\raw\CystoDS\osf_project\images\05fda9b5.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,9c36a4f8ccf07b90d85417dc77d5d412,calib
+CystoDS_3cc797ce,CystoDS,data\raw\CystoDS\osf_project\images\3cc797ce.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,56fbb92502dbcccdaf83334c04cef795,calib
+CystoDS_bd7d398b,CystoDS,data\raw\CystoDS\osf_project\images\bd7d398b.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,1b163ce0369413a288eaf1e32b5ac33e,calib
+CystoDS_085b3259,CystoDS,data\raw\CystoDS\osf_project\images\085b3259.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,386ab379097f899d429767fbe82b03fe,calib
+CystoDS_02d86221,CystoDS,data\raw\CystoDS\osf_project\images\02d86221.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,d5d7ccb77729453b343f9698d124471d,calib
+CystoDS_f8e9e1c8,CystoDS,data\raw\CystoDS\osf_project\images\f8e9e1c8.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,23a6646cef69e9f959bf15b51557fa71,calib
+CystoDS_5d17cc20,CystoDS,data\raw\CystoDS\osf_project\images\5d17cc20.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,8cfa60763336a2d5e1025e9eda1a7836,calib
+CystoDS_ecb7b167,CystoDS,data\raw\CystoDS\osf_project\images\ecb7b167.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,154942ae2e1b43199d251ebb340ad4d1,calib
+CystoDS_28d80be5,CystoDS,data\raw\CystoDS\osf_project\images\28d80be5.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,8c761b110e68a15666442cb260333f1e,calib
+CystoDS_0eabc43e,CystoDS,data\raw\CystoDS\osf_project\images\0eabc43e.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,2c4e29c7d7ec89fcfe78fd983c746bc7,calib
+CystoDS_de318a44,CystoDS,data\raw\CystoDS\osf_project\images\de318a44.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,f5e90a0233c660f9561c120249d17bf1,calib
+CystoDS_a42091e4,CystoDS,data\raw\CystoDS\osf_project\images\a42091e4.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,ff2685d495f8da1e01bdc2aeb7b45e37,calib
+CystoDS_db46b3fc,CystoDS,data\raw\CystoDS\osf_project\images\db46b3fc.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,71df333f5c6c62f034631c02277830e8,calib
+CystoDS_58fe0e54,CystoDS,data\raw\CystoDS\osf_project\images\58fe0e54.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,87e339e2455cb59c19aa55dfa39923d1,calib
+CystoDS_1f9c1051,CystoDS,data\raw\CystoDS\osf_project\images\1f9c1051.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,4814035e96c4bea88e55f86349b66af4,calib
+CystoDS_aaac3c8b,CystoDS,data\raw\CystoDS\osf_project\images\aaac3c8b.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,27940621b2e683aa9b26ee0e0b9c47cb,calib
+CystoDS_405d4d6d,CystoDS,data\raw\CystoDS\osf_project\images\405d4d6d.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,b247bcd113c3dcd184771cf0aa83d6ce,calib
+CystoDS_35f2eb71,CystoDS,data\raw\CystoDS\osf_project\images\35f2eb71.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,09a3a73caea20ccffb73d50777e7bf55,calib
+CystoDS_088782ae,CystoDS,data\raw\CystoDS\osf_project\images\088782ae.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,f0eb7fdc4d2741bfd289de47dde0099e,calib
+CystoDS_772824d1,CystoDS,data\raw\CystoDS\osf_project\images\772824d1.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,1985b7a1908472219594ddac697b2a31,calib
+CystoDS_bc1df752,CystoDS,data\raw\CystoDS\osf_project\images\bc1df752.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,ea1d35534c9baa87caeaae4927797330,calib
+CystoDS_22e13b26,CystoDS,data\raw\CystoDS\osf_project\images\22e13b26.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,c5a899960193ebb4ec312eb1edbab693,calib
+CystoDS_c46acd0d,CystoDS,data\raw\CystoDS\osf_project\images\c46acd0d.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,e1a5dc2b0c2fb44ee0cf06310ed064c7,calib
+CystoDS_ce834145,CystoDS,data\raw\CystoDS\osf_project\images\ce834145.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,3329298e383abb13a3b0d4051d6b9487,calib
+CystoDS_7eb7e185,CystoDS,data\raw\CystoDS\osf_project\images\7eb7e185.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,d58de3e7d876c599868aa642a1da1f7e,calib
+CystoDS_d94df95b,CystoDS,data\raw\CystoDS\osf_project\images\d94df95b.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,da7a17da8a82dbafcbed7825a5250203,calib
+CystoDS_2c47b939,CystoDS,data\raw\CystoDS\osf_project\images\2c47b939.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,7da075edccfde756c52d9fc7995e53da,calib
+CystoDS_3ea5bbf9,CystoDS,data\raw\CystoDS\osf_project\images\3ea5bbf9.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,0dc7aba7977337f60dca1bf3e0f1a2b8,calib
+CystoDS_17c91059,CystoDS,data\raw\CystoDS\osf_project\images\17c91059.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,08802f1f028bae95e729f029622a8911,calib
+CystoDS_73e32ddc,CystoDS,data\raw\CystoDS\osf_project\images\73e32ddc.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,cdd96d731beaaf1342ac4d68a52b962c,calib
+CystoDS_c73064cd,CystoDS,data\raw\CystoDS\osf_project\images\c73064cd.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,a5c12fb9cd9c6bec113ccdd168c96f89,calib
+CystoDS_d29b78a9,CystoDS,data\raw\CystoDS\osf_project\images\d29b78a9.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,f605c8a14753878e2693599526a9579c,calib
+CystoDS_a5a036d7,CystoDS,data\raw\CystoDS\osf_project\images\a5a036d7.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,f5ccfd771579dade761d20ffefc8429c,calib
+CystoDS_1f3a3672,CystoDS,data\raw\CystoDS\osf_project\images\1f3a3672.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,7797947e27a4256d5a1221136ab32443,calib
+CystoDS_e220d122,CystoDS,data\raw\CystoDS\osf_project\images\e220d122.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,29810c3ec65f34eced169ac63dc1dc55,calib
+CystoDS_23b41aab,CystoDS,data\raw\CystoDS\osf_project\images\23b41aab.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,67bbf297d537082716c29556556c3729,calib
+CystoDS_1825b127,CystoDS,data\raw\CystoDS\osf_project\images\1825b127.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,1bcf0f0c157590843b1d21e389d594e8,calib
+CystoDS_3d3cc9a4,CystoDS,data\raw\CystoDS\osf_project\images\3d3cc9a4.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,45c54ee676c53f04b1be85d9f377221f,calib
+CystoDS_27afa131,CystoDS,data\raw\CystoDS\osf_project\images\27afa131.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,caca09633c6446da1dd3f21c4ccf1030,calib
+CystoDS_5fdd488f,CystoDS,data\raw\CystoDS\osf_project\images\5fdd488f.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,a18f4524557556af1134cf83b1fdbb89,calib
+CystoDS_fad0f09b,CystoDS,data\raw\CystoDS\osf_project\images\fad0f09b.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,3ba952b1a7852370e5118411ac35b369,calib
+CystoDS_78c14f0e,CystoDS,data\raw\CystoDS\osf_project\images\78c14f0e.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,a6bb5e98a946a5c5f63f16ac4b46dc85,calib
+CystoDS_b114b48d,CystoDS,data\raw\CystoDS\osf_project\images\b114b48d.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,16e635c74d43c746e739e733edb9e681,calib
+CystoDS_d5df0eb9,CystoDS,data\raw\CystoDS\osf_project\images\d5df0eb9.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,198865f0d000012f13431243ae43a649,calib
+CystoDS_7d62726f,CystoDS,data\raw\CystoDS\osf_project\images\7d62726f.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,a357d1effa1be7e67e694da6cd42abb9,calib
+CystoDS_ee8d2947,CystoDS,data\raw\CystoDS\osf_project\images\ee8d2947.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,043e499e4cc21e7c76add3045b134bd8,calib
+CystoDS_16873055,CystoDS,data\raw\CystoDS\osf_project\images\16873055.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,428d4e43e79b6b0f1b9336dc2af9dfd6,calib
+CystoDS_11622ca0,CystoDS,data\raw\CystoDS\osf_project\images\11622ca0.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,09856e1956398e2e907a630aeb4ab820,calib
+CystoDS_6dcf579e,CystoDS,data\raw\CystoDS\osf_project\images\6dcf579e.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,e3f3ce295e42ba3c802ca5be2ecb594c,calib
+CystoDS_3a1854a7,CystoDS,data\raw\CystoDS\osf_project\images\3a1854a7.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,89abe3fed366cbd522c857e8da1e2a49,calib
+CystoDS_23554998,CystoDS,data\raw\CystoDS\osf_project\images\23554998.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,bc8c73426830dcd3222734dee0dccdd7,calib
+CystoDS_334e4620,CystoDS,data\raw\CystoDS\osf_project\images\334e4620.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,dbb62b4fbeaec0eb7dfc1c49f29d8851,calib
+CystoDS_c7e81492,CystoDS,data\raw\CystoDS\osf_project\images\c7e81492.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,d9484aac34974a4bb75440a983b91eba,calib
+CystoDS_7e9d115a,CystoDS,data\raw\CystoDS\osf_project\images\7e9d115a.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,889e381678f3f00b8f610d206a2546a7,calib
+CystoDS_b3f7392f,CystoDS,data\raw\CystoDS\osf_project\images\b3f7392f.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,ef8ea71ab7b0ad8ee641af36386eb2d4,calib
+CystoDS_5bd261ef,CystoDS,data\raw\CystoDS\osf_project\images\5bd261ef.png,data\raw\CystoDS\osf_project\segmentations\5bd261ef.json,True,1080,,,WLC,anatomical landmarks,0,0,2,external,352,240,True,,81030c67e04f9389d2ecd7272237ff8f,calib
+CystoDS_507d4d7d,CystoDS,data\raw\CystoDS\osf_project\images\507d4d7d.png,data\raw\CystoDS\osf_project\segmentations\507d4d7d.json,True,1080,,,WLC,anatomical landmarks,0,0,2,external,352,240,True,,7cb81a40b6d8c482ede7bb8510086930,calib
+CystoDS_bbd5f4e2,CystoDS,data\raw\CystoDS\osf_project\images\bbd5f4e2.png,data\raw\CystoDS\osf_project\segmentations\bbd5f4e2.json,True,1080,,,WLC,anatomical landmarks,0,0,2,external,352,240,True,,6128a745b387189fe92c686cc54f9024,calib
+CystoDS_7daaa806,CystoDS,data\raw\CystoDS\osf_project\images\7daaa806.png,data\raw\CystoDS\osf_project\segmentations\7daaa806.json,True,1080,,,WLC,anatomical landmarks,0,0,2,external,352,240,True,,940be3aabc4f5c33f238ca86d65c890c,calib
+CystoDS_e1b93712,CystoDS,data\raw\CystoDS\osf_project\images\e1b93712.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,f5e0782c81a93b6a00acf253263f13c1,calib
+CystoDS_0bca7495,CystoDS,data\raw\CystoDS\osf_project\images\0bca7495.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,ce929c470b77f54db9800754f61d4137,calib
+CystoDS_e9cf3597,CystoDS,data\raw\CystoDS\osf_project\images\e9cf3597.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,b9618ddf5a6f168ec83b4cf8b66e59fc,calib
+CystoDS_5e8c2be8,CystoDS,data\raw\CystoDS\osf_project\images\5e8c2be8.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,ddb969ebb1d410faddec51ca8db5056c,calib
+CystoDS_ef790b5e,CystoDS,data\raw\CystoDS\osf_project\images\ef790b5e.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,1d8ef4782b2586a82b94eb14832688b4,calib
+CystoDS_604fcfc7,CystoDS,data\raw\CystoDS\osf_project\images\604fcfc7.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,2135b05406367339bb4a49842f2f7fbc,calib
+CystoDS_9fa3584d,CystoDS,data\raw\CystoDS\osf_project\images\9fa3584d.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,d460b2369c9465048939da309abb749b,calib
+CystoDS_4d358c5e,CystoDS,data\raw\CystoDS\osf_project\images\4d358c5e.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,667a0c6e971cf2836185061f0c584342,calib
+CystoDS_9c8c1263,CystoDS,data\raw\CystoDS\osf_project\images\9c8c1263.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,adfa661d9ab360d607cd9a52f13e18ef,calib
+CystoDS_fc3e11a2,CystoDS,data\raw\CystoDS\osf_project\images\fc3e11a2.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,0ad3c6782517c628ee43b96cda552986,calib
+CystoDS_6b0e14b8,CystoDS,data\raw\CystoDS\osf_project\images\6b0e14b8.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,5ff76fb1cb03726604175655f104946d,calib
+CystoDS_ec9d107b,CystoDS,data\raw\CystoDS\osf_project\images\ec9d107b.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,298c93339fbc9dc4dfdcd6bb17379bdc,calib
+CystoDS_ffbe0e90,CystoDS,data\raw\CystoDS\osf_project\images\ffbe0e90.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,5559038306af31759dfb660e99b1bd9e,calib
+CystoDS_1a7c8b16,CystoDS,data\raw\CystoDS\osf_project\images\1a7c8b16.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,1accc65cce676e1aa170230662cefff6,calib
+CystoDS_6919767c,CystoDS,data\raw\CystoDS\osf_project\images\6919767c.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,9e694bbb3c3b399f684128e06ceef3fa,calib
+CystoDS_7e2b7d5d,CystoDS,data\raw\CystoDS\osf_project\images\7e2b7d5d.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,f1b312f616293ef1c7811aad835e3fc8,calib
+CystoDS_a8553d4e,CystoDS,data\raw\CystoDS\osf_project\images\a8553d4e.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,360d39e40ebffd70ce293dea17d1deba,calib
+CystoDS_c304595d,CystoDS,data\raw\CystoDS\osf_project\images\c304595d.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,bba376a5654dbea56e6950ac5ce2e3d5,calib
+CystoDS_58b5f37e,CystoDS,data\raw\CystoDS\osf_project\images\58b5f37e.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,647e56a80e3f79000f43738c0bbe64c8,calib
+CystoDS_39e61625,CystoDS,data\raw\CystoDS\osf_project\images\39e61625.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,de0ea8ef8d9b39b468b28f558e9519c9,calib
+CystoDS_686d0358,CystoDS,data\raw\CystoDS\osf_project\images\686d0358.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,fadd70ddfb8aff25e14194d5f9288b05,calib
+CystoDS_ab3001e0,CystoDS,data\raw\CystoDS\osf_project\images\ab3001e0.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,fe00e9e23e53ea2521345d28a869706f,calib
+CystoDS_7f2c82eb,CystoDS,data\raw\CystoDS\osf_project\images\7f2c82eb.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,7a9f8d35bb14b769a7e6914fa9acd55a,calib
+CystoDS_c35eac4d,CystoDS,data\raw\CystoDS\osf_project\images\c35eac4d.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,8f18fdace1fa1c253f935ee1622c32d8,calib
+CystoDS_10a97bcd,CystoDS,data\raw\CystoDS\osf_project\images\10a97bcd.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,99ece8f29720fcf708c047cc000f43d2,calib
+CystoDS_7c9fa9a7,CystoDS,data\raw\CystoDS\osf_project\images\7c9fa9a7.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,093ea2f11059064a0f3b0ff3227b876e,calib
+CystoDS_ca289d30,CystoDS,data\raw\CystoDS\osf_project\images\ca289d30.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,c0498ad5bff8d2a1ce6f7024d248e80f,calib
+CystoDS_830cceca,CystoDS,data\raw\CystoDS\osf_project\images\830cceca.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,770af898663c302f7396fc87c49c159d,calib
+CystoDS_1b443b78,CystoDS,data\raw\CystoDS\osf_project\images\1b443b78.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,30ad8edac395e75533cd21a600f86647,calib
+CystoDS_66fbaeaf,CystoDS,data\raw\CystoDS\osf_project\images\66fbaeaf.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,1555154bb19bc38ec9abcfda034cd20c,calib
+CystoDS_f24fd5a7,CystoDS,data\raw\CystoDS\osf_project\images\f24fd5a7.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,05b4a8c6744b4adffca8cf19a835c5c9,calib
+CystoDS_8f43227f,CystoDS,data\raw\CystoDS\osf_project\images\8f43227f.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,5f290a298cc703bcc4fd836a88974e6c,calib
+CystoDS_37a5a23b,CystoDS,data\raw\CystoDS\osf_project\images\37a5a23b.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,e520ca4c20c6f414c336fc497d1fff37,calib
+CystoDS_f4b867ea,CystoDS,data\raw\CystoDS\osf_project\images\f4b867ea.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,2392a8ee15f8f01b095ec682dd57b6a7,calib
+CystoDS_3ae72d14,CystoDS,data\raw\CystoDS\osf_project\images\3ae72d14.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,ea0234c6f596a3c8f1d0735069c2a8e7,calib
+CystoDS_dcb6125f,CystoDS,data\raw\CystoDS\osf_project\images\dcb6125f.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,e91f048454f69ab946758856bee101ec,calib
+CystoDS_dea6b6a5,CystoDS,data\raw\CystoDS\osf_project\images\dea6b6a5.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,e41281101b72fdd5121b9ae4334bf78d,calib
+CystoDS_96c7f3cb,CystoDS,data\raw\CystoDS\osf_project\images\96c7f3cb.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,8fabaace75ae9df1a956bb87c81e6600,calib
+CystoDS_d3322741,CystoDS,data\raw\CystoDS\osf_project\images\d3322741.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,20e5c03f0d9ec138cbb14eba1fc216ce,calib
+CystoDS_81b2b2f5,CystoDS,data\raw\CystoDS\osf_project\images\81b2b2f5.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,113a6dc648b4d0143e250ead1de578fd,calib
+CystoDS_9b70b5ab,CystoDS,data\raw\CystoDS\osf_project\images\9b70b5ab.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,3a867ca1708d478845a8872d54bb8f58,calib
+CystoDS_f307398a,CystoDS,data\raw\CystoDS\osf_project\images\f307398a.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,3484ab0b03e537626b4b77c87d14d020,calib
+CystoDS_0011a5ac,CystoDS,data\raw\CystoDS\osf_project\images\0011a5ac.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,3f0c6dee4a6510b6dbf72afcdd5f4ca2,calib
+CystoDS_6dfd6452,CystoDS,data\raw\CystoDS\osf_project\images\6dfd6452.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,29f6cccb35a40c9a26f3ee75649752f9,calib
+CystoDS_e3fe4e89,CystoDS,data\raw\CystoDS\osf_project\images\e3fe4e89.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,bc289d07d6d22affc65f5109ad92529d,calib
+CystoDS_04c2a628,CystoDS,data\raw\CystoDS\osf_project\images\04c2a628.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,2293a81a795ed90c700a2e2256fd0853,calib
+CystoDS_8231a483,CystoDS,data\raw\CystoDS\osf_project\images\8231a483.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,17e5c7a5b9d9387bc5330d49e047e801,calib
+CystoDS_5c7813e8,CystoDS,data\raw\CystoDS\osf_project\images\5c7813e8.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,fb7afc17fd57de590c18b2b8727950fa,calib
+CystoDS_8a173d4c,CystoDS,data\raw\CystoDS\osf_project\images\8a173d4c.png,data\raw\CystoDS\osf_project\segmentations\8a173d4c.json,True,1080,,,WLC,foreign bodies,0,0,3,external,352,240,True,,1303dbe2c07f4be3a703e1e99c1dfef8,calib
+CystoDS_5c9d3a86,CystoDS,data\raw\CystoDS\osf_project\images\5c9d3a86.png,data\raw\CystoDS\osf_project\segmentations\5c9d3a86.json,True,1080,,,WLC,foreign bodies,0,0,3,external,352,240,True,,3e7c5249710d712539bbd7754445bff9,calib
+CystoDS_d968ab01,CystoDS,data\raw\CystoDS\osf_project\images\d968ab01.png,data\raw\CystoDS\osf_project\segmentations\d968ab01.json,True,1080,,,WLC,foreign bodies,0,0,3,external,352,240,True,,1a726b751f99136b065aa909eda958ca,calib
+CystoDS_a4e6cfd2,CystoDS,data\raw\CystoDS\osf_project\images\a4e6cfd2.png,data\raw\CystoDS\osf_project\segmentations\a4e6cfd2.json,True,1080,,,WLC,foreign bodies,0,0,3,external,352,240,True,,a344e097d61e4b33237a48bcd670203b,calib
+CystoDS_d0d22aaf,CystoDS,data\raw\CystoDS\osf_project\images\d0d22aaf.png,data\raw\CystoDS\osf_project\segmentations\d0d22aaf.json,True,1080,,,WLC,foreign bodies,0,0,3,external,352,240,True,,604becb9c21a8672c93b4ef55f0b8f12,calib
+CystoDS_58d1e223,CystoDS,data\raw\CystoDS\osf_project\images\58d1e223.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,8b4554881115228c4c537450ec11735e,calib
+CystoDS_a187c2bd,CystoDS,data\raw\CystoDS\osf_project\images\a187c2bd.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,18bd2edb7238eee7123a4e993dd6bf74,calib
+CystoDS_0dd8be0f,CystoDS,data\raw\CystoDS\osf_project\images\0dd8be0f.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,9faadf87982c6f6cde7e6c2db6fe7495,calib
+CystoDS_f26db64a,CystoDS,data\raw\CystoDS\osf_project\images\f26db64a.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,b30ea24405f6ee7d4cf8beedf2063765,calib
+CystoDS_a04b3c6b,CystoDS,data\raw\CystoDS\osf_project\images\a04b3c6b.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,cf68130acf7bbecbd970542f594025e4,calib
+CystoDS_3528fa9c,CystoDS,data\raw\CystoDS\osf_project\images\3528fa9c.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,fa69bd66a6abba01d26349fc0df7e44f,calib
+CystoDS_0d03d166,CystoDS,data\raw\CystoDS\osf_project\images\0d03d166.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,87642949c700db1b558a4d47401d37ee,calib
+CystoDS_bd7fc132,CystoDS,data\raw\CystoDS\osf_project\images\bd7fc132.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,c5eff6e9341ba5e9103f3d60b777edfe,calib
+CystoDS_ada50e51,CystoDS,data\raw\CystoDS\osf_project\images\ada50e51.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,eb8764d7f725f2c816c5f7e8ddab8ce5,calib
+CystoDS_318d7fe3,CystoDS,data\raw\CystoDS\osf_project\images\318d7fe3.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,f66d192ca0cf7be14980dd32c64386a4,calib
+CystoDS_6514a62d,CystoDS,data\raw\CystoDS\osf_project\images\6514a62d.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,1aa373f2e8ecea48eef9e4ea659ca27d,calib
+CystoDS_abec8c85,CystoDS,data\raw\CystoDS\osf_project\images\abec8c85.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,7ad1a9849e7c39c26a213aeb80dda9ac,calib
+CystoDS_10d1e3b4,CystoDS,data\raw\CystoDS\osf_project\images\10d1e3b4.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,d6f4bd82493e1283bb38a63c193cd0ed,calib
+CystoDS_a3309bcd,CystoDS,data\raw\CystoDS\osf_project\images\a3309bcd.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,e1283d359fc8e4e01428a166df44f82f,calib
+CystoDS_9cbce206,CystoDS,data\raw\CystoDS\osf_project\images\9cbce206.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,49748be93a3182f030be78a245e5b8df,calib
+CystoDS_0fd86e9f,CystoDS,data\raw\CystoDS\osf_project\images\0fd86e9f.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,35693d1455abfe1ae6dcd6a2145372a8,calib
+CystoDS_364c0855,CystoDS,data\raw\CystoDS\osf_project\images\364c0855.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,8498924f38d81a64e1136ab3f57fcf7f,calib
+CystoDS_6ef05a8c,CystoDS,data\raw\CystoDS\osf_project\images\6ef05a8c.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,24d15fb5d3ae1916337653c9257049a5,calib
+CystoDS_0b45cd66,CystoDS,data\raw\CystoDS\osf_project\images\0b45cd66.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,ced7184554628d73c38cc82c0df8c31b,calib
+CystoDS_4bf5bd39,CystoDS,data\raw\CystoDS\osf_project\images\4bf5bd39.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,40831305a5f75443712f30518bd85ac3,calib
+CystoDS_dd10f42d,CystoDS,data\raw\CystoDS\osf_project\images\dd10f42d.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,14537ae6c84d0d1d9e5c63edc0906825,calib
+CystoDS_ed0991d2,CystoDS,data\raw\CystoDS\osf_project\images\ed0991d2.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,a28c062b9870704a39a15b04f213493e,calib
+CystoDS_8006f3f2,CystoDS,data\raw\CystoDS\osf_project\images\8006f3f2.png,data\raw\CystoDS\osf_project\segmentations\8006f3f2.json,True,1080,,,WLC,anatomical landmarks,0,0,2,external,352,240,True,,723df7ee2b19c6b4d7206d9e3e44ef50,calib
+CystoDS_f1766271,CystoDS,data\raw\CystoDS\osf_project\images\f1766271.png,data\raw\CystoDS\osf_project\segmentations\f1766271.json,True,1080,,,WLC,anatomical landmarks,0,0,2,external,352,240,True,,2f97bba0ddb90a114c90723286824fd1,calib
+CystoDS_cffdee46,CystoDS,data\raw\CystoDS\osf_project\images\cffdee46.png,data\raw\CystoDS\osf_project\segmentations\cffdee46.json,True,1080,,,WLC,anatomical landmarks,0,0,2,external,352,240,True,,968f973b6161c1073cd3b8e079fac59b,calib
+CystoDS_f32a40b2,CystoDS,data\raw\CystoDS\osf_project\images\f32a40b2.png,data\raw\CystoDS\osf_project\segmentations\f32a40b2.json,True,1080,,,WLC,anatomical landmarks,0,0,2,external,352,240,True,,35547f7ea9dd1f4c5431a1f86ff2b4aa,calib
+CystoDS_69b3724e,CystoDS,data\raw\CystoDS\osf_project\images\69b3724e.png,data\raw\CystoDS\osf_project\segmentations\69b3724e.json,True,1080,,,WLC,anatomical landmarks,0,0,2,external,352,240,True,,6646b8412609621b641879906727523d,calib
+CystoDS_a4ca6b92,CystoDS,data\raw\CystoDS\osf_project\images\a4ca6b92.png,data\raw\CystoDS\osf_project\segmentations\a4ca6b92.json,True,1080,,,WLC,anatomical landmarks,0,0,2,external,352,240,True,,6a8a28953ced100dd48304e41f74fa22,calib
+CystoDS_d522d290,CystoDS,data\raw\CystoDS\osf_project\images\d522d290.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,dca74a3d0e8482a094c321f79a47a349,calib
+CystoDS_b0be691b,CystoDS,data\raw\CystoDS\osf_project\images\b0be691b.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,f5126e717fd0930a95d94c7b03bfd14b,calib
+CystoDS_42db71f7,CystoDS,data\raw\CystoDS\osf_project\images\42db71f7.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,120a494f22c7adb796ee6310d8efd91b,calib
+CystoDS_2687d6a7,CystoDS,data\raw\CystoDS\osf_project\images\2687d6a7.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,005fe43dfe96b2c495e310f8d9945dce,calib
+CystoDS_856e8175,CystoDS,data\raw\CystoDS\osf_project\images\856e8175.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,d74932f85ecc0d6c5fce47351b753dd2,calib
+CystoDS_70955b24,CystoDS,data\raw\CystoDS\osf_project\images\70955b24.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,607534d27db99c92efd7289597b1f496,calib
+CystoDS_fa50653c,CystoDS,data\raw\CystoDS\osf_project\images\fa50653c.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,7ee82cf7bc857d962799891066f5349b,calib
+CystoDS_cb392fa3,CystoDS,data\raw\CystoDS\osf_project\images\cb392fa3.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,96f80196c8f724b551be53b06b20f0be,calib
+CystoDS_2918f38e,CystoDS,data\raw\CystoDS\osf_project\images\2918f38e.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,0563e34a78793f9fea086c3926e551e4,calib
+CystoDS_fe111d7c,CystoDS,data\raw\CystoDS\osf_project\images\fe111d7c.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,101bed41822621f52c7c20a698c52886,calib
+CystoDS_5efdd0ec,CystoDS,data\raw\CystoDS\osf_project\images\5efdd0ec.png,data\raw\CystoDS\osf_project\segmentations\5efdd0ec.json,True,1080,1.0,L1,WLC,malignant,1,1,0,external,352,240,True,,01af8b49cc9fcf899872f061c1753dcf,calib
+CystoDS_56bd5364,CystoDS,data\raw\CystoDS\osf_project\images\56bd5364.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,451d69dd7769aa3dd662da55c421e121,calib
+CystoDS_4b9d7610,CystoDS,data\raw\CystoDS\osf_project\images\4b9d7610.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,3cbf3b589f7e145836e8ce9d741a0e73,calib
+CystoDS_821ad7c4,CystoDS,data\raw\CystoDS\osf_project\images\821ad7c4.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,56b207c40472ab2e7720de491165f1d7,calib
+CystoDS_009ee0d2,CystoDS,data\raw\CystoDS\osf_project\images\009ee0d2.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,1f8495271d3469ccf2234fcb797960ea,calib
+CystoDS_05120601,CystoDS,data\raw\CystoDS\osf_project\images\05120601.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,70cd24e3e1c81d860bcbb8831e81c7ec,calib
+CystoDS_caa46ed3,CystoDS,data\raw\CystoDS\osf_project\images\caa46ed3.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,0a2b056980a0e46928cec3cdf6c67133,calib
+CystoDS_fb247ac7,CystoDS,data\raw\CystoDS\osf_project\images\fb247ac7.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,86665973c36fe2deafc327182e28a937,calib
+CystoDS_2d4c887e,CystoDS,data\raw\CystoDS\osf_project\images\2d4c887e.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,094c2c37d49ed05d2751e0de3e693189,calib
+CystoDS_afbe6d05,CystoDS,data\raw\CystoDS\osf_project\images\afbe6d05.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,690c1c9b72e0b2fcf7cf62ad1c4ea4f5,calib
+CystoDS_05b890f7,CystoDS,data\raw\CystoDS\osf_project\images\05b890f7.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,da2d48c296a565a7046a70bc6cea17b8,calib
+CystoDS_74bf7e1f,CystoDS,data\raw\CystoDS\osf_project\images\74bf7e1f.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,a924b5355f188573465fd9b0068328d6,calib
+CystoDS_20a97315,CystoDS,data\raw\CystoDS\osf_project\images\20a97315.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,c775f851096e0b57aee58ce2b438e219,calib
+CystoDS_4fd7d57d,CystoDS,data\raw\CystoDS\osf_project\images\4fd7d57d.png,,False,1080,,,WLC,normal mucosa,0,0,4,external,352,240,True,,d89721870297dee38306a8c86692decb,calib
+CystoDS_2932c2ac,CystoDS,data\raw\CystoDS\osf_project\images\2932c2ac.png,data\raw\CystoDS\osf_project\segmentations\2932c2ac.json,True,1095,3.0,L1,WLC,malignant,1,1,0,external,352,240,True,,8e00735ded297d32586362c1e444389f,calib
+CystoDS_f6b0e0c1,CystoDS,data\raw\CystoDS\osf_project\images\f6b0e0c1.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,111193959bf05a04d475374242389bc3,calib
+CystoDS_418ad061,CystoDS,data\raw\CystoDS\osf_project\images\418ad061.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,84f6477c3db3b4dd45c85d8fe877942c,calib
+CystoDS_9c2a2e63,CystoDS,data\raw\CystoDS\osf_project\images\9c2a2e63.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,19a5760baba3b54c7bedfd82eef7b7d3,calib
+CystoDS_9b5dd6a0,CystoDS,data\raw\CystoDS\osf_project\images\9b5dd6a0.png,data\raw\CystoDS\osf_project\segmentations\9b5dd6a0.json,True,1095,3.0,L1,WLC,malignant,1,1,0,external,352,240,True,,ff807104f291e057f5a198d72b908bb4,calib
+CystoDS_c98ca794,CystoDS,data\raw\CystoDS\osf_project\images\c98ca794.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,26d7255434e3f890d5130ae71213d9ed,calib
+CystoDS_f2bc2887,CystoDS,data\raw\CystoDS\osf_project\images\f2bc2887.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,a5db8bde611cbe0b730a0e631d345d4c,calib
+CystoDS_a8360276,CystoDS,data\raw\CystoDS\osf_project\images\a8360276.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,525add90bf27d9d9df298bc4a6935dfa,calib
+CystoDS_b7e33e24,CystoDS,data\raw\CystoDS\osf_project\images\b7e33e24.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,a3ea024a0b41842df8ee8d4b08542af7,calib
+CystoDS_307ba217,CystoDS,data\raw\CystoDS\osf_project\images\307ba217.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,4b082ee64cc7f30394a955bd94bb38aa,calib
+CystoDS_4622b714,CystoDS,data\raw\CystoDS\osf_project\images\4622b714.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,aa14d60cc69f2112c0e359f074709b17,calib
+CystoDS_cd248cbe,CystoDS,data\raw\CystoDS\osf_project\images\cd248cbe.png,data\raw\CystoDS\osf_project\segmentations\cd248cbe.json,True,1095,3.0,L1,WLC,malignant,1,1,0,external,352,240,True,,57773cfaa8286fc756c4c3ee1268bf69,calib
+CystoDS_f0517da9,CystoDS,data\raw\CystoDS\osf_project\images\f0517da9.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,3dbf4676a59b40d27345a19d42f47ed0,calib
+CystoDS_2ff669ac,CystoDS,data\raw\CystoDS\osf_project\images\2ff669ac.png,data\raw\CystoDS\osf_project\segmentations\2ff669ac.json,True,1095,1.0,L2,WLC,malignant,1,1,0,external,352,240,True,,db0b0e9587977fc174f2b437d0bb5a52,calib
+CystoDS_ac18d794,CystoDS,data\raw\CystoDS\osf_project\images\ac18d794.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,a5b5034b3b42f3806cc9df85af8e1c2e,calib
+CystoDS_8fad4443,CystoDS,data\raw\CystoDS\osf_project\images\8fad4443.png,data\raw\CystoDS\osf_project\segmentations\8fad4443.json,True,1095,3.0,L1,WLC,malignant,1,1,0,external,352,240,True,,bc1645886bf300c34a6d8289632343dd,calib
+CystoDS_3f628428,CystoDS,data\raw\CystoDS\osf_project\images\3f628428.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,772b7777c5fd722a914e8caf9b7c3ca6,calib
+CystoDS_9ca0d2a8,CystoDS,data\raw\CystoDS\osf_project\images\9ca0d2a8.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,5769fa04d11d53dd3b3410a8a260f68e,calib
+CystoDS_bf6514c3,CystoDS,data\raw\CystoDS\osf_project\images\bf6514c3.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,65aa01958918622e2960dcc03a1be747,calib
+CystoDS_3dcc674e,CystoDS,data\raw\CystoDS\osf_project\images\3dcc674e.png,data\raw\CystoDS\osf_project\segmentations\3dcc674e.json,True,1095,3.0,L1,WLC,malignant,1,1,0,external,352,240,True,,ab6470e6c0d66113718f3ffe0fb47576,calib
+CystoDS_f135abe0,CystoDS,data\raw\CystoDS\osf_project\images\f135abe0.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,d230b5b291a731396383cfa8537bda05,calib
+CystoDS_b9a2bb03,CystoDS,data\raw\CystoDS\osf_project\images\b9a2bb03.png,data\raw\CystoDS\osf_project\segmentations\b9a2bb03.json,True,1095,3.0,L1,WLC,malignant,1,1,0,external,352,240,True,,bd6218a06a7126c6d5e089d5e8123dfb,calib
+CystoDS_2ef34716,CystoDS,data\raw\CystoDS\osf_project\images\2ef34716.png,data\raw\CystoDS\osf_project\segmentations\2ef34716.json,True,1095,3.0,L1,WLC,malignant,1,1,0,external,352,240,True,,98651c9f4c568ba4e95f9f04277275f3,calib
+CystoDS_3174bdbc,CystoDS,data\raw\CystoDS\osf_project\images\3174bdbc.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,3463f7bdfd8840f21665313b4638a162,calib
+CystoDS_640f8fa5,CystoDS,data\raw\CystoDS\osf_project\images\640f8fa5.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,abd8858311066104a790eef8d0e27efa,calib
+CystoDS_e60c3528,CystoDS,data\raw\CystoDS\osf_project\images\e60c3528.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,770137e42f2d02b5321aca6abb88f6c8,calib
+CystoDS_259169d7,CystoDS,data\raw\CystoDS\osf_project\images\259169d7.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,31e417a542c3c5015ebfc96f1bd43217,calib
+CystoDS_21c8b1d8,CystoDS,data\raw\CystoDS\osf_project\images\21c8b1d8.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,4bea9ae23251aeccffdae391ee538cf4,calib
+CystoDS_d05174b1,CystoDS,data\raw\CystoDS\osf_project\images\d05174b1.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,28dd955c8aa18ea67b0a10d8002d70fc,calib
+CystoDS_9b5a91a1,CystoDS,data\raw\CystoDS\osf_project\images\9b5a91a1.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,9aabc6c124ae5a081ee004afa162cda7,calib
+CystoDS_8bda8063,CystoDS,data\raw\CystoDS\osf_project\images\8bda8063.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,4a87d303aef16ccb531e516180044f41,calib
+CystoDS_08b5a850,CystoDS,data\raw\CystoDS\osf_project\images\08b5a850.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,313460ae98b49b1213d052ed46753254,calib
+CystoDS_95b053bb,CystoDS,data\raw\CystoDS\osf_project\images\95b053bb.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,fd1193038c6d60b1bfa9983d9bd230e1,calib
+CystoDS_47b1d6da,CystoDS,data\raw\CystoDS\osf_project\images\47b1d6da.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,bf5fef360572faf97085b6834e3ebde8,calib
+CystoDS_3eea103e,CystoDS,data\raw\CystoDS\osf_project\images\3eea103e.png,data\raw\CystoDS\osf_project\segmentations\3eea103e.json,True,1095,3.0,L1,WLC,malignant,1,1,0,external,352,240,True,,7d8aa57b47acdeacb005ed8eb4f4ef01,calib
+CystoDS_a440bb64,CystoDS,data\raw\CystoDS\osf_project\images\a440bb64.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,61a3db0474dbb2fd52bca81068ca71ef,calib
+CystoDS_8b230f98,CystoDS,data\raw\CystoDS\osf_project\images\8b230f98.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,d322fda635f1694d5f70839ec3fb272a,calib
+CystoDS_44f6d64c,CystoDS,data\raw\CystoDS\osf_project\images\44f6d64c.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,ccf72005cd42673c2619abb601f9dbca,calib
+CystoDS_71d26ee1,CystoDS,data\raw\CystoDS\osf_project\images\71d26ee1.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,68a22d813c26f1a5daef54f39748bd9d,calib
+CystoDS_964b8cf6,CystoDS,data\raw\CystoDS\osf_project\images\964b8cf6.png,data\raw\CystoDS\osf_project\segmentations\964b8cf6.json,True,1095,3.0,L1,WLC,malignant,1,1,0,external,352,240,True,,7b2236a2efd1b706a946ecbe64834b70,calib
+CystoDS_e83d1af5,CystoDS,data\raw\CystoDS\osf_project\images\e83d1af5.png,data\raw\CystoDS\osf_project\segmentations\e83d1af5.json,True,1095,3.0,L1,WLC,malignant,1,1,0,external,352,240,True,,775bc8ba03876dfe38ba93bb13f0ec97,calib
+CystoDS_6d5c46cb,CystoDS,data\raw\CystoDS\osf_project\images\6d5c46cb.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,35e36d5004ded50714b4f8b7009560ab,calib
+CystoDS_f452bbf8,CystoDS,data\raw\CystoDS\osf_project\images\f452bbf8.png,data\raw\CystoDS\osf_project\segmentations\f452bbf8.json,True,1095,1.0,L2,WLC,malignant,1,1,0,external,352,240,True,,f17310a01d3aa52cd260b9a3a67d0799,calib
+CystoDS_b938a081,CystoDS,data\raw\CystoDS\osf_project\images\b938a081.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,e0586cf9b7fa9226a05bf92d8aad46b3,calib
+CystoDS_b8b82050,CystoDS,data\raw\CystoDS\osf_project\images\b8b82050.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,bbfa34d5d60059cdc9ff7e1b8ee7c7f0,calib
+CystoDS_33ff4f9f,CystoDS,data\raw\CystoDS\osf_project\images\33ff4f9f.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,2d4e743fb34a8ba9e48b5c893d809d6b,calib
+CystoDS_f8ef9cab,CystoDS,data\raw\CystoDS\osf_project\images\f8ef9cab.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,51496ef2d21e9f73d294dde0af0fb4f9,calib
+CystoDS_f02df4ed,CystoDS,data\raw\CystoDS\osf_project\images\f02df4ed.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,f39816c8e11b9399820bbade895d1e8d,calib
+CystoDS_925fa775,CystoDS,data\raw\CystoDS\osf_project\images\925fa775.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,3c276e79adf3d69c1b6450e56e165958,calib
+CystoDS_0f117353,CystoDS,data\raw\CystoDS\osf_project\images\0f117353.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,1843182dd6dff8387e672d0dac990d03,calib
+CystoDS_b34781b2,CystoDS,data\raw\CystoDS\osf_project\images\b34781b2.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,7593e604bea9c1e38d63bd92b91b6e72,calib
+CystoDS_3e604e52,CystoDS,data\raw\CystoDS\osf_project\images\3e604e52.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,0ddb1fb3b60120bdc341995564c79857,calib
+CystoDS_257f1807,CystoDS,data\raw\CystoDS\osf_project\images\257f1807.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,5074f646ddedc1e6fe6a79728df8af6d,calib
+CystoDS_e137107e,CystoDS,data\raw\CystoDS\osf_project\images\e137107e.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,8bff9d854bdd30009d5a12f6da3e8c43,calib
+CystoDS_6fc910c2,CystoDS,data\raw\CystoDS\osf_project\images\6fc910c2.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,37f4348e7f3c33258661087a4ddbccf9,calib
+CystoDS_7393a101,CystoDS,data\raw\CystoDS\osf_project\images\7393a101.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,49f26481f0e72bee86683090fe5405fb,calib
+CystoDS_f64bf68a,CystoDS,data\raw\CystoDS\osf_project\images\f64bf68a.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,b4aa492e5e1fda7432062efd98260f37,calib
+CystoDS_cf6e6494,CystoDS,data\raw\CystoDS\osf_project\images\cf6e6494.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,477ddc97498602921c90d6985fe73583,calib
+CystoDS_b1ce1c28,CystoDS,data\raw\CystoDS\osf_project\images\b1ce1c28.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,5f56942e61978bac1f381c3d1924205e,calib
+CystoDS_3722857c,CystoDS,data\raw\CystoDS\osf_project\images\3722857c.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,d404f7977d58ef255274133881580c7a,calib
+CystoDS_81d00dcf,CystoDS,data\raw\CystoDS\osf_project\images\81d00dcf.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,a70313faeb467303d1316825df94cf98,calib
+CystoDS_615f34c8,CystoDS,data\raw\CystoDS\osf_project\images\615f34c8.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,324c3494b086b6a4088e797a63b8ae4d,calib
+CystoDS_0521cd9f,CystoDS,data\raw\CystoDS\osf_project\images\0521cd9f.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,74678ec0aa158a381d7178f0cd53081c,calib
+CystoDS_2d0aaa0a,CystoDS,data\raw\CystoDS\osf_project\images\2d0aaa0a.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,636d5eeb7855b42cfa0bc0f8737cf4f8,calib
+CystoDS_7970336e,CystoDS,data\raw\CystoDS\osf_project\images\7970336e.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,21d2fd410b8523552a8f012eacc1bc8a,calib
+CystoDS_969191ae,CystoDS,data\raw\CystoDS\osf_project\images\969191ae.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,eab22017f6e8dcd37df52632f4ff8d0d,calib
+CystoDS_56d60a17,CystoDS,data\raw\CystoDS\osf_project\images\56d60a17.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,5d8d2fa2c6ee381d8fcb1a37c2191e73,calib
+CystoDS_71de6e2d,CystoDS,data\raw\CystoDS\osf_project\images\71de6e2d.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,4c02f14c69df59a4e59323115a0e4c81,calib
+CystoDS_a4f60fd9,CystoDS,data\raw\CystoDS\osf_project\images\a4f60fd9.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,0d355361243da133578f443d8107c876,calib
+CystoDS_5edbdf7f,CystoDS,data\raw\CystoDS\osf_project\images\5edbdf7f.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,6efb93bafd7e4bb7276304091297b10f,calib
+CystoDS_4281bf50,CystoDS,data\raw\CystoDS\osf_project\images\4281bf50.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,8f0043b684349e415930fc209782ea4d,calib
+CystoDS_5e552942,CystoDS,data\raw\CystoDS\osf_project\images\5e552942.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,b2501d502cd02ba716242c4cabb54dcc,calib
+CystoDS_df54796a,CystoDS,data\raw\CystoDS\osf_project\images\df54796a.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,11771c24b4171bc6bdf0205e6208cf8b,calib
+CystoDS_3824658d,CystoDS,data\raw\CystoDS\osf_project\images\3824658d.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,4eeef9cb685d857cd473208fa7a52318,calib
+CystoDS_30719d53,CystoDS,data\raw\CystoDS\osf_project\images\30719d53.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,09dd2d3cf818adc1dbc16afb39b9b054,calib
+CystoDS_e96953cf,CystoDS,data\raw\CystoDS\osf_project\images\e96953cf.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,4379205fb200cd511a4f425a21f88124,calib
+CystoDS_5d5acb46,CystoDS,data\raw\CystoDS\osf_project\images\5d5acb46.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,108427570be1e28bcc349e7494b35c8c,calib
+CystoDS_c6893ff8,CystoDS,data\raw\CystoDS\osf_project\images\c6893ff8.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,ba20095586e410b31abf8d69d8e84feb,calib
+CystoDS_cf698a77,CystoDS,data\raw\CystoDS\osf_project\images\cf698a77.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,6d76203ae4cccba27c37bb5f03ad6728,calib
+CystoDS_d9549646,CystoDS,data\raw\CystoDS\osf_project\images\d9549646.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,7444c95ffd74d4ecb70cd53d65f9a6e6,calib
+CystoDS_a2f7912d,CystoDS,data\raw\CystoDS\osf_project\images\a2f7912d.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,b5e3b282ed6dee9813548b9c2b840271,calib
+CystoDS_e1245326,CystoDS,data\raw\CystoDS\osf_project\images\e1245326.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,6353e23c5de473d59b0ce9cea5fe303e,calib
+CystoDS_9441ea36,CystoDS,data\raw\CystoDS\osf_project\images\9441ea36.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,d8604338ea96a2c2ae89c549849727e7,calib
+CystoDS_8bcd63aa,CystoDS,data\raw\CystoDS\osf_project\images\8bcd63aa.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,61a1e4bc29f478e6f923ec4b149dc5e2,calib
+CystoDS_2074250e,CystoDS,data\raw\CystoDS\osf_project\images\2074250e.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,05bf0cc99d4405a0e3e796606a5ca955,calib
+CystoDS_5b2c17f4,CystoDS,data\raw\CystoDS\osf_project\images\5b2c17f4.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,3e7b631488ee7bd14d0c22ed78e7e14b,calib
+CystoDS_b968f6cd,CystoDS,data\raw\CystoDS\osf_project\images\b968f6cd.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,4c5b6c58eaaa49ba73b2b7c4e6489ef2,calib
+CystoDS_8027dfde,CystoDS,data\raw\CystoDS\osf_project\images\8027dfde.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,29abf746ae7a637037fa880a7dcc33f6,calib
+CystoDS_fbf17e4c,CystoDS,data\raw\CystoDS\osf_project\images\fbf17e4c.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,ece2b318d10e7c5c1bb355124cf7ce99,calib
+CystoDS_9957dd5a,CystoDS,data\raw\CystoDS\osf_project\images\9957dd5a.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,bfe8e08d8590c11867cb5a99fcd7f3bf,calib
+CystoDS_613781bc,CystoDS,data\raw\CystoDS\osf_project\images\613781bc.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,b42b99ae565285704ebdfcdb6816e9b2,calib
+CystoDS_d6993b32,CystoDS,data\raw\CystoDS\osf_project\images\d6993b32.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,5912ddac3fd7fcf692b846cadcf45e2e,calib
+CystoDS_82e3db69,CystoDS,data\raw\CystoDS\osf_project\images\82e3db69.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,8a5c4345bc2fdbbccc18ab0bc38c9e19,calib
+CystoDS_2230cac4,CystoDS,data\raw\CystoDS\osf_project\images\2230cac4.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,5eb01cac254690a08c68c04a6991f1cc,calib
+CystoDS_82dd5c40,CystoDS,data\raw\CystoDS\osf_project\images\82dd5c40.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,1562b1675c9d98a2685826901327a393,calib
+CystoDS_4753ee4b,CystoDS,data\raw\CystoDS\osf_project\images\4753ee4b.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,646406733b8bd94609d3eeea54732927,calib
+CystoDS_5c2d1b3f,CystoDS,data\raw\CystoDS\osf_project\images\5c2d1b3f.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,b28515cf024a0a4eed5ccc576281fe84,calib
+CystoDS_4f306fb9,CystoDS,data\raw\CystoDS\osf_project\images\4f306fb9.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,c72b0e5dc45fef37771ab6bf92cac616,calib
+CystoDS_e43efd2e,CystoDS,data\raw\CystoDS\osf_project\images\e43efd2e.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,08ec5bff8f98b9b3dce5645fb0c0bc70,calib
+CystoDS_87066fc1,CystoDS,data\raw\CystoDS\osf_project\images\87066fc1.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,8630dc6e7efc3ff9281a7b5e3562ad91,calib
+CystoDS_e1c0c129,CystoDS,data\raw\CystoDS\osf_project\images\e1c0c129.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,f9a509860809762a2eeeba3fb038126c,calib
+CystoDS_9b5fe06e,CystoDS,data\raw\CystoDS\osf_project\images\9b5fe06e.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,30f5033f2bbfb60b1c277762984e0afb,calib
+CystoDS_09dcb486,CystoDS,data\raw\CystoDS\osf_project\images\09dcb486.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,448c259e37eb884f639188c399bc1412,calib
+CystoDS_462a1fae,CystoDS,data\raw\CystoDS\osf_project\images\462a1fae.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,61067a14e6801be3ac24a85a1de5f379,calib
+CystoDS_7f63ccad,CystoDS,data\raw\CystoDS\osf_project\images\7f63ccad.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,a02d080b2742b99aa0413334fb3c1551,calib
+CystoDS_59fa0df6,CystoDS,data\raw\CystoDS\osf_project\images\59fa0df6.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,41ae0bebe19cc9d50f1a4647cd4da21b,calib
+CystoDS_8bfdee24,CystoDS,data\raw\CystoDS\osf_project\images\8bfdee24.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,45efde48a7c740c5d20d2ba7c5ed6078,calib
+CystoDS_cdf0d2ea,CystoDS,data\raw\CystoDS\osf_project\images\cdf0d2ea.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,d0454bc8292a89f560c22544dd4a89a2,calib
+CystoDS_a030092b,CystoDS,data\raw\CystoDS\osf_project\images\a030092b.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,3f74123df251027f9113b9d07b5a9675,calib
+CystoDS_19d06e7b,CystoDS,data\raw\CystoDS\osf_project\images\19d06e7b.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,3140d611fffbd84894b4f51380b96b3c,calib
+CystoDS_6e37503c,CystoDS,data\raw\CystoDS\osf_project\images\6e37503c.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,522ac9dd9cbf1f5715e838d42dd3774e,calib
+CystoDS_960a68ef,CystoDS,data\raw\CystoDS\osf_project\images\960a68ef.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,b7d638225afd43dd3447726b0c4b75c8,calib
+CystoDS_591ffa34,CystoDS,data\raw\CystoDS\osf_project\images\591ffa34.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,8f392798c34e04b95a9c88d031f7d267,calib
+CystoDS_9459a429,CystoDS,data\raw\CystoDS\osf_project\images\9459a429.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,df6364016e168a1da16cead060a94c29,calib
+CystoDS_df611458,CystoDS,data\raw\CystoDS\osf_project\images\df611458.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,00d609cdee5a8107851600a9d7d4ed42,calib
+CystoDS_5f3ff564,CystoDS,data\raw\CystoDS\osf_project\images\5f3ff564.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,b6305f68eb622e21011902a319784c2c,calib
+CystoDS_ad943eac,CystoDS,data\raw\CystoDS\osf_project\images\ad943eac.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,6f014c3368dc9c473a8ec6d41279b8b6,calib
+CystoDS_b52c294e,CystoDS,data\raw\CystoDS\osf_project\images\b52c294e.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,38705378e16f11d5d83cad38eeb439b3,calib
+CystoDS_894fa9e9,CystoDS,data\raw\CystoDS\osf_project\images\894fa9e9.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,1802135ba9793e517baec3ee24d03092,calib
+CystoDS_9c37449c,CystoDS,data\raw\CystoDS\osf_project\images\9c37449c.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,d2b5fe24c883671245015c5f080e702f,calib
+CystoDS_150792ff,CystoDS,data\raw\CystoDS\osf_project\images\150792ff.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,c96998dfbe96c02be2c033c028b4f73d,calib
+CystoDS_f6e49c3b,CystoDS,data\raw\CystoDS\osf_project\images\f6e49c3b.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,1dc97ce5165438cf03f5a082f789c7ab,calib
+CystoDS_83c997be,CystoDS,data\raw\CystoDS\osf_project\images\83c997be.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,11f069dcace111a1b715c9b919737d33,calib
+CystoDS_40d81142,CystoDS,data\raw\CystoDS\osf_project\images\40d81142.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,dddb431d1fc9f970e05859c4c7f0aa65,calib
+CystoDS_5df48504,CystoDS,data\raw\CystoDS\osf_project\images\5df48504.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,223185f7fc5adb4985caf5134ca6a0ce,calib
+CystoDS_cfed5fa4,CystoDS,data\raw\CystoDS\osf_project\images\cfed5fa4.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,ae90f41f5ac6c8905ec662a61abd3a2f,calib
+CystoDS_b4139643,CystoDS,data\raw\CystoDS\osf_project\images\b4139643.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,fc72e2ba54361c47191470afe2b2f0f0,calib
+CystoDS_dced7129,CystoDS,data\raw\CystoDS\osf_project\images\dced7129.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,f1b1a37496def0178f467f8c254aa2a4,calib
+CystoDS_6fed91ca,CystoDS,data\raw\CystoDS\osf_project\images\6fed91ca.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,d8ac37ddb019bbae5140c56e73546b2c,calib
+CystoDS_71c9be4b,CystoDS,data\raw\CystoDS\osf_project\images\71c9be4b.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,3ae0e87a422ab46a3f7ba97f82982dcd,calib
+CystoDS_51436973,CystoDS,data\raw\CystoDS\osf_project\images\51436973.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,340374fc3a19b08dc1f41e2d094a853c,calib
+CystoDS_6ec8cd4e,CystoDS,data\raw\CystoDS\osf_project\images\6ec8cd4e.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,2f028d323d5a93857e6ad0bc67ca2ad8,calib
+CystoDS_9fea0543,CystoDS,data\raw\CystoDS\osf_project\images\9fea0543.png,data\raw\CystoDS\osf_project\segmentations\9fea0543.json,True,1095,,,WLC,foreign bodies,0,0,3,external,352,240,True,,27632e9ccc35d85ab8f5bac1b84c73a3,calib
+CystoDS_5b6f430a,CystoDS,data\raw\CystoDS\osf_project\images\5b6f430a.png,data\raw\CystoDS\osf_project\segmentations\5b6f430a.json,True,1095,,,WLC,foreign bodies,0,0,3,external,352,240,True,,a181b94d3b78cfa9e410d2e843d72248,calib
+CystoDS_4336849b,CystoDS,data\raw\CystoDS\osf_project\images\4336849b.png,data\raw\CystoDS\osf_project\segmentations\4336849b.json,True,1095,,,WLC,foreign bodies,0,0,3,external,352,240,True,,dd397e883bc55fdf587131b0f0993158,calib
+CystoDS_688a6a37,CystoDS,data\raw\CystoDS\osf_project\images\688a6a37.png,data\raw\CystoDS\osf_project\segmentations\688a6a37.json,True,1095,,,WLC,foreign bodies,0,0,3,external,352,240,True,,741d8f20394fdb4b999e60bac67568fe,calib
+CystoDS_c26447bc,CystoDS,data\raw\CystoDS\osf_project\images\c26447bc.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,8d4cb08edcc66f361cef2c11ee19f0c4,calib
+CystoDS_fb9bd56c,CystoDS,data\raw\CystoDS\osf_project\images\fb9bd56c.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,a4616b0f9f0cbeb4a671d01787313617,calib
+CystoDS_53e64a18,CystoDS,data\raw\CystoDS\osf_project\images\53e64a18.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,75284befd447eae6a7c857c4ab6884f4,calib
+CystoDS_30efca6f,CystoDS,data\raw\CystoDS\osf_project\images\30efca6f.png,data\raw\CystoDS\osf_project\segmentations\30efca6f.json,True,1095,3.0,L1,WLC,malignant,1,1,0,external,352,240,True,,1382d0fdaaaa54497ef1094283909ecc,calib
+CystoDS_389d8be8,CystoDS,data\raw\CystoDS\osf_project\images\389d8be8.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,98cb6e5f253923007949a988acdaa658,calib
+CystoDS_121e1195,CystoDS,data\raw\CystoDS\osf_project\images\121e1195.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,6959445cd0fe9ebd920cd4b53646ea19,calib
+CystoDS_71362f35,CystoDS,data\raw\CystoDS\osf_project\images\71362f35.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,c9ef0b61460ca30033af06cfd3016552,calib
+CystoDS_4644bf29,CystoDS,data\raw\CystoDS\osf_project\images\4644bf29.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,8f63e0d0329d4bf2d9ab8614c62b620f,calib
+CystoDS_14a46526,CystoDS,data\raw\CystoDS\osf_project\images\14a46526.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,acc03649150e42bf2e83c4eb143e3561,calib
+CystoDS_5e347cd2,CystoDS,data\raw\CystoDS\osf_project\images\5e347cd2.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,8d0301f2b79f1a9aacf589cc34cf2c13,calib
+CystoDS_49ae4905,CystoDS,data\raw\CystoDS\osf_project\images\49ae4905.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,052aa19d91c08501597867d81cbe4da6,calib
+CystoDS_693aa60d,CystoDS,data\raw\CystoDS\osf_project\images\693aa60d.png,data\raw\CystoDS\osf_project\segmentations\693aa60d.json,True,1095,3.0,L1,WLC,malignant,1,1,0,external,352,240,True,,c215587652cbb82ed83734487653a5ad,calib
+CystoDS_56cbfdee,CystoDS,data\raw\CystoDS\osf_project\images\56cbfdee.png,data\raw\CystoDS\osf_project\segmentations\56cbfdee.json,True,1095,3.0,L1,WLC,malignant,1,1,0,external,352,240,True,,26c51d68b3292e606b2f4462045a0bb9,calib
+CystoDS_9b1126cb,CystoDS,data\raw\CystoDS\osf_project\images\9b1126cb.png,data\raw\CystoDS\osf_project\segmentations\9b1126cb.json,True,1095,3.0,L1,WLC,malignant,1,1,0,external,352,240,True,,b8660834de546902973aa2a678063249,calib
+CystoDS_7297823a,CystoDS,data\raw\CystoDS\osf_project\images\7297823a.png,data\raw\CystoDS\osf_project\segmentations\7297823a.json,True,1095,3.0,L1,WLC,malignant,1,1,0,external,352,240,True,,ec5fab37a65d2f8dadb8379de031a149,calib
+CystoDS_6a54a6c8,CystoDS,data\raw\CystoDS\osf_project\images\6a54a6c8.png,data\raw\CystoDS\osf_project\segmentations\6a54a6c8.json,True,1095,3.0,L1,WLC,malignant,1,1,0,external,352,240,True,,e05e42668eea5d64538af16d84daa0cc,calib
+CystoDS_e15ad79d,CystoDS,data\raw\CystoDS\osf_project\images\e15ad79d.png,data\raw\CystoDS\osf_project\segmentations\e15ad79d.json,True,1095,3.0,L1,WLC,malignant,1,1,0,external,352,240,True,,a9809b2c53a840278ef7c7517e00224c,calib
+CystoDS_d147d651,CystoDS,data\raw\CystoDS\osf_project\images\d147d651.png,data\raw\CystoDS\osf_project\segmentations\d147d651.json,True,1095,1.0,L1,WLC,malignant,1,1,0,external,352,240,True,,4503a84b96435b48ad6e47090df8b06d,calib
+CystoDS_fc2f6e00,CystoDS,data\raw\CystoDS\osf_project\images\fc2f6e00.png,data\raw\CystoDS\osf_project\segmentations\fc2f6e00.json,True,1095,1.0,L1,WLC,malignant,1,1,0,external,352,240,True,,fe68cd7be5ba9fe742fb8a9c711a3b91,calib
+CystoDS_675c813b,CystoDS,data\raw\CystoDS\osf_project\images\675c813b.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,41ceb6ecc9389f38e150b92ca2c6bbad,calib
+CystoDS_c70c407f,CystoDS,data\raw\CystoDS\osf_project\images\c70c407f.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,70c101fe9ba06aef2c0ca429306423f8,calib
+CystoDS_7ba019f1,CystoDS,data\raw\CystoDS\osf_project\images\7ba019f1.png,data\raw\CystoDS\osf_project\segmentations\7ba019f1.json,True,1095,1.0,L2,WLC,malignant,1,1,0,external,352,240,True,,e9e98aa9ec8376ead4047e9ee63adb9d,calib
+CystoDS_55fd12d8,CystoDS,data\raw\CystoDS\osf_project\images\55fd12d8.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,e0badcdf0de710886af1305407346338,calib
+CystoDS_c491a12a,CystoDS,data\raw\CystoDS\osf_project\images\c491a12a.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,ce7a4162bf31348473b7f21ba96f026c,calib
+CystoDS_42c7551d,CystoDS,data\raw\CystoDS\osf_project\images\42c7551d.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,f230a3ed1f824991718928c2d75adbcf,calib
+CystoDS_829a9858,CystoDS,data\raw\CystoDS\osf_project\images\829a9858.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,1301bb6d9092736046d9b3fb548db9b7,calib
+CystoDS_15cf3e62,CystoDS,data\raw\CystoDS\osf_project\images\15cf3e62.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,d6af805b5030690eb67b611c85835b41,calib
+CystoDS_fee1c30f,CystoDS,data\raw\CystoDS\osf_project\images\fee1c30f.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,16d329d5a553222cdbf8f727099cef65,calib
+CystoDS_f1e5819f,CystoDS,data\raw\CystoDS\osf_project\images\f1e5819f.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,31d35dad265a94b14a6c8ce9b1a017c9,calib
+CystoDS_5ab69a7f,CystoDS,data\raw\CystoDS\osf_project\images\5ab69a7f.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,f6207ee509a69f9483e22031a9e82b41,calib
+CystoDS_53dfbe02,CystoDS,data\raw\CystoDS\osf_project\images\53dfbe02.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,9e80a81b71d1933f150b1d65a7d1fbe3,calib
+CystoDS_abe3c48e,CystoDS,data\raw\CystoDS\osf_project\images\abe3c48e.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,7c2ba8faf25bc0e137b8c0c548c38db2,calib
+CystoDS_964c7366,CystoDS,data\raw\CystoDS\osf_project\images\964c7366.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,bdbf7f03b60a15161f49869846a3fe84,calib
+CystoDS_6653fa14,CystoDS,data\raw\CystoDS\osf_project\images\6653fa14.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,52f6a5b5694fbc1640a53c1f973fa651,calib
+CystoDS_ad63fcfc,CystoDS,data\raw\CystoDS\osf_project\images\ad63fcfc.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,76a877293d2395b7fccf7bc4d6b5fb73,calib
+CystoDS_4993528d,CystoDS,data\raw\CystoDS\osf_project\images\4993528d.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,f8e2949a8d08f04d76af32e4786b1f79,calib
+CystoDS_e670c436,CystoDS,data\raw\CystoDS\osf_project\images\e670c436.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,0b6775eb5cb1c50d124870290c843294,calib
+CystoDS_9ce9ab4a,CystoDS,data\raw\CystoDS\osf_project\images\9ce9ab4a.png,data\raw\CystoDS\osf_project\segmentations\9ce9ab4a.json,True,1095,1.0,L3,WLC,malignant,1,1,0,external,352,240,True,,086c4b5afd439aa6580d41eebc1cf6f8,calib
+CystoDS_baae52d6,CystoDS,data\raw\CystoDS\osf_project\images\baae52d6.png,data\raw\CystoDS\osf_project\segmentations\baae52d6.json,True,1095,1.0,L3,WLC,malignant,1,1,0,external,352,240,True,,f090c569e9b898140a19a1ce266796ce,calib
+CystoDS_27bae262,CystoDS,data\raw\CystoDS\osf_project\images\27bae262.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,ab721fc317217c1390b128b13ee014c7,calib
+CystoDS_8854ecf5,CystoDS,data\raw\CystoDS\osf_project\images\8854ecf5.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,34141c33b0656a93674a268551eced56,calib
+CystoDS_d48d6856,CystoDS,data\raw\CystoDS\osf_project\images\d48d6856.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,25d0c1893f6a421862751ab0228b4761,calib
+CystoDS_c5bc848e,CystoDS,data\raw\CystoDS\osf_project\images\c5bc848e.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,adb4690af7276481b8d245358be6063b,calib
+CystoDS_639c4e4c,CystoDS,data\raw\CystoDS\osf_project\images\639c4e4c.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,4f41ccfd566ab42f5f73f45d699bfa7c,calib
+CystoDS_2616553d,CystoDS,data\raw\CystoDS\osf_project\images\2616553d.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,9981d0f0847ebb5a9c78532771e87026,calib
+CystoDS_8cf378da,CystoDS,data\raw\CystoDS\osf_project\images\8cf378da.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,b813e6c1932fa5c96dcbddd347b636d9,calib
+CystoDS_4852c837,CystoDS,data\raw\CystoDS\osf_project\images\4852c837.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,9bba68d542b5faf7e8705add59cd60b7,calib
+CystoDS_ed2eb442,CystoDS,data\raw\CystoDS\osf_project\images\ed2eb442.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,3a99e498d5a53990186f2c04656b7b18,calib
+CystoDS_505ae95e,CystoDS,data\raw\CystoDS\osf_project\images\505ae95e.png,,False,1095,,,WLC,normal mucosa,0,0,4,external,352,240,True,,090976ee5f272805945b01482d1298b0,calib
+CystoDS_4fee54d2,CystoDS,data\raw\CystoDS\osf_project\images\4fee54d2.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,fecb0008c5dd81921928f3afcd32611b,calib
+CystoDS_effe86e5,CystoDS,data\raw\CystoDS\osf_project\images\effe86e5.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,f91578591354749157e6c599405636ef,calib
+CystoDS_580d933f,CystoDS,data\raw\CystoDS\osf_project\images\580d933f.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,43bfbc44ff2755e12175ab4f6f0cbde4,calib
+CystoDS_6765ee48,CystoDS,data\raw\CystoDS\osf_project\images\6765ee48.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,b6d84c8f68df59d040b5c9342a244117,calib
+CystoDS_df88fc3c,CystoDS,data\raw\CystoDS\osf_project\images\df88fc3c.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,1943565c844614cdf48d40066eb3433c,calib
+CystoDS_b21cd40a,CystoDS,data\raw\CystoDS\osf_project\images\b21cd40a.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,3bf109deae33fc07d3f978c9a28aa3dd,calib
+CystoDS_80e57ce7,CystoDS,data\raw\CystoDS\osf_project\images\80e57ce7.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,cb23ef82eac8d5372229718eda18bb08,calib
+CystoDS_58776b66,CystoDS,data\raw\CystoDS\osf_project\images\58776b66.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,bebe70225fb77ffcc9c6eec0bc423bab,calib
+CystoDS_105c9eb9,CystoDS,data\raw\CystoDS\osf_project\images\105c9eb9.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,c86ec9955c45e7c6929f323d7cc3e947,calib
+CystoDS_57ce0311,CystoDS,data\raw\CystoDS\osf_project\images\57ce0311.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,7eb0bdefc5aed41cce8fd72f40ed492e,calib
+CystoDS_11d4a822,CystoDS,data\raw\CystoDS\osf_project\images\11d4a822.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,5a68145ee70665e1aecd7e0d52793735,calib
+CystoDS_9ba75655,CystoDS,data\raw\CystoDS\osf_project\images\9ba75655.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,4fabc9b1e0d50bd6db9c36ef979aa200,calib
+CystoDS_131c0362,CystoDS,data\raw\CystoDS\osf_project\images\131c0362.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,59a2dba58ee68810ae3a44ab891cb2d8,calib
+CystoDS_913fc15c,CystoDS,data\raw\CystoDS\osf_project\images\913fc15c.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,e39efed4f142bf380ba2dc8e4b0a006a,calib
+CystoDS_d2f9d149,CystoDS,data\raw\CystoDS\osf_project\images\d2f9d149.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,cff4f2b2615f9742325167e33504cb2a,calib
+CystoDS_c2e5d456,CystoDS,data\raw\CystoDS\osf_project\images\c2e5d456.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,d5c39a7c2f251697f99f65fe97a7f33d,calib
+CystoDS_6e74fd8d,CystoDS,data\raw\CystoDS\osf_project\images\6e74fd8d.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,5d69ad0df921acd1d30441e6884ade7b,calib
+CystoDS_deb9a840,CystoDS,data\raw\CystoDS\osf_project\images\deb9a840.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,e43af0872f3ebf4f53f0bce0013f55a1,calib
+CystoDS_77bc5885,CystoDS,data\raw\CystoDS\osf_project\images\77bc5885.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,71d4e2e3a3f39756c6519a1fe4e81c65,calib
+CystoDS_780ac857,CystoDS,data\raw\CystoDS\osf_project\images\780ac857.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,5caccc31737de8e2c46d6390420828db,calib
+CystoDS_25ed3b93,CystoDS,data\raw\CystoDS\osf_project\images\25ed3b93.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,275ec4cf3d0102ae155a86d8443d1d5c,calib
+CystoDS_771c7b17,CystoDS,data\raw\CystoDS\osf_project\images\771c7b17.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,31debcdc4c91c53aaa625dfa8d32c5c3,calib
+CystoDS_09960737,CystoDS,data\raw\CystoDS\osf_project\images\09960737.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,85e52613b5ef3bf2ffee3c10d618942b,calib
+CystoDS_5d9dfa0c,CystoDS,data\raw\CystoDS\osf_project\images\5d9dfa0c.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,dff058a2204acc2b690932a8795a588b,calib
+CystoDS_0e4f8506,CystoDS,data\raw\CystoDS\osf_project\images\0e4f8506.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,01c9295dbb4b2b81cd36b8b22b58d2db,calib
+CystoDS_81bd3ed3,CystoDS,data\raw\CystoDS\osf_project\images\81bd3ed3.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,cb61cf9e7817c1d4429034119e656ef1,calib
+CystoDS_5b492d46,CystoDS,data\raw\CystoDS\osf_project\images\5b492d46.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,0d685d9dca5ea7ca942833681d74f015,calib
+CystoDS_c7992821,CystoDS,data\raw\CystoDS\osf_project\images\c7992821.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,53a416f2c605dff5d8571b55c504bb5a,calib
+CystoDS_d2a0d240,CystoDS,data\raw\CystoDS\osf_project\images\d2a0d240.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,dd7eed1ddb56a699ac4531641374dd29,calib
+CystoDS_87272f88,CystoDS,data\raw\CystoDS\osf_project\images\87272f88.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,4b852ad58622b7bec1444a65ef786762,calib
+CystoDS_b13a8b4f,CystoDS,data\raw\CystoDS\osf_project\images\b13a8b4f.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,45fe55403100f9e8e5eb530b3c5500f6,calib
+CystoDS_68e63cc8,CystoDS,data\raw\CystoDS\osf_project\images\68e63cc8.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,b3eb1f60daaaaba816ebe184bccbed4a,calib
+CystoDS_cc6d2d94,CystoDS,data\raw\CystoDS\osf_project\images\cc6d2d94.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,e0a384d588437559151b1b08d8cd07fb,calib
+CystoDS_25046b3b,CystoDS,data\raw\CystoDS\osf_project\images\25046b3b.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,2d06d6e932705da17c7bfeb85e15468c,calib
+CystoDS_a744f83c,CystoDS,data\raw\CystoDS\osf_project\images\a744f83c.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,e8382c89a5a09f2c270dc9acb72f75fb,calib
+CystoDS_0d1c2e9f,CystoDS,data\raw\CystoDS\osf_project\images\0d1c2e9f.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,c178f64999c53bb7ca1c53e56d9c140b,calib
+CystoDS_8c2a5112,CystoDS,data\raw\CystoDS\osf_project\images\8c2a5112.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,2fa534b047deab674efbdf486b61b647,calib
+CystoDS_39feb033,CystoDS,data\raw\CystoDS\osf_project\images\39feb033.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,ccc0eedd92a915656c6c854b270c39f8,calib
+CystoDS_878505a1,CystoDS,data\raw\CystoDS\osf_project\images\878505a1.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,d1358ab971337c91cd26475141c6a2bf,calib
+CystoDS_64315e7c,CystoDS,data\raw\CystoDS\osf_project\images\64315e7c.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,bad96669bd42abc86cb868fa7b2e4296,calib
+CystoDS_0bf74d7e,CystoDS,data\raw\CystoDS\osf_project\images\0bf74d7e.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,172651509102c204fd4e3bbfbf2d4ea7,calib
+CystoDS_b83221b5,CystoDS,data\raw\CystoDS\osf_project\images\b83221b5.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,497c45403a51223c38d40484521ddb5b,calib
+CystoDS_8cfe20c9,CystoDS,data\raw\CystoDS\osf_project\images\8cfe20c9.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,9130249945acaf9d09d1645773be1d03,calib
+CystoDS_586d36d4,CystoDS,data\raw\CystoDS\osf_project\images\586d36d4.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,026e8a459b4ea1f946f2740cda665744,calib
+CystoDS_80a86d46,CystoDS,data\raw\CystoDS\osf_project\images\80a86d46.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,28a1a097abc4d22a544eacdc4979a36d,calib
+CystoDS_d071a4ed,CystoDS,data\raw\CystoDS\osf_project\images\d071a4ed.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,0a001e67f03083962e200a932f924633,calib
+CystoDS_d531547c,CystoDS,data\raw\CystoDS\osf_project\images\d531547c.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,019b47c5e93d32d7dceb6762861bf7a6,calib
+CystoDS_000bc83c,CystoDS,data\raw\CystoDS\osf_project\images\000bc83c.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,e996ab57fd1530b3fd1331fd89cede00,calib
+CystoDS_02e6f1d8,CystoDS,data\raw\CystoDS\osf_project\images\02e6f1d8.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,bf4131fd2cac926cccf20d2f25383cab,calib
+CystoDS_a6949076,CystoDS,data\raw\CystoDS\osf_project\images\a6949076.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,26aa3b62b488830d08ce361b5bca2552,calib
+CystoDS_bd3c8088,CystoDS,data\raw\CystoDS\osf_project\images\bd3c8088.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,6b199d3c76fff47d378b48e929e010f9,calib
+CystoDS_f3f652dc,CystoDS,data\raw\CystoDS\osf_project\images\f3f652dc.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,aa0fdb08fd45306d51f55ef31eebba22,calib
+CystoDS_bdf5ed8a,CystoDS,data\raw\CystoDS\osf_project\images\bdf5ed8a.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,45849b280975bf63ecbfe8f499b02c88,calib
+CystoDS_7c0efd0b,CystoDS,data\raw\CystoDS\osf_project\images\7c0efd0b.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,b6aff736633d2b3bdc48d92dff8e5df1,calib
+CystoDS_849bcc91,CystoDS,data\raw\CystoDS\osf_project\images\849bcc91.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,0cf26c57f3076b7fd6c60149a4e88c49,calib
+CystoDS_76bb4ae1,CystoDS,data\raw\CystoDS\osf_project\images\76bb4ae1.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,fed359c8d9a0c81d3f215aa14a7490eb,calib
+CystoDS_a19e4aeb,CystoDS,data\raw\CystoDS\osf_project\images\a19e4aeb.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,7dcbde11c25990ed09d05cca3e57fde1,calib
+CystoDS_63472235,CystoDS,data\raw\CystoDS\osf_project\images\63472235.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,5383048dada838f7026aee566d0f7228,calib
+CystoDS_9f074762,CystoDS,data\raw\CystoDS\osf_project\images\9f074762.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,152e0715e28d65ad41be2f792eea9646,calib
+CystoDS_890d3d9f,CystoDS,data\raw\CystoDS\osf_project\images\890d3d9f.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,7e14d9e39f0d211bdbd0379818617a9e,calib
+CystoDS_6aab5066,CystoDS,data\raw\CystoDS\osf_project\images\6aab5066.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,2e3a8299ada92b691c3d419c5bf886c3,calib
+CystoDS_a6a68c98,CystoDS,data\raw\CystoDS\osf_project\images\a6a68c98.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,48d4f7e54637a618770ff543bb27db7a,calib
+CystoDS_ae3113e3,CystoDS,data\raw\CystoDS\osf_project\images\ae3113e3.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,e55f206e08c6b98d15cb83892ddd6e24,calib
+CystoDS_885da9c0,CystoDS,data\raw\CystoDS\osf_project\images\885da9c0.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,f959e260c2372390221bec6cb82daed5,calib
+CystoDS_e0e266f7,CystoDS,data\raw\CystoDS\osf_project\images\e0e266f7.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,c43a5fa6f706fb3c53d7315456ec348d,calib
+CystoDS_d561d9c1,CystoDS,data\raw\CystoDS\osf_project\images\d561d9c1.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,4258063afbc872f463cd9d24a2ef38d3,calib
+CystoDS_444f6fe1,CystoDS,data\raw\CystoDS\osf_project\images\444f6fe1.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,3fddc28e3aae8897da7ed62d8ff92ad9,calib
+CystoDS_7c508e88,CystoDS,data\raw\CystoDS\osf_project\images\7c508e88.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,3e3621e3f8d58ee168875fa0352857dd,calib
+CystoDS_10957079,CystoDS,data\raw\CystoDS\osf_project\images\10957079.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,e2eef0fba17c675969f146831d4fc721,calib
+CystoDS_6167a1c0,CystoDS,data\raw\CystoDS\osf_project\images\6167a1c0.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,bd01388eaba064b6c8a5a7e26c4c0780,calib
+CystoDS_0be133b5,CystoDS,data\raw\CystoDS\osf_project\images\0be133b5.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,0c3dc18afa92fee1bc7f71591e17c217,calib
+CystoDS_ea9c964a,CystoDS,data\raw\CystoDS\osf_project\images\ea9c964a.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,65ff7f5121c4346f0e3aa17dff68d708,calib
+CystoDS_2047070a,CystoDS,data\raw\CystoDS\osf_project\images\2047070a.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,a9aa976cafbaeeedabfd9093376d53f1,calib
+CystoDS_d7f33214,CystoDS,data\raw\CystoDS\osf_project\images\d7f33214.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,465b4e7633762e8e8be8ea929f9ad901,calib
+CystoDS_1327f6d2,CystoDS,data\raw\CystoDS\osf_project\images\1327f6d2.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,236b2562a0918ae35023bcae6eb1638b,calib
+CystoDS_c9696799,CystoDS,data\raw\CystoDS\osf_project\images\c9696799.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,be13c491c200f4d479e261efcb47c2ad,calib
+CystoDS_4e8b5eb5,CystoDS,data\raw\CystoDS\osf_project\images\4e8b5eb5.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,b542a35bfb32da03cff371126098ccac,calib
+CystoDS_2c521cce,CystoDS,data\raw\CystoDS\osf_project\images\2c521cce.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,55e7f57ac367bb6dfa552cf1a2a88a12,calib
+CystoDS_ae5576d9,CystoDS,data\raw\CystoDS\osf_project\images\ae5576d9.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,407878c7292de6c4f7f6c6e0e47c1195,calib
+CystoDS_46054982,CystoDS,data\raw\CystoDS\osf_project\images\46054982.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,9d5cf40efe4cfda031336ab2cd3f9443,calib
+CystoDS_f83f55b9,CystoDS,data\raw\CystoDS\osf_project\images\f83f55b9.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,604cdf11d3868606d8d75087cff18e8e,calib
+CystoDS_ad08f97e,CystoDS,data\raw\CystoDS\osf_project\images\ad08f97e.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,7610511964c90918c4345c1752a55de5,calib
+CystoDS_d2cb8acd,CystoDS,data\raw\CystoDS\osf_project\images\d2cb8acd.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,8ef312e1b480a254619b8d2cbab51d2e,calib
+CystoDS_c2d36937,CystoDS,data\raw\CystoDS\osf_project\images\c2d36937.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,b73ffae43b648061a37a147d3a2f8194,calib
+CystoDS_5e1b7738,CystoDS,data\raw\CystoDS\osf_project\images\5e1b7738.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,e139a9f974cca8967d7e90188d9132bf,calib
+CystoDS_609fe7e1,CystoDS,data\raw\CystoDS\osf_project\images\609fe7e1.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,a2590061858ebf2da33fedc8cda31b9e,calib
+CystoDS_ef079050,CystoDS,data\raw\CystoDS\osf_project\images\ef079050.png,,False,376,,,WLC,normal mucosa,0,0,4,external,352,240,True,,86d695b2f11daeb1e0c2328e4595df27,calib
+CystoDS_c2535251,CystoDS,data\raw\CystoDS\osf_project\images\c2535251.png,data\raw\CystoDS\osf_project\segmentations\c2535251.json,True,376,1.0,L1,WLC,malignant,1,1,0,external,352,240,True,,d5283980c18176b1e4104b602fdc1117,calib
+CystoDS_6eb25883,CystoDS,data\raw\CystoDS\osf_project\images\6eb25883.png,data\raw\CystoDS\osf_project\segmentations\6eb25883.json,True,376,1.0,L1,WLC,malignant,1,1,0,external,352,240,True,,78193b6546bb21edae72732a3bf25444,calib
+CystoDS_1504f5d7,CystoDS,data\raw\CystoDS\osf_project\images\1504f5d7.png,data\raw\CystoDS\osf_project\segmentations\1504f5d7.json,True,1216,1.0,L1,WLC,malignant,1,1,0,external,352,240,True,,434088b39c54e136bc8242364ca1d996,calib
+CystoDS_97b3331a,CystoDS,data\raw\CystoDS\osf_project\images\97b3331a.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,b0e76c031e0ff0c5ebfdc7fa5efcbd60,calib
+CystoDS_763f53f2,CystoDS,data\raw\CystoDS\osf_project\images\763f53f2.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,0054f610011d9398888de7c24380a933,calib
+CystoDS_05916d42,CystoDS,data\raw\CystoDS\osf_project\images\05916d42.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,eff4ee1d190dc54bab49e67560fe61fa,calib
+CystoDS_b9283217,CystoDS,data\raw\CystoDS\osf_project\images\b9283217.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,5db8ba6d433dea64b3c88a22f2da9c6b,calib
+CystoDS_80b0ea66,CystoDS,data\raw\CystoDS\osf_project\images\80b0ea66.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,53725d4de4651d33acb8847bf84b880f,calib
+CystoDS_5b9aee47,CystoDS,data\raw\CystoDS\osf_project\images\5b9aee47.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,5ad4bf97a5c3ceaac444b918b914e11d,calib
+CystoDS_b60dde40,CystoDS,data\raw\CystoDS\osf_project\images\b60dde40.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,98f6e64ec95f9922c7852b8dfd20be3e,calib
+CystoDS_0c06a2db,CystoDS,data\raw\CystoDS\osf_project\images\0c06a2db.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,5ef969311d2b81a363f9f4f66715bf5f,calib
+CystoDS_413e4bcb,CystoDS,data\raw\CystoDS\osf_project\images\413e4bcb.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,64477f8983cc3a509a04dfe09469542e,calib
+CystoDS_7c300221,CystoDS,data\raw\CystoDS\osf_project\images\7c300221.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,2700eda9b16cecac8abcd1730369be1c,calib
+CystoDS_bfdb0def,CystoDS,data\raw\CystoDS\osf_project\images\bfdb0def.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,3f0c1b038277387c508778ee67081c2e,calib
+CystoDS_ad468136,CystoDS,data\raw\CystoDS\osf_project\images\ad468136.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,e4705cd53e532a3b6710863c653522ff,calib
+CystoDS_56a7cd79,CystoDS,data\raw\CystoDS\osf_project\images\56a7cd79.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,34d621329479e2153f9d1092dcaa9920,calib
+CystoDS_0649f5cd,CystoDS,data\raw\CystoDS\osf_project\images\0649f5cd.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,112a80d638227c56bad135522ff7e8de,calib
+CystoDS_5a9378c6,CystoDS,data\raw\CystoDS\osf_project\images\5a9378c6.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,78f886ca730088222cd42957f62d7bbb,calib
+CystoDS_8ed86ee4,CystoDS,data\raw\CystoDS\osf_project\images\8ed86ee4.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,256018c81ce74d2d6dff801157c9b286,calib
+CystoDS_0f41a12e,CystoDS,data\raw\CystoDS\osf_project\images\0f41a12e.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,52856ffea9dfb7d6d2fffa27cad6812f,calib
+CystoDS_8361b73c,CystoDS,data\raw\CystoDS\osf_project\images\8361b73c.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,5725920a07c38917bfb1e3915bf73f49,calib
+CystoDS_49fba998,CystoDS,data\raw\CystoDS\osf_project\images\49fba998.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,534bbc1d102edf53cb03e94ae3372d03,calib
+CystoDS_435b6a66,CystoDS,data\raw\CystoDS\osf_project\images\435b6a66.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,e037a7a75cfbe3772a86988a9ded9fa9,calib
+CystoDS_590b24bf,CystoDS,data\raw\CystoDS\osf_project\images\590b24bf.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,637cb46a8db48b341272d654d4ee27de,calib
+CystoDS_89b3301e,CystoDS,data\raw\CystoDS\osf_project\images\89b3301e.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,2bf508dfa46ae14fb92e2b68cbd9d4d5,calib
+CystoDS_8309ce2c,CystoDS,data\raw\CystoDS\osf_project\images\8309ce2c.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,4fdc924c824f17dfe6c29ea5f1517c49,calib
+CystoDS_34965257,CystoDS,data\raw\CystoDS\osf_project\images\34965257.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,453bac05ce32da4587032cefbbc5ef9f,calib
+CystoDS_850dffb9,CystoDS,data\raw\CystoDS\osf_project\images\850dffb9.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,5c0610774d2d42bd6dd738c276a34ed0,calib
+CystoDS_60ba2be2,CystoDS,data\raw\CystoDS\osf_project\images\60ba2be2.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,c21e99b5e01ef92528d10bc3965c288a,calib
+CystoDS_a8794593,CystoDS,data\raw\CystoDS\osf_project\images\a8794593.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,5ad94d93f37eb57e710fdd1817e9abbc,calib
+CystoDS_41856b0f,CystoDS,data\raw\CystoDS\osf_project\images\41856b0f.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,48be7e7a7b9adbf768f75f60b21056bd,calib
+CystoDS_23521da0,CystoDS,data\raw\CystoDS\osf_project\images\23521da0.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,813d2027679ca2616438b605b3393eaa,calib
+CystoDS_785dc114,CystoDS,data\raw\CystoDS\osf_project\images\785dc114.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,e19fb12f6d8a5ca8e39347ef5faa3ccb,calib
+CystoDS_679ef515,CystoDS,data\raw\CystoDS\osf_project\images\679ef515.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,cb75e1bfa25d768a4b2e14952cfa3820,calib
+CystoDS_9b99f1e5,CystoDS,data\raw\CystoDS\osf_project\images\9b99f1e5.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,3c29e7a0b0410b06089db36581eb88a1,calib
+CystoDS_361ffa94,CystoDS,data\raw\CystoDS\osf_project\images\361ffa94.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,ab65691dce6fec82abde5f4390fcf3fe,calib
+CystoDS_2aba218a,CystoDS,data\raw\CystoDS\osf_project\images\2aba218a.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,0826182321505deba542f70ffc1b17a9,calib
+CystoDS_972c0634,CystoDS,data\raw\CystoDS\osf_project\images\972c0634.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,495d6ad6a5b10a2ec1e0e25a9dd5da1a,calib
+CystoDS_006a2b09,CystoDS,data\raw\CystoDS\osf_project\images\006a2b09.png,data\raw\CystoDS\osf_project\segmentations\006a2b09.json,True,1216,1.0,L1,WLC,malignant,1,1,0,external,352,240,True,,7be4e0c4bdf0a506d6bfacb8baf9877d,calib
+CystoDS_e5dc7ef1,CystoDS,data\raw\CystoDS\osf_project\images\e5dc7ef1.png,data\raw\CystoDS\osf_project\segmentations\e5dc7ef1.json,True,1216,1.0,L1,WLC,malignant,1,1,0,external,352,240,True,,912a87bb2578df2cfbecc531b3f81a43,calib
+CystoDS_d2b5f1cc,CystoDS,data\raw\CystoDS\osf_project\images\d2b5f1cc.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,f64cf42b11e0a99b49cab3d4e6c97b1c,calib
+CystoDS_14629c28,CystoDS,data\raw\CystoDS\osf_project\images\14629c28.png,data\raw\CystoDS\osf_project\segmentations\14629c28.json,True,1216,1.0,L1,WLC,malignant,1,1,0,external,352,240,True,,778000a4bf26e1bbb7b3b9366335b196,calib
+CystoDS_6bd398d9,CystoDS,data\raw\CystoDS\osf_project\images\6bd398d9.png,data\raw\CystoDS\osf_project\segmentations\6bd398d9.json,True,1216,1.0,L1,WLC,malignant,1,1,0,external,352,240,True,,f65449627999fbe9dae694b18021f1ba,calib
+CystoDS_e228e29a,CystoDS,data\raw\CystoDS\osf_project\images\e228e29a.png,data\raw\CystoDS\osf_project\segmentations\e228e29a.json,True,1216,1.0,L1,WLC,malignant,1,1,0,external,352,240,True,,99f85da3d4c810399bafb9f7b2bf3237,calib
+CystoDS_a044b2bf,CystoDS,data\raw\CystoDS\osf_project\images\a044b2bf.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,f6b10e9f149b6914f6cd52a713f9069c,calib
+CystoDS_f70d9292,CystoDS,data\raw\CystoDS\osf_project\images\f70d9292.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,29a89c832e336a3c87df4e91971136e5,calib
+CystoDS_8dc9a0c0,CystoDS,data\raw\CystoDS\osf_project\images\8dc9a0c0.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,185826a18e6b89f5f907c1d38e6ec99b,calib
+CystoDS_57d8924e,CystoDS,data\raw\CystoDS\osf_project\images\57d8924e.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,2414514f575ad9c157e56da8e4525e1e,calib
+CystoDS_be11db7b,CystoDS,data\raw\CystoDS\osf_project\images\be11db7b.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,3cd0e5c3a16e1f8f8d1ea5f963e353b5,calib
+CystoDS_228bc034,CystoDS,data\raw\CystoDS\osf_project\images\228bc034.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,1cb3a766ef5c7f858f5c0b0f577ddcd2,calib
+CystoDS_34173caa,CystoDS,data\raw\CystoDS\osf_project\images\34173caa.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,9fbc98d7dd7cb60c02ddd72a4baab740,calib
+CystoDS_05ecdfc0,CystoDS,data\raw\CystoDS\osf_project\images\05ecdfc0.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,a08afe8409a226d1d39ce85c41535859,calib
+CystoDS_865765d3,CystoDS,data\raw\CystoDS\osf_project\images\865765d3.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,192f9630f1521a0cac5841281523772c,calib
+CystoDS_a7085d36,CystoDS,data\raw\CystoDS\osf_project\images\a7085d36.png,data\raw\CystoDS\osf_project\segmentations\a7085d36.json,True,1216,1.0,L1,WLC,malignant,1,1,0,external,352,240,True,,774a0b51deef070ab801a18c1905e62d,calib
+CystoDS_2e52b21f,CystoDS,data\raw\CystoDS\osf_project\images\2e52b21f.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,ff0065b538fa3bdac776d33e1729444e,calib
+CystoDS_077e4af5,CystoDS,data\raw\CystoDS\osf_project\images\077e4af5.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,2a88768e998d998327bde15b4b46e7ab,calib
+CystoDS_2ade4916,CystoDS,data\raw\CystoDS\osf_project\images\2ade4916.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,aa33700dd84d88cad01b5b73c91fe971,calib
+CystoDS_0c39493e,CystoDS,data\raw\CystoDS\osf_project\images\0c39493e.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,0db65a8a788cb9cccebab1c35ad5fba8,calib
+CystoDS_4ebc32a2,CystoDS,data\raw\CystoDS\osf_project\images\4ebc32a2.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,80767730c2dac7589bd19be147ffc986,calib
+CystoDS_9062b08c,CystoDS,data\raw\CystoDS\osf_project\images\9062b08c.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,58c973431e082fe3ce45ca5172fc9cb9,calib
+CystoDS_1f03f020,CystoDS,data\raw\CystoDS\osf_project\images\1f03f020.png,,False,1216,,,WLC,normal mucosa,0,0,4,external,352,240,True,,6050559f580a34d3059a56ab412918cd,calib
+CystoDS_a8d41c84,CystoDS,data\raw\CystoDS\osf_project\images\a8d41c84.png,data\raw\CystoDS\osf_project\segmentations\a8d41c84.json,True,994,1.0,L1,WLC,malignant,1,1,0,external,352,240,True,,11fc20b9a21e072b5a2b52af5a38999a,calib
+CystoDS_89d0ab47,CystoDS,data\raw\CystoDS\osf_project\images\89d0ab47.png,,False,994,,,WLC,normal mucosa,0,0,4,external,352,240,True,,43db2971d91fecece5b7ba9637a5c947,calib
+CystoDS_9bf7bfe5,CystoDS,data\raw\CystoDS\osf_project\images\9bf7bfe5.png,,False,994,,,WLC,normal mucosa,0,0,4,external,352,240,True,,27640fa379ad345906ab055f6d474003,calib
+CystoDS_4a2e5162,CystoDS,data\raw\CystoDS\osf_project\images\4a2e5162.png,,False,994,,,WLC,normal mucosa,0,0,4,external,352,240,True,,9e79049d972d220917303c84522bd451,calib
+CystoDS_9e255d00,CystoDS,data\raw\CystoDS\osf_project\images\9e255d00.png,,False,994,,,WLC,normal mucosa,0,0,4,external,352,240,True,,4da232e1e3d90ab45eb3f2491d3eaec2,calib
+CystoDS_dff71529,CystoDS,data\raw\CystoDS\osf_project\images\dff71529.png,,False,994,,,WLC,normal mucosa,0,0,4,external,352,240,True,,51909352f73897791a61d8c9dd9fa03b,calib
+CystoDS_56396b50,CystoDS,data\raw\CystoDS\osf_project\images\56396b50.png,data\raw\CystoDS\osf_project\segmentations\56396b50.json,True,994,1.0,L1,WLC,malignant,1,1,0,external,352,240,True,,76cab2825f0954ac384cb12cec45132a,calib
+CystoDS_cde82a21,CystoDS,data\raw\CystoDS\osf_project\images\cde82a21.png,data\raw\CystoDS\osf_project\segmentations\cde82a21.json,True,994,1.0,L1,WLC,malignant,1,1,0,external,352,240,True,,55d12e18bfc3ce4320f56d9cf75c5365,calib
+CystoDS_fcf34a13,CystoDS,data\raw\CystoDS\osf_project\images\fcf34a13.png,,False,1080,1.0,L1,BLC,malignant,1,1,0,external,640,480,True,,a251a89f7419be8ed913d0df2bab2a26,calib
+CystoDS_3adb6941,CystoDS,data\raw\CystoDS\osf_project\images\3adb6941.png,,False,1080,1.0,L1,WLC,malignant,1,1,0,external,640,480,True,,5df7b708a5424f0c287b8b287ee2ece9,calib
+CystoDS_de3b4b2e,CystoDS,data\raw\CystoDS\osf_project\images\de3b4b2e.png,,False,1080,1.0,L2,BLC,non-malignant,0,1,1,external,640,480,True,,a753962cf4b04f975048d38e715d75d6,calib
+CystoDS_cd6a94f7,CystoDS,data\raw\CystoDS\osf_project\images\cd6a94f7.png,,False,1080,1.0,L2,WLC,non-malignant,0,1,1,external,640,480,True,,15cbbb6a242c688468ee8615f710a01c,calib
+CystoDS_6c969089,CystoDS,data\raw\CystoDS\osf_project\images\6c969089.png,,False,1080,1.0,L3,BLC,non-malignant,0,1,1,external,640,480,True,,041acaaf2ac61ba5d14d72d490ab7a7b,calib
+CystoDS_df232395,CystoDS,data\raw\CystoDS\osf_project\images\df232395.png,,False,1080,1.0,L3,WLC,non-malignant,0,1,1,external,640,480,True,,735d67d27f01bf7c87b20437b25396c6,calib
+CystoDS_6672b1bd,CystoDS,data\raw\CystoDS\osf_project\images\6672b1bd.png,,False,1080,2.0,L1,BLC,malignant,1,1,0,external,1920,1080,True,,d80a6c54431b49ba62950f942a3f621f,calib
+CystoDS_2f2a31b7,CystoDS,data\raw\CystoDS\osf_project\images\2f2a31b7.png,,False,1080,2.0,L1,WLC,malignant,1,1,0,external,1920,1080,True,,091145c0b3e7e032c3936b6ce5e5c23d,calib
+CystoDS_9709afd1,CystoDS,data\raw\CystoDS\osf_project\images\9709afd1.png,,False,1080,2.0,L2,BLC,malignant,1,1,0,external,1806,1656,True,,98975f6abad67fd79523c10be89cdb25,calib
+CystoDS_14070141,CystoDS,data\raw\CystoDS\osf_project\images\14070141.png,,False,1080,2.0,L2,WLC,malignant,1,1,0,external,1786,1656,True,,0e81f424d174702498081214daebde2f,calib
+CystoDS_5133fe94,CystoDS,data\raw\CystoDS\osf_project\images\5133fe94.png,,False,1080,2.0,L3,BLC,malignant,1,1,0,external,1920,1080,True,,f1f7422c825a964385e4f672834c4ebd,calib
+CystoDS_f1d497f7,CystoDS,data\raw\CystoDS\osf_project\images\f1d497f7.png,,False,1080,2.0,L3,WLC,malignant,1,1,0,external,1920,1080,True,,e12b53f8787600294c94f9d4922502bd,calib
+CystoDS_4d84fa09,CystoDS,data\raw\CystoDS\osf_project\images\4d84fa09.png,,False,1080,2.0,L4,BLC,malignant,1,1,0,external,1920,1080,True,,a9bb5f0555ca97b0de6d65c4becbd525,calib
+CystoDS_0404afff,CystoDS,data\raw\CystoDS\osf_project\images\0404afff.png,,False,1080,2.0,L4,WLC,malignant,1,1,0,external,1920,1080,True,,e19857096dcedd76097a051b68a18dc3,calib
+CystoDS_5474cc44,CystoDS,data\raw\CystoDS\osf_project\images\5474cc44.png,,False,1080,2.0,L5,BLC,non-malignant,0,1,1,external,1786,1644,True,,2e280cf4af8218c6d825f9b41397a8f1,calib
+CystoDS_03f95b94,CystoDS,data\raw\CystoDS\osf_project\images\03f95b94.png,,False,1080,2.0,L5,WLC,non-malignant,0,1,1,external,1820,1652,True,,cbc2630a3aaf8b9d705e9b61343fe32e,calib
+CystoDS_e07a5bd4,CystoDS,data\raw\CystoDS\osf_project\images\e07a5bd4.png,,False,1095,2.0,Multifocal,BLC,malignant,1,1,0,external,640,480,True,,ccbb0a611eba20213179ed881d22447e,calib
+CystoDS_85fa6f4c,CystoDS,data\raw\CystoDS\osf_project\images\85fa6f4c.png,,False,1095,2.0,Multifocal,WLC,malignant,1,1,0,external,640,480,True,,50e2117481da145ccf74f4cdb4f1fab2,calib
+CystoDS_42bcb84f,CystoDS,data\raw\CystoDS\osf_project\images\42bcb84f.png,,False,1095,2.0,Multifocal,BLC,malignant,1,1,0,external,640,480,True,,8829d15fb35bd81e5cbe2fcaf19435d2,calib
+CystoDS_a69de5c5,CystoDS,data\raw\CystoDS\osf_project\images\a69de5c5.png,,False,1095,2.0,Multifocal,WLC,malignant,1,1,0,external,640,480,True,,b36c4585aa9ad50eaa8df1aa78f061a5,calib
+CystoDS_f23d6a34,CystoDS,data\raw\CystoDS\osf_project\images\f23d6a34.png,,False,1095,2.0,Multifocal,BLC,malignant,1,1,0,external,640,480,True,,84d2914410cc048fc7b6adf6aa6ea1e5,calib
+CystoDS_947d42c8,CystoDS,data\raw\CystoDS\osf_project\images\947d42c8.png,,False,1095,2.0,Multifocal,WLC,malignant,1,1,0,external,640,480,True,,a62b7537cd6e71f08446b19f92290938,calib
+CystoDS_45ed4a45,CystoDS,data\raw\CystoDS\osf_project\images\45ed4a45.png,,False,1095,2.0,Multifocal,BLC,malignant,1,1,0,external,5038,2880,True,,d9f41a7dd012f83f102e5fd4bd2b67b7,calib
+CystoDS_92eb6d02,CystoDS,data\raw\CystoDS\osf_project\images\92eb6d02.png,,False,1095,2.0,Multifocal,WLC,malignant,1,1,0,external,640,480,True,,91f867e6db27958df75818c95d434f04,calib
+CystoDS_90ffce8b,CystoDS,data\raw\CystoDS\osf_project\images\90ffce8b.png,,False,1095,2.0,Multifocal,BLC,anatomical landmarks,0,0,2,external,640,480,True,,61e4bf175def5c613ed10bc2574da583,calib
+CystoDS_542dab1c,CystoDS,data\raw\CystoDS\osf_project\images\542dab1c.png,,False,1095,2.0,Multifocal,WLC,anatomical landmarks,0,0,2,external,640,480,True,,e9fbbdbbff40851f7d63659d1d40a063,calib
+CystoDS_d95906e4,CystoDS,data\raw\CystoDS\osf_project\images\d95906e4.png,,False,1095,2.0,L2,BLC,non-malignant,0,1,1,external,640,480,True,,4b1c0c833cfd910a66dec6a2496237b6,calib
+CystoDS_65ea666b,CystoDS,data\raw\CystoDS\osf_project\images\65ea666b.png,,False,1095,2.0,L2,WLC,non-malignant,0,1,1,external,640,480,True,,e23d7ec7db517deb6c0b147fab5e86c1,calib
+CystoDS_fe098398,CystoDS,data\raw\CystoDS\osf_project\images\fe098398.png,,False,1143,1.0,L1,BLC,non-malignant,0,1,1,external,1769,1198,True,,2fc897fd6d80f940b42befc41ee787ea,calib
+CystoDS_dc003f85,CystoDS,data\raw\CystoDS\osf_project\images\dc003f85.png,,False,1143,1.0,L1,WLC,non-malignant,0,1,1,external,1638,1172,True,,5bc8462c66940c43b2efe1b675e78193,calib
+CystoDS_96a7d51a,CystoDS,data\raw\CystoDS\osf_project\images\96a7d51a.png,,False,1216,1.0,L1,BLC,malignant,1,1,0,external,640,480,True,,9befa8ca2668458cbe73583c9814ca45,calib
+CystoDS_ed6cc619,CystoDS,data\raw\CystoDS\osf_project\images\ed6cc619.png,,False,1216,1.0,L1,WLC,malignant,1,1,0,external,640,480,True,,0b29492bfb5af71a12203a41ee478d9e,calib
+CystoDS_b7b379f9,CystoDS,data\raw\CystoDS\osf_project\images\b7b379f9.png,,False,1216,2.0,L1,BLC,non-malignant,0,1,1,external,1920,1080,True,,0a62c195f6228e5944d0ca69a1ae124b,calib
+CystoDS_2769df5a,CystoDS,data\raw\CystoDS\osf_project\images\2769df5a.png,,False,1216,2.0,L1,WLC,non-malignant,0,1,1,external,1920,1080,True,,6f3061cb183e6cc6f95af5ae88653bba,calib
+CystoDS_20198579,CystoDS,data\raw\CystoDS\osf_project\images\20198579.png,,False,1216,2.0,L2,BLC,malignant,1,1,0,external,1920,1080,True,,2c648753ff17707867f1a6fb03505f67,calib
+CystoDS_fbdd9bbb,CystoDS,data\raw\CystoDS\osf_project\images\fbdd9bbb.png,,False,1216,2.0,L2,WLC,malignant,1,1,0,external,1920,1080,True,,d84e033dc9a91aa642cb415e904bf900,calib
+CystoDS_9fb7b9c0,CystoDS,data\raw\CystoDS\osf_project\images\9fb7b9c0.png,,False,1216,2.0,L3,BLC,malignant,1,1,0,external,1920,1080,True,,b65e97d3c184f02c80de5e8ce1524fe3,calib
+CystoDS_aaf4f72a,CystoDS,data\raw\CystoDS\osf_project\images\aaf4f72a.png,,False,1216,2.0,L3,WLC,malignant,1,1,0,external,1920,1080,True,,cbe1e779a5809c2f79f8f32834c044b4,calib
+CystoDS_8524a026,CystoDS,data\raw\CystoDS\osf_project\images\8524a026.png,,False,1280,1.0,L1,BLC,malignant,1,1,0,external,545,418,True,,42eaeffb79c17f411477d921b78190e6,calib
+CystoDS_5769a393,CystoDS,data\raw\CystoDS\osf_project\images\5769a393.png,,False,1280,1.0,L1,WLC,malignant,1,1,0,external,537,402,True,,b2410f1792112590c0c111f66be227fa,calib
+CystoDS_79652377,CystoDS,data\raw\CystoDS\osf_project\images\79652377.png,,False,1302,1.0,L1,BLC,malignant,1,1,0,external,286,210,True,,bcc20a55c3f8b2c6da413de1a321e1e1,calib
+CystoDS_7309cd1a,CystoDS,data\raw\CystoDS\osf_project\images\7309cd1a.png,,False,1302,1.0,L1,WLC,malignant,1,1,0,external,270,212,True,,30b1c19e6d5c1a5d3b194b63619cf831,calib
+CystoDS_d267d582,CystoDS,data\raw\CystoDS\osf_project\images\d267d582.png,,False,1302,1.0,L1,BLC,malignant,1,1,0,external,278,209,True,,1d548666db0e6719fb57ac46bc39dc61,calib
+CystoDS_abb5bc2a,CystoDS,data\raw\CystoDS\osf_project\images\abb5bc2a.png,,False,1302,1.0,L1,WLC,malignant,1,1,0,external,258,218,True,,17ca1ca08bc7eb06377730506d78bf31,calib
+CystoDS_ab085e71,CystoDS,data\raw\CystoDS\osf_project\images\ab085e71.png,,False,1380,1.0,L1,BLC,non-malignant,0,1,1,external,1770,1260,True,,ca0cce17ebe8be0df258f695126b3da3,calib
+CystoDS_f830883d,CystoDS,data\raw\CystoDS\osf_project\images\f830883d.png,,False,1380,1.0,L1,WLC,non-malignant,0,1,1,external,1802,1236,True,,b62e4e4964242483e2d64be989d9ca45,calib
+CystoDS_c0465dbb,CystoDS,data\raw\CystoDS\osf_project\images\c0465dbb.png,,False,1417,1.0,L1,WLC,non-malignant,0,1,1,external,640,480,True,,5fd8146245eb8cf62e826bdfb7b12d94,calib
+CystoDS_bc7b87e6,CystoDS,data\raw\CystoDS\osf_project\images\bc7b87e6.png,,False,1417,1.0,L1,WLC,non-malignant,0,1,1,external,1822,1654,True,,ae841c1d0c9e769aa9257f1772783e03,calib
+CystoDS_63fae2e7,CystoDS,data\raw\CystoDS\osf_project\images\63fae2e7.png,,False,1417,1.0,L2,BLC,non-malignant,0,1,1,external,640,480,True,,d3a7e34cccec233b5f501dfbfa5ba344,calib
+CystoDS_6cf24f0a,CystoDS,data\raw\CystoDS\osf_project\images\6cf24f0a.png,,False,1417,1.0,L2,WLC,non-malignant,0,1,1,external,640,480,True,,c8b63fce0ae71919bfa2b03a4e8b14e2,calib
+CystoDS_059decc1,CystoDS,data\raw\CystoDS\osf_project\images\059decc1.png,,False,1417,1.0,L2,WLC,non-malignant,0,1,1,external,640,480,True,,baad55ce66926902ff89e5b0512a8d1b,calib
+CystoDS_3dd2b75f,CystoDS,data\raw\CystoDS\osf_project\images\3dd2b75f.png,,False,159,1.0,L1,BLC,malignant,1,1,0,external,1778,1484,True,,94a0cdd012fcff7fc8d54e830f87359a,calib
+CystoDS_4a113a88,CystoDS,data\raw\CystoDS\osf_project\images\4a113a88.png,,False,159,1.0,L1,WLC,malignant,1,1,0,external,1850,1490,True,,31230a5c0f373edd1676e75ef7b01d04,calib
+CystoDS_19f8fb95,CystoDS,data\raw\CystoDS\osf_project\images\19f8fb95.png,,False,159,1.0,L2,BLC,malignant,1,1,0,external,1974,1842,True,,0167fe08035babb9e825244619092177,calib
+CystoDS_060bc9d8,CystoDS,data\raw\CystoDS\osf_project\images\060bc9d8.png,,False,159,1.0,L2,WLC,malignant,1,1,0,external,1952,1856,True,,1fc1608c7e07989f3762cab57ff0430a,calib
+CystoDS_de779204,CystoDS,data\raw\CystoDS\osf_project\images\de779204.png,,False,159,1.0,L2,BLC,malignant,1,1,0,external,1944,1846,True,,b309e106cf218558dd12b74653e09789,calib
+CystoDS_74c06ecc,CystoDS,data\raw\CystoDS\osf_project\images\74c06ecc.png,,False,159,1.0,L2,WLC,malignant,1,1,0,external,2002,1852,True,,632770103ad052313eb635e82aa1f41e,calib
+CystoDS_8434742b,CystoDS,data\raw\CystoDS\osf_project\images\8434742b.png,,False,376,2.0,L1,BLC,malignant,1,1,0,external,640,480,True,,ede95fd89c47f84fd6cd947548040c13,calib
+CystoDS_0aa9e8b5,CystoDS,data\raw\CystoDS\osf_project\images\0aa9e8b5.png,,False,376,2.0,L1,WLC,malignant,1,1,0,external,640,480,True,,a051670c7459570cbd760d3e2135e091,calib
+CystoDS_a718004b,CystoDS,data\raw\CystoDS\osf_project\images\a718004b.png,,False,376,2.0,L2,BLC,non-malignant,0,1,1,external,2046,1734,True,,7dd592a04e85bcf15e51b311195a5d66,calib
+CystoDS_ba8f2eae,CystoDS,data\raw\CystoDS\osf_project\images\ba8f2eae.png,,False,376,2.0,L2,WLC,non-malignant,0,1,1,external,2106,1712,True,,0e094d769701afb14c5125e6b08a4b30,calib
+CystoDS_74b6ace5,CystoDS,data\raw\CystoDS\osf_project\images\74b6ace5.png,,False,805,1.0,L1,WLC,malignant,1,1,0,external,1603,1184,True,,b096b9ed740ebc132c536ad42a6b96b0,calib
+CystoDS_ceeef217,CystoDS,data\raw\CystoDS\osf_project\images\ceeef217.png,,False,805,1.0,L1,BLC,anatomical landmarks,0,0,2,external,1710,1200,True,,a79b4e1b3a501810e7892c8284b1a378,calib
+CystoDS_2659a4b6,CystoDS,data\raw\CystoDS\osf_project\images\2659a4b6.png,,False,805,1.0,L1,WLC,anatomical landmarks,0,0,2,external,1776,1191,True,,9cc37a82c3697e15c35a2880de393300,calib
+CystoDS_b2d52573,CystoDS,data\raw\CystoDS\osf_project\images\b2d52573.png,,False,805,1.0,L2,BLC,non-malignant,0,1,1,external,1706,1188,True,,41f71eda2df97caaedeaf83de977a932,calib
+CystoDS_f9454c77,CystoDS,data\raw\CystoDS\osf_project\images\f9454c77.png,,False,805,1.0,L2,WLC,non-malignant,0,1,1,external,1714,1195,True,,d897efa54471a59a8e0725b4ce3e2b1e,calib
+CystoDS_e0f04a30,CystoDS,data\raw\CystoDS\osf_project\images\e0f04a30.png,,False,805,1.0,L2,BLC,non-malignant,0,1,1,external,1688,1200,True,,c41097ebff8fbbc2946ca94a22f9a6d6,calib
+CystoDS_8131fd75,CystoDS,data\raw\CystoDS\osf_project\images\8131fd75.png,,False,805,1.0,L2,WLC,non-malignant,0,1,1,external,1673,1189,True,,b74a270d79d0d63416cc94847b1d5490,calib
+CystoDS_4bf1d8fe,CystoDS,data\raw\CystoDS\osf_project\images\4bf1d8fe.png,,False,805,1.0,L3,WLC,malignant,1,1,0,external,1717,1187,True,,cdd4af6f8ded08228cfc5c8bc7406361,calib
+CystoDS_62b9c4c3,CystoDS,data\raw\CystoDS\osf_project\images\62b9c4c3.png,,False,805,1.0,L3,WLC,malignant,1,1,0,external,1653,1175,True,,be7f61ec75701415dfdb11bea5ad47f2,calib
+CystoDS_842da25c,CystoDS,data\raw\CystoDS\osf_project\images\842da25c.png,,False,808,2.0,L1,BLC,malignant,1,1,0,external,1920,1080,True,,ad0d5ff997f09c8a16d361caa4686a39,calib
+CystoDS_2e0b5aa2,CystoDS,data\raw\CystoDS\osf_project\images\2e0b5aa2.png,,False,808,2.0,L1,WLC,malignant,1,1,0,external,1920,1080,True,,82df32559f4048c12e7b869e0fbf781b,calib
+CystoDS_6831cacf,CystoDS,data\raw\CystoDS\osf_project\images\6831cacf.png,,False,808,2.0,L2,BLC,malignant,1,1,0,external,1920,1080,True,,4b0f3f548f7fda1285f2f87b91e0d952,calib
+CystoDS_7230a58c,CystoDS,data\raw\CystoDS\osf_project\images\7230a58c.png,,False,808,2.0,L2,WLC,malignant,1,1,0,external,1920,1080,True,,aac6d00f82838bca81237447761b4a65,calib
+CystoDS_c66dd64c,CystoDS,data\raw\CystoDS\osf_project\images\c66dd64c.png,,False,808,2.0,L5,BLC,malignant,1,1,0,external,1920,1080,True,,40fa550160bc5af9fe158f4fcfa43964,calib
+CystoDS_c72bb5ad,CystoDS,data\raw\CystoDS\osf_project\images\c72bb5ad.png,,False,808,2.0,L5,WLC,malignant,1,1,0,external,1920,1080,True,,8b8c39a334fd0b65df0bd2260146b2d2,calib
+CystoDS_aede092b,CystoDS,data\raw\CystoDS\osf_project\images\aede092b.png,,False,808,2.0,L6,BLC,non-malignant,0,1,1,external,1920,1080,True,,d490e1cc2b99ba8bdd0507e19068d527,calib
+CystoDS_c2cf45a0,CystoDS,data\raw\CystoDS\osf_project\images\c2cf45a0.png,,False,808,2.0,L6,WLC,non-malignant,0,1,1,external,1920,1080,True,,3e35fb9e0fbf80cd2f4b09295c4c20f7,calib
+CystoDS_c5d9aa47,CystoDS,data\raw\CystoDS\osf_project\images\c5d9aa47.png,,False,808,1.0,L1,BLC,malignant,1,1,0,external,640,480,True,,71c2859e79e92ef795fcb1960247b069,calib
+CystoDS_446e65bf,CystoDS,data\raw\CystoDS\osf_project\images\446e65bf.png,,False,808,1.0,L1,WLC,malignant,1,1,0,external,640,480,True,,7b1b24d0eeb6094c1c15acee6fea943e,calib
+CystoDS_3cc0db0c,CystoDS,data\raw\CystoDS\osf_project\images\3cc0db0c.png,,False,808,1.0,L2,BLC,non-malignant,0,1,1,external,640,480,True,,3b9c19a9ccbe56be14a3d2e38ad64c4c,calib
+CystoDS_d87135d8,CystoDS,data\raw\CystoDS\osf_project\images\d87135d8.png,,False,808,1.0,L2,WLC,non-malignant,0,1,1,external,640,480,True,,9d9fe0f4d126d421fb02b24c2415fb30,calib
+CystoDS_6796bb69,CystoDS,data\raw\CystoDS\osf_project\images\6796bb69.png,,False,808,1.0,L3,BLC,non-malignant,0,1,1,external,640,480,True,,02168ddf617e55442df89681932d43bf,calib
+CystoDS_62ba9da2,CystoDS,data\raw\CystoDS\osf_project\images\62ba9da2.png,,False,808,1.0,L3,WLC,non-malignant,0,1,1,external,640,480,True,,fd3835d4ba4510e3d5a2814488e533c4,calib
+CystoDS_b9f103e7,CystoDS,data\raw\CystoDS\osf_project\images\b9f103e7.png,,False,970,1.0,L1,BLC,malignant,1,1,0,external,640,480,True,,97fcc06b4ebe49c523ab737167781b7a,calib
+CystoDS_e7ccfff6,CystoDS,data\raw\CystoDS\osf_project\images\e7ccfff6.png,,False,970,1.0,L1,WLC,malignant,1,1,0,external,640,480,True,,22b9985d341820b00fd3002bc32bc879,calib
+CystoDS_8ea84e38,CystoDS,data\raw\CystoDS\osf_project\images\8ea84e38.png,,False,970,1.0,L1,BLC,malignant,1,1,0,external,640,480,True,,716dc8f8f960f9bc4be4e5179cc68a65,calib
+CystoDS_14eeb548,CystoDS,data\raw\CystoDS\osf_project\images\14eeb548.png,,False,970,1.0,L1,WLC,malignant,1,1,0,external,640,480,True,,cabd58adf317c02247eed4c10a84a642,calib
+CystoDS_a1f005c6,CystoDS,data\raw\CystoDS\osf_project\images\a1f005c6.png,,False,970,1.0,L1,BLC,malignant,1,1,0,external,640,480,True,,20980a9a21e6a27c95ed981eaac9e131,calib
+CystoDS_af47dadc,CystoDS,data\raw\CystoDS\osf_project\images\af47dadc.png,,False,970,1.0,L1,WLC,malignant,1,1,0,external,640,480,True,,26683795d34efe12d55cb0db3b021cdc,calib
+CystoDS_4a1f2808,CystoDS,data\raw\CystoDS\osf_project\images\4a1f2808.png,,False,994,1.0,L1,WLC,malignant,1,1,0,external,640,480,True,,7fd2d733295a9f2977ad2fe77065de32,calib
+CystoDS_94b23acb,CystoDS,data\raw\CystoDS\osf_project\images\94b23acb.png,,False,1022,1.0,L0,WLC,anatomical landmarks,0,0,2,external,282,224,True,,23826c64214621292b17b4d82c061fdd,calib
+CystoDS_ee509e77,CystoDS,data\raw\CystoDS\osf_project\images\ee509e77.png,,False,1216,2.0,L0,WLC,anatomical landmarks,0,0,2,external,1285,960,True,,8d0115fd235e07550fd8bd07b9307aac,calib
+CystoDS_92e6457a,CystoDS,data\raw\CystoDS\osf_project\images\92e6457a.png,,False,1216,2.0,L0,WLC,anatomical landmarks,0,0,2,external,1285,960,True,,127b6d9af3f06ed576a357323c51f61a,calib
+CystoDS_864d628a,CystoDS,data\raw\CystoDS\osf_project\images\864d628a.png,,False,1280,1.0,L0,WLC,foreign bodies,0,0,3,external,490,400,True,,65599163fd83ef2a9cd6d5a547a9b871,calib
+CystoDS_010465a0,CystoDS,data\raw\CystoDS\osf_project\images\010465a0.png,,False,159,1.0,L0,WLC,foreign bodies,0,0,3,external,1025,930,True,,79ae1b28bf1b36e06e5630691d60d4ac,calib
+CystoDS_2256b819,CystoDS,data\raw\CystoDS\osf_project\images\2256b819.png,,False,376,2.0,L0,WLC,foreign bodies,0,0,3,external,988,830,True,,99bfd827ad70f572a1d4a03420d6bc21,calib
+CystoDS_bdb36a53,CystoDS,data\raw\CystoDS\osf_project\images\bdb36a53.png,,False,376,2.0,L0,WLC,normal mucosa,0,0,4,external,997,859,True,,48325a38478509985b409b264b102b4b,calib
+CystoDS_e1c3c1e0,CystoDS,data\raw\CystoDS\osf_project\images\e1c3c1e0.png,,False,376,2.0,L0,WLC,foreign bodies,0,0,3,external,1032,843,True,,5a086e5b082c3fc71afdd0872c2a7c73,calib
+CystoDS_16b47208,CystoDS,data\raw\CystoDS\osf_project\images\16b47208.png,,False,376,2.0,L0,WLC,anatomical landmarks,0,0,2,external,992,863,True,,6ca5357c7e487def7d7f75cca9ec4808,calib
+CystoDS_0920c95d,CystoDS,data\raw\CystoDS\osf_project\images\0920c95d.png,,False,805,1.0,L0,WLC,anatomical landmarks,0,0,2,external,509,462,True,,c6ba7d31914909f791d22df80ef1a529,calib
+CystoDS_e20faf71,CystoDS,data\raw\CystoDS\osf_project\images\e20faf71.png,,False,808,2.0,L0,WLC,foreign bodies,0,0,3,external,1286,965,True,,c773aa812d680e3758c6e0ed5f235a5f,calib
+CystoDS_5076305f,CystoDS,data\raw\CystoDS\osf_project\images\5076305f.png,,False,808,2.0,L0,WLC,normal mucosa,0,0,4,external,1290,969,True,,8d21a574574810349487a5d1182c1443,calib
+CystoDS_71e23725,CystoDS,data\raw\CystoDS\osf_project\images\71e23725.png,,False,808,2.0,L0,WLC,anatomical landmarks,0,0,2,external,1289,963,True,,64eda3f2f571fbafd05b31d335c33ddf,calib
+CystoDS_be31e576,CystoDS,data\raw\CystoDS\osf_project\images\be31e576.png,,False,970,1.0,L0,WLC,anatomical landmarks,0,0,2,external,290,232,True,,91ae1dc9a6afabe361100f4d21e35e3f,calib

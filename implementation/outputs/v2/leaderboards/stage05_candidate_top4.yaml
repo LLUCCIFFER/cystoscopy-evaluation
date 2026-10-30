@@ -1,0 +1,18 @@
+selected_candidate:
+  rank: 4
+  run_dir: outputs\v2\runs\cdg_cysto_v2_stage04_imbalance_M2_convnext_tiny_logit_adjustment_tau_0_5_seed42
+  model_id: M2
+  model_name: convnext_tiny
+  variant_id: logit_adjustment_tau_0_5
+  loss_name: logit_adjustment
+  loss_tau: 0.5
+  sampler_name: none
+  run_type: formal
+  filter_status: passed
+  selection_score: 0.8805516086283423
+  val_auroc: 0.954410114111118
+  val_auprc: 0.8451756157981959
+  val_macro_f1: 0.8841629779833
+  val_sensitivity_cancer: 0.7413793103448276
+  val_specificity_cancer: 0.9855334538878844
+  val_ece: 0.0149569222698103

@@ -1,0 +1,98 @@
+experiment_name: cdg_cysto_v3_multiseed
+run_type: formal
+stage: v3_multiseed_top_candidates
+seed: 42
+
+data:
+  train_csv: outputs/v3/splits/cystods_train.csv
+  val_csv: outputs/v3/splits/cystods_val.csv
+
+task:
+  name: three_class_cystods_multiseed
+  label_column: label_v3_three_class
+  num_classes: 3
+  classes:
+    - malignant
+    - benign_abnormal
+    - normal
+
+candidates:
+  - candidate_id: A0_swin_classification_only
+    model: swin_tiny
+    variant:
+      variant_id: ce_class_balanced_sampler
+      loss:
+        name: cross_entropy
+      sampler:
+        name: class_balanced
+        enabled: true
+        mode: inverse_frequency
+        beta: 0.999
+    lesion:
+      enabled: true
+      strategy: classification_only
+      attention_weight: 0.0
+
+  - candidate_id: A1_swin_attention_regularization
+    model: swin_tiny
+    variant:
+      variant_id: ce_class_balanced_sampler
+      loss:
+        name: cross_entropy
+      sampler:
+        name: class_balanced
+        enabled: true
+        mode: inverse_frequency
+        beta: 0.999
+    lesion:
+      enabled: true
+      strategy: attention_regularization
+      attention_weight: 0.2
+
+  - candidate_id: A2_convnext_balanced_softmax
+    model: convnext_tiny
+    variant:
+      variant_id: balanced_softmax_none
+      loss:
+        name: balanced_softmax
+      sampler:
+        name: none
+        enabled: false
+    lesion:
+      enabled: true
+      strategy: classification_only
+      attention_weight: 0.0
+
+  - candidate_id: A3_convnext_ce
+    model: convnext_tiny
+    variant:
+      variant_id: ce_none
+      loss:
+        name: cross_entropy
+      sampler:
+        name: none
+        enabled: false
+    lesion:
+      enabled: true
+      strategy: classification_only
+      attention_weight: 0.0
+
+training:
+  seeds: [42, 2025, 3407]
+  epochs: 30
+  patience: 8
+  batch_size: 32
+  num_workers: 4
+  pin_memory: true
+  persistent_workers: false
+  prefetch_factor: 2
+  amp: true
+  cudnn_benchmark: true
+  matmul_precision: high
+  learning_rate: 0.0001
+  weight_decay: 0.0001
+  monitor: val_selection_score
+  prefer_cuda: true
+
+outputs:
+  root_dir: outputs/v3/runs

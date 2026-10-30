@@ -1,0 +1,10 @@
+{
+  "schema_version": "v2.0",
+  "run_id": "cdg_cysto_v2_stage03_backbone_baseline_seed42_7506a36d17",
+  "created_at_utc": "2026-06-03T14:23:12.130833+00:00",
+  "config_hash": "27d12ee9bc74da0c9136195aed048b6d6bfc38793020acf40c37d5418eda718e",
+  "split_hash": "bad0e8ee80fac1a9280c26beae1068340e92275e23037e88c782f5cda6f9c451",
+  "git_commit": "unknown",
+  "seed": 42,
+  "command": "scripts\\v2_run_grid.py --config configs\\v2\\experiment\\stage03_backbone_baseline_formal.yaml"
+}

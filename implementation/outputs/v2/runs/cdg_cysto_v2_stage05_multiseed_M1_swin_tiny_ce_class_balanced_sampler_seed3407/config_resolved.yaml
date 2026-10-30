@@ -1,0 +1,64 @@
+experiment_name: cdg_cysto_v2_stage05_multiseed
+run_type: formal
+stage: stage05_multiseed
+seed: 3407
+task:
+  name: cancer_binary
+  label_column: label_cancer_binary
+  num_classes: 2
+  classes:
+  - non_cancer
+  - cancer
+dataset:
+  train_split: outputs/v2/splits/cystods_train.csv
+  val_split: outputs/v2/splits/cystods_val.csv
+  calib_split: outputs/v2/splits/cystods_calib.csv
+  test_internal_split: outputs/v2/splits/cystods_test_internal.csv
+  external_split: outputs/v2/splits/ebtc_external_all.csv
+training:
+  epochs: 30
+  early_stopping_patience: 8
+  batch_size: 16
+  optimizer: adamw
+  lr: 0.0001
+  weight_decay: 0.0001
+  monitor: val_auprc
+  seeds:
+  - 42
+  - 2025
+  - 3407
+  num_workers: 0
+  patience: 8
+  learning_rate: 0.0001
+augmentation:
+  name: basic
+  policy: basic
+evaluation:
+  threshold: 0.5
+  save_logits: true
+  save_predictions: true
+  compute_threshold_sweep: true
+outputs:
+  root_dir: outputs/v2/runs
+  run_dir: outputs\v2\runs\cdg_cysto_v2_stage05_multiseed_M1_swin_tiny_ce_class_balanced_sampler_seed3407
+data:
+  train_csv: outputs/v2/splits/cystods_train.csv
+  val_csv: outputs/v2/splits/cystods_val.csv
+  calib_csv: outputs/v2/splits/cystods_calib.csv
+  test_internal_csv: outputs/v2/splits/cystods_test_internal.csv
+  external_csv: outputs/v2/splits/ebtc_external_all.csv
+imbalance:
+  loss:
+    name: cross_entropy
+  sampler:
+    name: class_balanced
+    enabled: true
+    mode: inverse_frequency
+model:
+  model_id: M1
+  name: swin_tiny
+  source: timm
+  backbone: swin_tiny_patch4_window7_224
+  pretrained: true
+  input_size: 224
+variant_id: ce_class_balanced_sampler

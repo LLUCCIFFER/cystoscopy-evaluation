@@ -1,0 +1,18 @@
+selected_candidate:
+  rank: 3
+  run_dir: outputs\v2\runs\cdg_cysto_v2_stage04_imbalance_M2_convnext_tiny_ce_none_seed42
+  model_id: M2
+  model_name: convnext_tiny
+  variant_id: ce_none
+  loss_name: cross_entropy
+  loss_tau: .nan
+  sampler_name: none
+  run_type: formal
+  filter_status: passed
+  selection_score: 0.8923825735850084
+  val_auroc: 0.958330735174908
+  val_auprc: 0.835019732704988
+  val_macro_f1: 0.8807545356963242
+  val_sensitivity_cancer: 0.8189655172413793
+  val_specificity_cancer: 0.9719710669077758
+  val_ece: 0.0269034805606919

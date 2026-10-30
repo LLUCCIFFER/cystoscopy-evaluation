@@ -1,0 +1,10 @@
+{
+  "schema_version": "v2.0",
+  "run_id": "cdg_cysto_v2_stage06_augmentation_seed2025_7af530fa16",
+  "created_at_utc": "2026-06-05T03:55:55.825560+00:00",
+  "config_hash": "c44a92429bc7b1a818c06382622dd431e69acc18be9b369289068cb6e1ad4dc9",
+  "split_hash": "bad0e8ee80fac1a9280c26beae1068340e92275e23037e88c782f5cda6f9c451",
+  "git_commit": "unknown",
+  "seed": 2025,
+  "command": "scripts\\v2_run_grid.py --config configs\\v2\\experiment\\stage06_augmentation_top2.yaml"
+}

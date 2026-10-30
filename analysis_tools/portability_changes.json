@@ -1,0 +1,32 @@
+[
+  {
+    "file": "revision_reanalysis.py",
+    "original_sha256": "f724b76afa3c4e49107800bd0c18dd0fc924ef737982cca8dfaa4bd017c9ae13",
+    "packaged_sha256": "505b56bbcbb4058531475ee14ad252837e81cb717a1bc14b9ba1e2747021f8e7",
+    "change": "Filesystem constants made relative; numerical procedure unchanged."
+  },
+  {
+    "file": "revision_reanalysis_qa.py",
+    "original_sha256": "d01fca5844f91652633f4a86c4c92d3318ca67ac4c2eb63fa291c438c491fd2f",
+    "packaged_sha256": "9df673d325545a944a618b31d2a99b3b1aea2b0b9f5cdbbb7964d7b9a422741b",
+    "change": "Filesystem constants made relative; numerical procedure unchanged."
+  },
+  {
+    "file": "revision_evidence_audit.py",
+    "original_sha256": "f53ae62a3f4232348b6258ba0b4b0d4c3a6565738e3b5853fa516e83027deb8d",
+    "packaged_sha256": "8f7a0d817d645b5745544c1deb39859aebc371755d2a0b438077c1befd408093",
+    "change": "Filesystem constants made relative; numerical procedure unchanged."
+  },
+  {
+    "file": "revision_calibration_sensitivity.py",
+    "original_sha256": "9a5b5b7f6c559ccdf06af743b5d6022003f912221df11810a03a1c583d0128f3",
+    "packaged_sha256": "793e8655b90fb7f556c9246242a0042f436f31a7c572c3cd86bcf13f81aabdb7",
+    "change": "Filesystem constants made relative; numerical procedure unchanged."
+  },
+  {
+    "file": "plot_revision_analyses.py",
+    "original_sha256": "7c5667b68ec5b0f4d8da059fbd938b0e85cbcea78fb7b5b93087e05845b39698",
+    "packaged_sha256": "b8c6217791eb210c03cff7ecc17b063484cd74cf317f1dcbd93fd6e5ce1b55d1",
+    "change": "Filesystem constants made relative; numerical procedure unchanged."
+  }
+]
