@@ -1,0 +1,25 @@
+{
+  "created": "2026-11-01",
+  "contrasts": [
+    "sampling: class-balanced basic minus unsampled basic, seed42",
+    "augmentation: jitter/rotation minus basic, seeds42,2025,3407"
+  ],
+  "datasets": [
+    "cystods_internal",
+    "ebtc_external"
+  ],
+  "threshold": 0.5,
+  "probabilities": "raw softmax; no temperature scaling",
+  "primary_metrics": [
+    "auroc",
+    "auprc",
+    "sensitivity",
+    "specificity",
+    "macro_f1"
+  ],
+  "bootstrap": 2000,
+  "rng_seed": 20261101,
+  "estimand": "mean of paired metric differences for fixed archived models",
+  "training": false,
+  "selection": "historical validation AUPRC checkpoint; no new selection; all listed contrasts reported"
+}

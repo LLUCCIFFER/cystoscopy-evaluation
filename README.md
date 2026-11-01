@@ -52,11 +52,15 @@ Seed variability is reported separately from conditional sampling intervals.
 EBTC resampling groups use normalized case identifiers in the released filenames;
 they are analysis groups, with patient/procedure linkage unavailable in these files.
 
-The recorded training dependencies and pretrained initialization identifiers do
-not provide a complete historical environment lock. Current analysis versions
-are pinned separately and do not identify original training versions. The present
-release verifies fixed-prediction analyses; it does not claim an identical retraining
-environment. Exact configurations and provenance fields are retained for inspection.
+Recovered local execution records establish Python 3.10.20, PyTorch 2.11.0+cu128,
+CUDA 12.8 and timm 1.0.27 for formal training. The retained environment, run
+manifests and checkpoints provide corroborating evidence. Initialization identifiers
+were reconstructed from this timm version, factory calls and download records.
+`revision_analysis/recovered_training_provenance.json` distinguishes historical
+outputs, recovered-environment versions and retained-cache hashes. Original manifests
+did not embed initialization-file hashes or a Git commit. Current numerical-analysis
+dependencies remain pinned separately. This release does not claim an end-to-end
+retraining verification.
 Existing third-party components remain subject to their original terms.
 
 `ARCHIVED_SOURCE_SHA256.csv` records the earlier review archive source hashes.
@@ -64,3 +68,20 @@ Existing third-party components remain subject to their original terms.
 script uses repository-relative paths; numerical procedures are unchanged. The
 `date` field in reference analysis manifests is the original protocol date,
 2026-10-18; reproduction runs do not represent new model training.
+
+## Matched component test comparisons
+
+Table R11 uses fixed archived checkpoints, raw cancer probabilities and threshold
+0.5 on internal and external test cohorts. Augmentation compares three matched
+seeds; sampling compares seed 42. No checkpoint, calibration or threshold was
+selected using these test comparisons. All listed metrics and contrasts are retained.
+Reproduce the 2,000 paired cluster draws from the supplied probabilities with:
+
+```sh
+python analysis_tools/reproduce_heldout_components.py --out paired_heldout_components_reproduced.csv
+```
+
+Reference values and the comparison protocol are in
+`revision_analysis/heldout_components`. The 70 independent scikit-learn metric
+checks are documented there. Intervals condition on the fixed models and grouping;
+they do not estimate future retraining variation.

@@ -1,0 +1,7 @@
+{
+  "independent_sklearn_metric_checks": 70,
+  "passed": true,
+  "datasets": 2,
+  "fixed_models": 7,
+  "prediction_rows": 22253
+}

@@ -1,0 +1,172 @@
+{
+  "evidence_review_date": "2026-11-01",
+  "historical_core_training_environment": {
+    "python": "3.10.20",
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8",
+    "timm": "1.0.27",
+    "gpu": "NVIDIA GeForce RTX 5060 Ti"
+  },
+  "evidence_basis": [
+    "Contemporaneous local execution outputs dated 2–3 June 2026",
+    "Formal grid invocations dated 4–5 June 2026 using the same environment",
+    "Retained Conda clone history, run manifests, resolved configurations and model checkpoints"
+  ],
+  "recovered_environment_packages": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "timm": "1.0.27",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.7.2",
+    "pillow": "12.2.0",
+    "safetensors": "0.7.0",
+    "pyyaml": "6.0.3"
+  },
+  "initializations": {
+    "swin_tiny_patch4_window7_224": {
+      "tag": "ms_in1k",
+      "hf_hub_id": "timm/swin_tiny_patch4_window7_224.ms_in1k",
+      "cached_files": [
+        {
+          "snapshot": "4cc3a7275b50b53a7bec45f32c236ebe64227cff",
+          "bytes": 114286722,
+          "sha256": "fb01861f793143135fa0d6cd97b1631e4b33eaa3ee162bbea9e62de1c76ebac1"
+        }
+      ]
+    },
+    "convnext_tiny": {
+      "tag": "in12k_ft_in1k",
+      "hf_hub_id": "timm/convnext_tiny.in12k_ft_in1k",
+      "cached_files": [
+        {
+          "snapshot": "aa096f03029c7f0ec052013f64c819b34f8ad790",
+          "bytes": 114374272,
+          "sha256": "a1aefa409b513cf209b085424eb3efffe4e4a9f511491bc2c12ea35209e6bb95"
+        }
+      ]
+    },
+    "efficientnet_b3": {
+      "tag": "ra2_in1k",
+      "hf_hub_id": "timm/efficientnet_b3.ra2_in1k",
+      "cached_files": [
+        {
+          "snapshot": "0366a75518620e0f2077789202073759f2d61393",
+          "bytes": 49335454,
+          "sha256": "279d2a53898aa89dab43fd6bd7df9f706aea4cb9cf916223988bbcb8e5850469"
+        }
+      ]
+    }
+  },
+  "initialization_evidence": "Identifiers reconstructed from retained timm 1.0.27 defaults and model-factory pretrained=True calls. Contemporaneous download paths additionally corroborate Swin-Tiny and EfficientNet-B3. ConvNeXt-Tiny is supported by the version-specific default mapping and retained cache, rather than a directly matched download output. Snapshot hashes describe retained cache bytes, not per-run embedded initialization hashes.",
+  "primary_checkpoint_verification": [
+    {
+      "seed": 42,
+      "run_id": "cdg_cysto_v2_stage06_augmentation_seed42_5e1a589bcf",
+      "created_at_utc": "2026-06-05T01:38:32.424951+00:00",
+      "manifest": {
+        "schema_version": "v2.0",
+        "run_id": "cdg_cysto_v2_stage06_augmentation_seed42_5e1a589bcf",
+        "created_at_utc": "2026-06-05T01:38:32.424951+00:00",
+        "config_hash": "2c22aa96de7de899edfcaef182fe67f9674ed2cbf4b979006c30849079ef081f",
+        "split_hash": "bad0e8ee80fac1a9280c26beae1068340e92275e23037e88c782f5cda6f9c451",
+        "git_commit": "unknown",
+        "seed": 42,
+        "command": "scripts\\v2_run_grid.py --config configs\\v2\\experiment\\stage06_augmentation_top2.yaml"
+      },
+      "checkpoint_sha256": "2af38c2f4dd5098aaa632468631f7e5c90e8e4977ad88f8d5f13e9fd57f82848",
+      "checkpoint_keys": [
+        "model_state",
+        "config",
+        "epoch",
+        "val_metrics"
+      ],
+      "checkpoint_epoch": 3,
+      "checkpoint_val_auprc": 0.8221992779236853,
+      "config_matches_checkpoint": true,
+      "curve_epochs": 11,
+      "validation_subset_n": 16,
+      "logit_columns": [
+        "logit_0",
+        "logit_1"
+      ],
+      "maximum_absolute_logit_difference": 2.1484374990166089e-07,
+      "inference_seconds_including_io": 0.6969842999242246
+    },
+    {
+      "seed": 2025,
+      "run_id": "cdg_cysto_v2_stage06_augmentation_seed2025_8157bafe51",
+      "created_at_utc": "2026-06-05T03:13:52.886661+00:00",
+      "manifest": {
+        "schema_version": "v2.0",
+        "run_id": "cdg_cysto_v2_stage06_augmentation_seed2025_8157bafe51",
+        "created_at_utc": "2026-06-05T03:13:52.886661+00:00",
+        "config_hash": "a6c01cd16ccfd03d1fd292383c8d40f24ae88a0024774c00ff342e8210e5e878",
+        "split_hash": "bad0e8ee80fac1a9280c26beae1068340e92275e23037e88c782f5cda6f9c451",
+        "git_commit": "unknown",
+        "seed": 2025,
+        "command": "scripts\\v2_run_grid.py --config configs\\v2\\experiment\\stage06_augmentation_top2.yaml"
+      },
+      "checkpoint_sha256": "c02a4940a912e2687e766974a148c4ac3bfc25f3850f46da74aaa18dcbcf9106",
+      "checkpoint_keys": [
+        "model_state",
+        "config",
+        "epoch",
+        "val_metrics"
+      ],
+      "checkpoint_epoch": 7,
+      "checkpoint_val_auprc": 0.8421430448949272,
+      "config_matches_checkpoint": true,
+      "curve_epochs": 15,
+      "validation_subset_n": 16,
+      "logit_columns": [
+        "logit_0",
+        "logit_1"
+      ],
+      "maximum_absolute_logit_difference": 2.0608520490128512e-07,
+      "inference_seconds_including_io": 0.20676520001143217
+    },
+    {
+      "seed": 3407,
+      "run_id": "cdg_cysto_v2_stage06_augmentation_seed3407_8ec4d3da58",
+      "created_at_utc": "2026-06-05T05:06:36.963747+00:00",
+      "manifest": {
+        "schema_version": "v2.0",
+        "run_id": "cdg_cysto_v2_stage06_augmentation_seed3407_8ec4d3da58",
+        "created_at_utc": "2026-06-05T05:06:36.963747+00:00",
+        "config_hash": "2e0dc69af580702d4dcf9969f4eeac916bcfdfc61741c7bda056384965eb6351",
+        "split_hash": "bad0e8ee80fac1a9280c26beae1068340e92275e23037e88c782f5cda6f9c451",
+        "git_commit": "unknown",
+        "seed": 3407,
+        "command": "scripts\\v2_run_grid.py --config configs\\v2\\experiment\\stage06_augmentation_top2.yaml"
+      },
+      "checkpoint_sha256": "24969d5ed1a7f73c3e40fc0d83b0556c91384b056d697db3c1dac645e342b1fb",
+      "checkpoint_keys": [
+        "model_state",
+        "config",
+        "epoch",
+        "val_metrics"
+      ],
+      "checkpoint_epoch": 5,
+      "checkpoint_val_auprc": 0.8764952105261749,
+      "config_matches_checkpoint": true,
+      "curve_epochs": 13,
+      "validation_subset_n": 16,
+      "logit_columns": [
+        "logit_0",
+        "logit_1"
+      ],
+      "maximum_absolute_logit_difference": 1.9256591787808475e-07,
+      "inference_seconds_including_io": 0.21881429990753531
+    }
+  ],
+  "git_at_original_training": "not embedded in original manifests",
+  "scope": "Checkpoint inference was checked on 16 validation images per seed. This is not an end-to-end retraining claim. Private execution transcripts are not distributed.",
+  "formal_run_registry_audit": {
+    "registered_runs": 45,
+    "all_run_ids_and_seeds_match": true,
+    "all_have_configs_checkpoints_epoch_logs_validation_logits_and_predictions": true,
+    "stage03_checkpoint_monitor": "validation AUROC",
+    "stages04_to06_checkpoint_monitor": "validation AUPRC"
+  }
+}
